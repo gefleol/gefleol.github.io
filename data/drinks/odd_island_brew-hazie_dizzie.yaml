@@ -1,18 +1,13 @@
-name: Odd Island Brew
-country: Sverige
-brewery: Hazie Dizzie
-brewer: 
-type: Ale
+name: 'Odd Island Brew'
+country: 'Sverige'
+brewery: 'Hazie Dizzie'
+type: 'Ale'
 abv: 6.2
-abw: 
-ibu: 
 reviews: 
-  - date: 2020-01-02
-    group: Gefle Ölsellskap
-    place: Terrassen
+  - date: '2020-01-02'
+    group: 'Gefle Ölsellskap'
+    place: "Terrassen"
     count: 5
     review_type: 5.4 
-    review_over: 
-    review_uniq: 
     comments:
-      - God öl/Smakvik
+      - 'God öl/Smakvik'
