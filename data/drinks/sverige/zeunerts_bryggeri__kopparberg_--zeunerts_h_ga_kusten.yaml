@@ -1,0 +1,9 @@
+name: 'Zeunerts Höga Kusten'
+country:
+  - 'Sverige'
+brewery:
+  - 'Zeunerts Bryggeri _Kopparberg_'
+reviews:
+  - date: '2010-08-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

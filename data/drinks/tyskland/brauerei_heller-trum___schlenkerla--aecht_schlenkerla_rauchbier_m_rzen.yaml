@@ -1,0 +1,9 @@
+name: 'Aecht Schlenkerla Rauchbier Märzen'
+country:
+  - 'Tyskland'
+brewery:
+  - 'Brauerei Heller-Trum _ Schlenkerla'
+reviews:
+  - date: '2006-07-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

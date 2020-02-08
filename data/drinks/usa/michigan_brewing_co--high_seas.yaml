@@ -1,0 +1,9 @@
+name: 'High Seas'
+country:
+  - 'USA'
+brewery:
+  - 'Michigan Brewing Co'
+reviews:
+  - date: '2008-06-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

@@ -1,0 +1,9 @@
+name: 'Kronenbourg Blanc'
+country:
+  - 'Frankrike'
+brewery:
+  - 'Brasseries Kronenbourg'
+reviews:
+  - date: '2008-02-06'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

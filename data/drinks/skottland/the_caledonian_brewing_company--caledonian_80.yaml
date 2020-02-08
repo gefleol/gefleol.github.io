@@ -1,0 +1,9 @@
+name: 'Caledonian 80'
+country:
+  - 'Skottland'
+brewery:
+  - 'The Caledonian Brewing Company'
+reviews:
+  - date: '2006-08-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

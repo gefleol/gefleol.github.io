@@ -1,0 +1,9 @@
+name: 'Rodenbach Grand Cru'
+country:
+  - 'Belgien'
+brewery:
+  - 'Brouwerij Rodenbach _Palm_'
+reviews:
+  - date: '2009-05-06'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

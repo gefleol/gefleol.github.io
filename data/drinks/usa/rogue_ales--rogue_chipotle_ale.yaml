@@ -1,0 +1,9 @@
+name: 'Rogue Chipotle Ale'
+country:
+  - 'USA'
+brewery:
+  - 'Rogue Ales'
+reviews:
+  - date: '2007-08-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

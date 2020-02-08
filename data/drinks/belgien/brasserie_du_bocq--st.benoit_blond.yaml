@@ -1,0 +1,9 @@
+name: 'St.Benoit Blond'
+country:
+  - 'Belgien'
+brewery:
+  - 'Brasserie Du Bocq'
+reviews:
+  - date: '2010-09-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

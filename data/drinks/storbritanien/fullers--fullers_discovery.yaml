@@ -1,0 +1,9 @@
+name: 'Fullers Discovery'
+country:
+  - 'Storbritanien'
+brewery:
+  - 'Fullers'
+reviews:
+  - date: '2006-01-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

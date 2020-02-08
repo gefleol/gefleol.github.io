@@ -1,0 +1,9 @@
+name: 'Old Scratch Amber Lager'
+country:
+  - 'USA'
+brewery:
+  - 'Flying dog'
+reviews:
+  - date: '2009-03-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

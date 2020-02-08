@@ -1,0 +1,9 @@
+name: 'Shepherd Neame 1698'
+country:
+  - 'Storbritanien'
+brewery:
+  - 'Shepherd Neame Ltd'
+reviews:
+  - date: '2006-07-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

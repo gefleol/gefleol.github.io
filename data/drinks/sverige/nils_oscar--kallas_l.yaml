@@ -1,0 +1,9 @@
+name: 'Kallasöl'
+country:
+  - 'Sverige'
+brewery:
+  - 'Nils Oscar'
+reviews:
+  - date: '2008-11-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

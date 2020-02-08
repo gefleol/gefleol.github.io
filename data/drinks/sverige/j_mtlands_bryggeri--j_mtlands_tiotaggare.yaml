@@ -1,0 +1,9 @@
+name: 'Jämtlands Tiotaggare'
+country:
+  - 'Sverige'
+brewery:
+  - 'Jämtlands bryggeri'
+reviews:
+  - date: '2006-11-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

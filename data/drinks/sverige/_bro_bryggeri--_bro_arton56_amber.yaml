@@ -1,0 +1,9 @@
+name: 'Åbro Arton56 Amber'
+country:
+  - 'Sverige'
+brewery:
+  - 'Åbro bryggeri'
+reviews:
+  - date: '2006-11-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

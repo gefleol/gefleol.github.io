@@ -1,0 +1,9 @@
+name: 'Trippel Gold Bitter'
+country:
+  - 'Sverige'
+brewery:
+  - 'Skebo Bruksbryggeri'
+reviews:
+  - date: '2008-02-06'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

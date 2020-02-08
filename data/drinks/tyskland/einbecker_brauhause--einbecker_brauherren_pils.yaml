@@ -1,0 +1,9 @@
+name: 'Einbecker Brauherren Pils'
+country:
+  - 'Tyskland'
+brewery:
+  - 'Einbecker Brauhause'
+reviews:
+  - date: '2009-03-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

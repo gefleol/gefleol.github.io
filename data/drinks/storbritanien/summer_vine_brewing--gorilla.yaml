@@ -1,0 +1,9 @@
+name: 'Gorilla'
+country:
+  - 'Storbritanien'
+brewery:
+  - 'Summer Vine Brewing'
+reviews:
+  - date: '2013-01-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

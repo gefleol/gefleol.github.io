@@ -1,0 +1,9 @@
+name: 'Ushers Founders Ale'
+country:
+  - 'Storbritanien'
+brewery:
+  - 'Wychwood _Marstons plc_'
+reviews:
+  - date: '2006-01-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

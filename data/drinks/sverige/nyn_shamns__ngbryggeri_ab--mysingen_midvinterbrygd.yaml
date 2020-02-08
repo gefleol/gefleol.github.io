@@ -1,0 +1,9 @@
+name: 'Mysingen Midvinterbrygd'
+country:
+  - 'Sverige'
+brewery:
+  - 'Nynäshamns Ångbryggeri AB'
+reviews:
+  - date: '2010-04-07'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

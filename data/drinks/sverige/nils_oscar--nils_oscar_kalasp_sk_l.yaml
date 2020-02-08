@@ -1,0 +1,9 @@
+name: 'Nils Oscar Kalaspåsköl'
+country:
+  - 'Sverige'
+brewery:
+  - 'Nils Oscar'
+reviews:
+  - date: '2007-04-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

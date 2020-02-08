@@ -1,0 +1,9 @@
+name: 'King Cobra'
+country:
+  - 'Belgien'
+brewery:
+  - 'Palm Breweries'
+reviews:
+  - date: '2007-02-07'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

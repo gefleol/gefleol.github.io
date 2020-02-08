@@ -1,0 +1,9 @@
+name: 'Ossian'
+country:
+  - 'Skottland'
+brewery:
+  - 'Inveralmond Brewery'
+reviews:
+  - date: '2009-11-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

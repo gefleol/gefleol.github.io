@@ -1,0 +1,9 @@
+name: 'Lagunita IPA'
+country:
+  - 'USA'
+brewery:
+  - 'Lagunita Brewing Co'
+reviews:
+  - date: '2013-09-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

@@ -1,0 +1,9 @@
+name: 'Verhaeghe Duchesse De Bourgogne'
+country:
+  - 'Belgien'
+brewery:
+  - 'Verhaeghe'
+reviews:
+  - date: '2008-04-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

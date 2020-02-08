@@ -1,0 +1,9 @@
+name: 'Jämtlands India Pale Ale'
+country:
+  - 'Sverige'
+brewery:
+  - 'Jämtlands bryggeri'
+reviews:
+  - date: '2009-01-07'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

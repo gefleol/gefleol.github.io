@@ -1,0 +1,9 @@
+name: 'Whitstable Bay'
+country:
+  - 'Storbritanien'
+brewery:
+  - 'Shepherd Neame Ltd'
+reviews:
+  - date: '2006-04-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

@@ -1,0 +1,9 @@
+name: 'Eriksberg Julöl'
+country:
+  - 'Sverige'
+brewery:
+  - 'Carlsberg Sverige'
+reviews:
+  - date: '2010-12-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

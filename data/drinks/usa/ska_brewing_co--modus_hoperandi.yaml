@@ -1,0 +1,9 @@
+name: 'Modus Hoperandi'
+country:
+  - 'USA'
+brewery:
+  - 'Ska Brewing co'
+reviews:
+  - date: '2013-02-06'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

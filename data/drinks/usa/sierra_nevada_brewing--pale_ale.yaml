@@ -1,0 +1,9 @@
+name: 'Pale Ale'
+country:
+  - 'USA'
+brewery:
+  - 'Sierra Nevada Brewing'
+reviews:
+  - date: '2009-07-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

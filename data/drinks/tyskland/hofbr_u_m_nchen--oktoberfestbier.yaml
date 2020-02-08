@@ -1,0 +1,9 @@
+name: 'Oktoberfestbier'
+country:
+  - 'Tyskland'
+brewery:
+  - 'Hofbräu München'
+reviews:
+  - date: '2008-10-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

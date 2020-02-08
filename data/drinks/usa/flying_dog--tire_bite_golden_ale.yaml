@@ -1,0 +1,9 @@
+name: 'Tire Bite Golden Ale'
+country:
+  - 'USA'
+brewery:
+  - 'Flying dog'
+reviews:
+  - date: '2009-07-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

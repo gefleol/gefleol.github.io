@@ -1,0 +1,9 @@
+name: 'Hälsinge Stout'
+country:
+  - 'Sverige'
+brewery:
+  - 'Hällsinge bryggeri'
+reviews:
+  - date: '2007-05-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

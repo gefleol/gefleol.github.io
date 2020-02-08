@@ -1,0 +1,9 @@
+name: 'Stiegl Pils'
+country:
+  - 'Österike'
+brewery:
+  - 'Stiegl'
+reviews:
+  - date: '2006-05-03'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

@@ -1,0 +1,9 @@
+name: 'Brooklyn Brown Ale'
+country:
+  - 'USA'
+brewery:
+  - 'Brooklyn Brewery'
+reviews:
+  - date: '2008-08-06'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

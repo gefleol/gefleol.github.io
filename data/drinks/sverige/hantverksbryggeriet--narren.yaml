@@ -1,0 +1,9 @@
+name: 'Narren'
+country:
+  - 'Sverige'
+brewery:
+  - 'Hantverksbryggeriet'
+reviews:
+  - date: '2008-12-03'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

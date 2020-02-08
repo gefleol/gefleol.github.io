@@ -1,0 +1,9 @@
+name: 'Floreffe Blond'
+country:
+  - 'Belgien'
+brewery:
+  - 'Brasserie Lefebvre'
+reviews:
+  - date: '2009-02-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

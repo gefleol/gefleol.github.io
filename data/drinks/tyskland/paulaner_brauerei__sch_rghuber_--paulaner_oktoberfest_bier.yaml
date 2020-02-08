@@ -1,0 +1,9 @@
+name: 'Paulaner Oktoberfest Bier'
+country:
+  - 'Tyskland'
+brewery:
+  - 'Paulaner Brauerei _Schörghuber_'
+reviews:
+  - date: '2006-10-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

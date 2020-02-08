@@ -1,0 +1,9 @@
+name: 'HUMLE-HILDAS ALTBIER'
+country:
+  - 'Sverige'
+brewery:
+  - 'Sigtuna Brygghus'
+reviews:
+  - date: '2009-05-06'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

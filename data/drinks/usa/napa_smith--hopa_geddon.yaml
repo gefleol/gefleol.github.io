@@ -1,0 +1,9 @@
+name: 'Hopa Geddon'
+country:
+  - 'USA'
+brewery:
+  - 'Napa Smith'
+reviews:
+  - date: '2013-08-07'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

@@ -1,0 +1,9 @@
+name: 'Traquair House Ale'
+country:
+  - 'Skottland'
+brewery:
+  - 'Traquair House'
+reviews:
+  - date: '2007-01-03'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

@@ -1,0 +1,9 @@
+name: 'Liberty Ale'
+country:
+  - 'USA'
+brewery:
+  - 'Anchor Brewing Company'
+reviews:
+  - date: '2009-06-03'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

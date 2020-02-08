@@ -1,0 +1,9 @@
+name: 'Hercules Double IPA'
+country:
+  - 'USA'
+brewery:
+  - 'Great Divide Brewing Company'
+reviews:
+  - date: '2008-09-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

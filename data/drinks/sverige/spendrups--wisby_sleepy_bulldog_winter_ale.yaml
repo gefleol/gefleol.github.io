@@ -1,0 +1,9 @@
+name: 'Wisby Sleepy Bulldog Winter Ale'
+country:
+  - 'Sverige'
+brewery:
+  - 'Spendrups'
+reviews:
+  - date: '2010-12-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

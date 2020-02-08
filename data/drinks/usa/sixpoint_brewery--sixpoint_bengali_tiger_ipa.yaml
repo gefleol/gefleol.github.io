@@ -1,0 +1,9 @@
+name: 'Sixpoint Bengali Tiger IPA'
+country:
+  - 'USA'
+brewery:
+  - 'Sixpoint Brewery'
+reviews:
+  - date: '2012-11-07'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

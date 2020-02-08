@@ -1,0 +1,9 @@
+name: 'Visby Vinterbock'
+country:
+  - 'Sverige'
+brewery:
+  - 'Spendrups'
+reviews:
+  - date: '2008-04-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

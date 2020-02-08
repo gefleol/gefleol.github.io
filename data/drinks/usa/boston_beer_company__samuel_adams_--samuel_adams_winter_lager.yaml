@@ -1,0 +1,9 @@
+name: 'Samuel Adams Winter Lager'
+country:
+  - 'USA'
+brewery:
+  - 'Boston Beer Company _Samuel Adams_'
+reviews:
+  - date: '2009-12-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

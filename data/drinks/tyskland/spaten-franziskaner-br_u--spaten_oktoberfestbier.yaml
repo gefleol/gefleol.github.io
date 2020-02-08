@@ -1,0 +1,9 @@
+name: 'Spaten Oktoberfestbier'
+country:
+  - 'Tyskland'
+brewery:
+  - 'Spaten-Franziskaner-Bräu'
+reviews:
+  - date: '2006-10-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

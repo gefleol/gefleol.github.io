@@ -1,0 +1,9 @@
+name: 'Beer Geek Breakfast'
+country:
+  - 'Danmark'
+brewery:
+  - 'Mikkeller'
+reviews:
+  - date: '2013-04-03'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

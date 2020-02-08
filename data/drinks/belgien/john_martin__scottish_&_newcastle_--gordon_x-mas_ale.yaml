@@ -1,0 +1,9 @@
+name: 'Gordon X-Mas Ale'
+country:
+  - 'Belgien'
+brewery:
+  - 'John Martin _Scottish & Newcastle_'
+reviews:
+  - date: '2005-12-07'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

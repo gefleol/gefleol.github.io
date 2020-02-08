@@ -1,0 +1,9 @@
+name: 'Kirin Ichiban'
+country:
+  - 'Japan'
+brewery:
+  - 'Kirin Beer'
+reviews:
+  - date: '2009-01-07'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

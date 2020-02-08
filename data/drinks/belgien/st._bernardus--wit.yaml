@@ -1,0 +1,9 @@
+name: 'Wit'
+country:
+  - 'Belgien'
+brewery:
+  - 'St. Bernardus'
+reviews:
+  - date: '2008-07-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

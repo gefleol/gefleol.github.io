@@ -1,0 +1,9 @@
+name: 'Jever Pilsener'
+country:
+  - 'Tyskland'
+brewery:
+  - 'Friesisches Brauhaus'
+reviews:
+  - date: '2007-12-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

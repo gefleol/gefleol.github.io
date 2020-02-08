@@ -1,0 +1,9 @@
+name: 'Bruksöl'
+country:
+  - 'Sverige'
+brewery:
+  - 'Skebo Bruksbryggeri'
+reviews:
+  - date: '2007-05-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

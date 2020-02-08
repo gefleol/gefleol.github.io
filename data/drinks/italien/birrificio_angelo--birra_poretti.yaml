@@ -1,0 +1,9 @@
+name: 'Birra Poretti'
+country:
+  - 'Italien'
+brewery:
+  - 'Birrificio Angelo'
+reviews:
+  - date: '2008-09-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

@@ -1,0 +1,9 @@
+name: 'Nils Oscar Farm Ale'
+country:
+  - 'Sverige'
+brewery:
+  - 'Nils Oscar'
+reviews:
+  - date: '2006-03-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

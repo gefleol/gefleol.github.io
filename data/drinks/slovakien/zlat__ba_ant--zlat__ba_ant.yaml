@@ -1,0 +1,9 @@
+name: 'Zlatý Bažant'
+country:
+  - 'Slovakien'
+brewery:
+  - 'Zlatý Bažant'
+reviews:
+  - date: '2009-08-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

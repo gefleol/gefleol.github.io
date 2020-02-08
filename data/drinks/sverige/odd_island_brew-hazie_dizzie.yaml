@@ -1,7 +1,10 @@
 name: 'Odd Island Brew'
-country: 'Sverige'
-brewery: 'Hazie Dizzie'
-type: 'Ale'
+country:
+  - 'Sverige'
+brewery:
+  - 'Hazie Dizzie'
+type:
+  - 'Ale'
 abv: 6.2
 reviews: 
   - date: '2020-01-02'

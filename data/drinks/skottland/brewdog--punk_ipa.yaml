@@ -1,0 +1,9 @@
+name: 'Punk Ipa'
+country:
+  - 'Skottland'
+brewery:
+  - 'BrewDog'
+reviews:
+  - date: '2010-09-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

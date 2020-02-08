@@ -1,0 +1,9 @@
+name: 'Oktoberfest'
+country:
+  - 'USA'
+brewery:
+  - 'Boston Beer Company _Samuel Adams_'
+reviews:
+  - date: '2007-10-03'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

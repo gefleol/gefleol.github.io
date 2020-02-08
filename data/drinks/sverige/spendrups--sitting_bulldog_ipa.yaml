@@ -1,0 +1,9 @@
+name: 'SITTING BULLDOG IPA'
+country:
+  - 'Sverige'
+brewery:
+  - 'Spendrups'
+reviews:
+  - date: '2010-04-07'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

@@ -1,0 +1,9 @@
+name: 'Slottskällans Bryggeri'
+country:
+  - 'Sverige'
+brewery:
+  - 'Slottskällans Bryggeri'
+reviews:
+  - date: '2006-03-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

@@ -1,0 +1,9 @@
+name: 'Närke Mörker'
+country:
+  - 'Sverige'
+brewery:
+  - 'Närke Kulturbryggeri'
+reviews:
+  - date: '2009-12-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

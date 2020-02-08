@@ -1,0 +1,9 @@
+name: 'Salvator'
+country:
+  - 'Tyskland'
+brewery:
+  - 'Paulaner Brauerei _Schörghuber_'
+reviews:
+  - date: '2007-04-04'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

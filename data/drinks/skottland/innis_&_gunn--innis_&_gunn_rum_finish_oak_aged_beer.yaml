@@ -1,0 +1,9 @@
+name: 'Innis & Gunn Rum Finish Oak Aged Beer'
+country:
+  - 'Skottland'
+brewery:
+  - 'Innis & Gunn'
+reviews:
+  - date: '2008-01-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

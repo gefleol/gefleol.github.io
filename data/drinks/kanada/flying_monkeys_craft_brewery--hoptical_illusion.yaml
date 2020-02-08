@@ -1,0 +1,9 @@
+name: 'Hoptical Illusion'
+country:
+  - 'Kanada'
+brewery:
+  - 'Flying Monkeys Craft Brewery'
+reviews:
+  - date: '2013-01-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

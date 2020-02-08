@@ -1,0 +1,9 @@
+name: 'Oyster Stout'
+country:
+  - 'Storbritanien'
+brewery:
+  - 'Marstons'
+reviews:
+  - date: '2008-10-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

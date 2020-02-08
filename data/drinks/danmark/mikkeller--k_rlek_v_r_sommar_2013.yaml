@@ -1,0 +1,9 @@
+name: 'Kärlek vår_sommar 2013'
+country:
+  - 'Danmark'
+brewery:
+  - 'Mikkeller'
+reviews:
+  - date: '2013-05-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

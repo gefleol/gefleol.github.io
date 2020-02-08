@@ -1,0 +1,9 @@
+name: 'Wisby Hansapils'
+country:
+  - 'Sverige'
+brewery:
+  - 'Spendrups'
+reviews:
+  - date: '2007-06-06'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

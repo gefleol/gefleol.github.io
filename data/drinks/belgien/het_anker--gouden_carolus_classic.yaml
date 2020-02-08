@@ -1,0 +1,9 @@
+name: 'Gouden Carolus Classic'
+country:
+  - 'Belgien'
+brewery:
+  - 'Het Anker'
+reviews:
+  - date: '2008-07-02'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

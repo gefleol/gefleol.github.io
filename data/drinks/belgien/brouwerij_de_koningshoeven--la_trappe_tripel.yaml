@@ -1,0 +1,9 @@
+name: 'La Trappe Tripel'
+country:
+  - 'Belgien'
+brewery:
+  - 'Brouwerij de Koningshoeven'
+reviews:
+  - date: '2007-12-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

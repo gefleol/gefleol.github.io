@@ -1,0 +1,9 @@
+name: 'Alba'
+country:
+  - 'Skottland'
+brewery:
+  - 'Williams Brothers _Heather Ales_'
+reviews:
+  - date: '2013-07-03'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

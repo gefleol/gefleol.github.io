@@ -1,0 +1,9 @@
+name: 'Great Divide Ridgeline Amber Ale _Arapahoe Amber_'
+country:
+  - 'USA'
+brewery:
+  - 'Great Divide Brewing Company'
+reviews:
+  - date: '2007-08-01'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

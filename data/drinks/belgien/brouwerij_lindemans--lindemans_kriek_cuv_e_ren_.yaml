@@ -1,0 +1,9 @@
+name: 'Lindemans Kriek Cuvée René'
+country:
+  - 'Belgien'
+brewery:
+  - 'Brouwerij Lindemans'
+reviews:
+  - date: '2008-09-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

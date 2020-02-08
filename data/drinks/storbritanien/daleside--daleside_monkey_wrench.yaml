@@ -1,0 +1,9 @@
+name: 'Daleside Monkey Wrench'
+country:
+  - 'Storbritanien'
+brewery:
+  - 'Daleside'
+reviews:
+  - date: '2007-09-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 

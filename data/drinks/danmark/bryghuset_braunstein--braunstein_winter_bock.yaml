@@ -1,0 +1,9 @@
+name: 'Braunstein Winter Bock'
+country:
+  - 'Danmark'
+brewery:
+  - 'Bryghuset Braunstein'
+reviews:
+  - date: '2008-03-05'
+    group: 'Gefle Ölsellskap'
+    place: 'Terrassen' 
