@@ -2,7 +2,8 @@ name: 'Affligem Dubbel'
 country:
   - 'Belgien'
 brewery:
-  - 'Brouwerij Affligem _ De Smedt _Heineken_'
+  - 'Brouwerij Affligem De Smedt' 
+  - 'Heineken'
 reviews:
   - date: '2007-03-07'
     group: 'Gefle Ölsellskap'
