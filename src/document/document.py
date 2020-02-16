@@ -4,15 +4,23 @@ class Document:
         self.content = ""
         self.pub_dir=pub_dir
 
-        
+
+    def print_country_get_breweries(self, doc):
+        for country in doc.keys():
+            self.content+="** {}\n".format(country.encode("utf-8"))
+            yield doc[country]
+
+    def print_brewery_get_drinks(self,doc):
+        for brewery in doc.keys():
+            self.content+="*** {}\n".format(brewery.encode("utf-8"))
+            yield doc.[brewery]
+            
     def create_content(self,print_dict):
         """# print_dict = {"country": {"brewery":[{drink_name:doc}]}}
         """
-        for country in print_dict.keys():
-            self.content+="** {}\n".format(country.encode("utf-8"))
-            for brewery in print_dict[country]:
-                self.content+="*** {}\n".format(brewery.encode("utf-8"))
-                for drink in print_dict[country][brewery]:
+        for brewery in print_country_get_breweries(print_dict):
+            for drink in print_brewery_get_drinks(brewery):
+                print_drink(drink)
                     self.content+="**** {}\n".format(drink["name"].encode("utf-8"))
                     for review in drink["reviews"]:
                         self.content+="    + Provdatum: {}\n".format(review["date"])
