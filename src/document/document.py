@@ -14,16 +14,21 @@ class Document:
         for brewery in doc.keys():
             self.content+="*** {}\n".format(brewery.encode("utf-8"))
             yield doc.[brewery]
+
+    def print_drink_get_reviews(self,doc):
+        for drink in doc:
+            
+            
             
     def create_content(self,print_dict):
         """# print_dict = {"country": {"brewery":[{drink_name:doc}]}}
         """
         for brewery in print_country_get_breweries(print_dict):
             for drink in print_brewery_get_drinks(brewery):
-                print_drink(drink)
-                    self.content+="**** {}\n".format(drink["name"].encode("utf-8"))
-                    for review in drink["reviews"]:
-                        self.content+="    + Provdatum: {}\n".format(review["date"])
+                for review in print_drink_get_reviews(drink)
+                    # self.content+="**** {}\n".format(drink["name"].encode("utf-8"))
+                    # for review in drink["reviews"]:
+                    #     self.content+="    + Provdatum: {}\n".format(review["date"])
 
     def save_basic_file(self,file):
         save_content=constants.header+"\n"+self.content
