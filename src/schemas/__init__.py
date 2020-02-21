@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from schema import Schema, And, Regex, Optional
 
 drink_json_schema = {'name': And(Regex('\w+'),len),

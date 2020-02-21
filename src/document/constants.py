@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 header="""
 #+OPTIONS: ':nil *:t -:t ::t <:t H:5 \\n:nil _:nil ^:nil arch:headline author:t
 #+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t

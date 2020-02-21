@@ -3,8 +3,7 @@ country:
   - 'Sverige'
 brewery:
   - 'Hazie Dizzie'
-type:
-  - 'Ale'
+type_nr: 5
 abv: 6.2
 reviews: 
   - date: '2020-01-02'
