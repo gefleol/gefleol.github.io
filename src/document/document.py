@@ -13,7 +13,7 @@ class Document:
         self.content = ""
         self.pub_dir=pub_dir
         self.drink_print_order = [
-            {'key':'name','desc':'Ol namn','fn':self.string_writer},
+            {'key':'name','desc':'Öl namn','fn':self.string_writer},
             {'key':'desc','desc':'Beskrivning','fn':self.string_writer},
             {'key':'country','desc':'Land/Länder','fn':self.string_writer},
             {'key':'brewery','desc':'Bryggeri(er)','fn':self.string_writer},
@@ -43,27 +43,27 @@ class Document:
             yield doc[brewery]
 
     def print_rest_of_drink(self, doc):
-        for drink in doc:
-            for d in self.drink_print_order:
-                key=d["key"]
-                desc=d["desc"]
-                print_function=d["fn"]
-                if key in drink:
-                    # print "DEBUG key:{} desc:{} ".format(key,str(drink[key]))
-                    print_function(drink[key],desc)
+        for d in self.drink_print_order:
+            key=d["key"]
+            desc=d["desc"]
+            print_function=d["fn"]
+            if key in doc:
+                # print "DEBUG key:{} desc:{} ".format(key,str(drink[key]))
+                print_function(doc[key],desc)
             
     def print_drink_reviews(self,doc):
+        print "Debug drink"+str(doc)
         for drink in doc:
             self.content+= "**** {}\n".format(drink["name"].encode("utf-8"))
-            self.print_rest_of_drink(doc)
+            self.print_rest_of_drink(drink)
             
     def create_content(self,print_dict):
         """# print_dict = {"country": {"brewery":[{drink_name:doc}]}}
         """
         for brewery in self.print_country_get_breweries(print_dict):
-            for drink in self.print_brewery_get_drinks(brewery):
+            for drinks in self.print_brewery_get_drinks(brewery):
                 # print ("DEBUG"+str(drink))
-                self.print_drink_reviews(drink)
+                self.print_drink_reviews(drinks)
 
     def save_basic_file(self,file):
         save_content=constants.header+"\n"+self.content
