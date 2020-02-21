@@ -14,217 +14,1026 @@
 ** Skottland
 *** Williams Brothers _Heather Ales_
 **** Alba
+  - Ol namn: Alba
+  - Land/Länder: Skottland
+  - Bryggeri(er): Williams Brothers _Heather Ales_
+  - Ol namn: Heather Ales Kelpie
+  - Land/Länder: Skottland
+  - Bryggeri(er): Williams Brothers _Heather Ales_
 **** Heather Ales Kelpie
+  - Ol namn: Alba
+  - Land/Länder: Skottland
+  - Bryggeri(er): Williams Brothers _Heather Ales_
+  - Ol namn: Heather Ales Kelpie
+  - Land/Länder: Skottland
+  - Bryggeri(er): Williams Brothers _Heather Ales_
 *** The Caledonian Brewing Company
 **** Caledonian 80
+  - Ol namn: Caledonian 80
+  - Land/Länder: Skottland
+  - Bryggeri(er): The Caledonian Brewing Company
 *** Traquair House
 **** Traquair House Ale
+  - Ol namn: Traquair House Ale
+  - Land/Länder: Skottland
+  - Bryggeri(er): Traquair House
 *** Inveralmond Brewery
 **** Ossian
+  - Ol namn: Ossian
+  - Land/Länder: Skottland
+  - Bryggeri(er): Inveralmond Brewery
+  - Ol namn: Lia Fail
+  - Land/Länder: Skottland
+  - Bryggeri(er): Inveralmond Brewery
 **** Lia Fail
+  - Ol namn: Ossian
+  - Land/Länder: Skottland
+  - Bryggeri(er): Inveralmond Brewery
+  - Ol namn: Lia Fail
+  - Land/Länder: Skottland
+  - Bryggeri(er): Inveralmond Brewery
 *** Belhaven
 **** Twisted Thistle IPA
+  - Ol namn: Twisted Thistle IPA
+  - Land/Länder: Skottland
+  - Bryggeri(er): Belhaven
+  - Ol namn: Wee Heavey
+  - Land/Länder: Skottland
+  - Bryggeri(er): Belhaven
 **** Wee Heavey
+  - Ol namn: Twisted Thistle IPA
+  - Land/Länder: Skottland
+  - Bryggeri(er): Belhaven
+  - Ol namn: Wee Heavey
+  - Land/Länder: Skottland
+  - Bryggeri(er): Belhaven
 *** BrewDog
 **** Punk Ipa
+  - Ol namn: Punk Ipa
+  - Land/Länder: Skottland
+  - Bryggeri(er): BrewDog
 *** Innis & Gunn
 **** Original
+  - Ol namn: Original
+  - Land/Länder: Skottland
+  - Bryggeri(er): Innis & Gunn
+  - Ol namn: Innis & Gunn Rum Finish Oak Aged Beer
+  - Land/Länder: Skottland
+  - Bryggeri(er): Innis & Gunn
 **** Innis & Gunn Rum Finish Oak Aged Beer
+  - Ol namn: Original
+  - Land/Länder: Skottland
+  - Bryggeri(er): Innis & Gunn
+  - Ol namn: Innis & Gunn Rum Finish Oak Aged Beer
+  - Land/Länder: Skottland
+  - Bryggeri(er): Innis & Gunn
 ** Tyskland
 *** Paulaner Brauerei (Schörghuber)
 **** Paulaner Oktoberfest Bier
+  - Ol namn: Paulaner Oktoberfest Bier
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Paulaner Brauerei (Schörghuber)
+  - Ol namn: Hacker-Pschorr Braumeister Pils
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Paulaner Brauerei (Schörghuber)
 **** Hacker-Pschorr Braumeister Pils
+  - Ol namn: Paulaner Oktoberfest Bier
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Paulaner Brauerei (Schörghuber)
+  - Ol namn: Hacker-Pschorr Braumeister Pils
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Paulaner Brauerei (Schörghuber)
 *** Paulaner Brauerei _Schörghuber_
 **** Salvator
+  - Ol namn: Salvator
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Paulaner Brauerei _Schörghuber_
 *** Friesisches Brauhaus
 **** Jever Pilsener
+  - Ol namn: Jever Pilsener
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Friesisches Brauhaus
 *** Spaten-Franziskaner-Bräu
 **** Spaten Optimator
+  - Ol namn: Spaten Optimator
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Spaten-Franziskaner-Bräu
+  - Ol namn: Spaten Oktoberfestbier
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Spaten-Franziskaner-Bräu
 **** Spaten Oktoberfestbier
+  - Ol namn: Spaten Optimator
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Spaten-Franziskaner-Bräu
+  - Ol namn: Spaten Oktoberfestbier
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Spaten-Franziskaner-Bräu
 *** Einbecker Brauhause
 **** Einbecker Brauherren Pils
+  - Ol namn: Einbecker Brauherren Pils
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Einbecker Brauhause
 *** Brauerei Heller-Trum _ Schlenkerla
 **** Aecht Schlenkerla Rauchbier Märzen
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Brauerei Heller-Trum _ Schlenkerla
 *** Hofbräu München
 **** Oktoberfestbier
+  - Ol namn: Oktoberfestbier
+  - Land/Länder: Tyskland
+  - Bryggeri(er): Hofbräu München
 ** USA
 *** Tommy Knocker Brewery
 **** Pick Axe IPA
+  - Ol namn: Pick Axe IPA
+  - Land/Länder: USA
+  - Bryggeri(er): Tommy Knocker Brewery
 *** Anchor Brewing Company
 **** Merry Christmas & Happy New Year (Our Special Ale) (2005)
+  - Ol namn: Merry Christmas & Happy New Year (Our Special Ale) (2005)
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Liberty Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Merry Christmas & Happy New Year (Our Special Ale)
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Anchor Steam
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
 **** Liberty Ale
+  - Ol namn: Merry Christmas & Happy New Year (Our Special Ale) (2005)
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Liberty Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Merry Christmas & Happy New Year (Our Special Ale)
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Anchor Steam
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
 **** Merry Christmas & Happy New Year (Our Special Ale)
+  - Ol namn: Merry Christmas & Happy New Year (Our Special Ale) (2005)
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Liberty Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Merry Christmas & Happy New Year (Our Special Ale)
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Anchor Steam
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
 **** Anchor Steam
+  - Ol namn: Merry Christmas & Happy New Year (Our Special Ale) (2005)
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Liberty Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Merry Christmas & Happy New Year (Our Special Ale)
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
+  - Ol namn: Anchor Steam
+  - Land/Länder: USA
+  - Bryggeri(er): Anchor Brewing Company
 *** Sierra Nevada Brewing
 **** Pale Ale
+  - Ol namn: Pale Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Sierra Nevada Brewing
 *** Napa Smith
 **** Amber Ale
+  - Ol namn: Amber Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Napa Smith
+  - Ol namn: Hopa Geddon
+  - Land/Länder: USA
+  - Bryggeri(er): Napa Smith
 **** Hopa Geddon
+  - Ol namn: Amber Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Napa Smith
+  - Ol namn: Hopa Geddon
+  - Land/Länder: USA
+  - Bryggeri(er): Napa Smith
 *** Samuel Adams Brewery
 **** Oktoberfest
+  - Ol namn: Oktoberfest
+  - Land/Länder: USA
+  - Bryggeri(er): Samuel Adams Brewery
 *** Brooklyn Brewery
 **** Brooklyn Brown Ale
+  - Ol namn: Brooklyn Brown Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Brooklyn Brewery
 *** Six Point Brewery
 **** The Crisp
+  - Ol namn: The Crisp
+  - Land/Länder: USA
+  - Bryggeri(er): Six Point Brewery
 *** Michigan Brewing Co
 **** Summer Ale
+  - Ol namn: Summer Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Michigan Brewing Co
+  - Ol namn: High Seas
+  - Land/Länder: USA
+  - Bryggeri(er): Michigan Brewing Co
 **** High Seas
+  - Ol namn: Summer Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Michigan Brewing Co
+  - Ol namn: High Seas
+  - Land/Länder: USA
+  - Bryggeri(er): Michigan Brewing Co
 *** Lagunita Brewing Co
 **** Lagunita IPA
+  - Ol namn: Lagunita IPA
+  - Land/Länder: USA
+  - Bryggeri(er): Lagunita Brewing Co
 *** Rogue Ales
 **** Rogue Chipotle Ale
+  - Ol namn: Rogue Chipotle Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Rogue Ales
 *** Samuel Adams
 **** Samuel Adams Winter Lager
+  - Ol namn: Samuel Adams Winter Lager
+  - Land/Länder: USA
+  - Bryggeri(er): Samuel Adams
 *** Flying dog
 **** Old Scratch Amber Lager
+  - Ol namn: Old Scratch Amber Lager
+  - Land/Länder: USA
+  - Bryggeri(er): Flying dog
+  - Ol namn: Tire Bite Golden Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Flying dog
 **** Tire Bite Golden Ale
+  - Ol namn: Old Scratch Amber Lager
+  - Land/Länder: USA
+  - Bryggeri(er): Flying dog
+  - Ol namn: Tire Bite Golden Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Flying dog
 *** Great Divide Brewing Company
 **** Hercules Double IPA
+  - Ol namn: Hercules Double IPA
+  - Land/Länder: USA
+  - Bryggeri(er): Great Divide Brewing Company
+  - Ol namn: Great Divide Ridgeline Amber Ale (Arapahoe Amber)
+  - Land/Länder: USA
+  - Bryggeri(er): Great Divide Brewing Company
 **** Great Divide Ridgeline Amber Ale (Arapahoe Amber)
+  - Ol namn: Hercules Double IPA
+  - Land/Länder: USA
+  - Bryggeri(er): Great Divide Brewing Company
+  - Ol namn: Great Divide Ridgeline Amber Ale (Arapahoe Amber)
+  - Land/Länder: USA
+  - Bryggeri(er): Great Divide Brewing Company
 *** Sixpoint Brewery
 **** Sixpoint Righteous Ale
+  - Ol namn: Sixpoint Righteous Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Sixpoint Brewery
+  - Ol namn: Sixpoint Bengali Tiger IPA
+  - Land/Länder: USA
+  - Bryggeri(er): Sixpoint Brewery
 **** Sixpoint Bengali Tiger IPA
+  - Ol namn: Sixpoint Righteous Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Sixpoint Brewery
+  - Ol namn: Sixpoint Bengali Tiger IPA
+  - Land/Länder: USA
+  - Bryggeri(er): Sixpoint Brewery
 *** Victory Brewing
 **** Prima Pils
+  - Ol namn: Prima Pils
+  - Land/Länder: USA
+  - Bryggeri(er): Victory Brewing
 *** Ska Brewing co
 **** Modus Hoperandi
+  - Ol namn: Modus Hoperandi
+  - Land/Länder: USA
+  - Bryggeri(er): Ska Brewing co
+  - Ol namn: ESB Special Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Ska Brewing co
 **** ESB Special Ale
+  - Ol namn: Modus Hoperandi
+  - Land/Länder: USA
+  - Bryggeri(er): Ska Brewing co
+  - Ol namn: ESB Special Ale
+  - Land/Länder: USA
+  - Bryggeri(er): Ska Brewing co
 ** Kanada
 *** Flying Monkeys Craft Brewery
 **** Hoptical Illusion
+  - Ol namn: Hoptical Illusion
+  - Land/Länder: Kanada
+  - Bryggeri(er): Flying Monkeys Craft Brewery
 ** Belgien
 *** Brouwerij Lindemans
 **** Lindemans Kriek Cuvée René
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij Lindemans
 *** St. Bernardus
 **** Grottenbier
+  - Ol namn: Grottenbier
+  - Land/Länder: Belgien
+  - Bryggeri(er): St. Bernardus
+  - Ol namn: Wit
+  - Land/Länder: Belgien
+  - Bryggeri(er): St. Bernardus
 **** Wit
+  - Ol namn: Grottenbier
+  - Land/Länder: Belgien
+  - Bryggeri(er): St. Bernardus
+  - Ol namn: Wit
+  - Land/Länder: Belgien
+  - Bryggeri(er): St. Bernardus
 *** Brouwerij Affligem De Smedt
 **** Affligem Blond
+  - Ol namn: Affligem Blond
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij Affligem De Smedt
+  - Ol namn: Affligem Dubbel
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij Affligem De Smedt
 **** Affligem Dubbel
+  - Ol namn: Affligem Blond
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij Affligem De Smedt
+  - Ol namn: Affligem Dubbel
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij Affligem De Smedt
 *** Brouwerij de Koningshoeven
 **** La Trappe Tripel
+  - Ol namn: La Trappe Tripel
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij de Koningshoeven
 *** Brasserie Du Bocq
 **** St.Benoit Blond
+  - Ol namn: St.Benoit Blond
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brasserie Du Bocq
 *** Brouwerij Rodenbach
 **** Rodenbach Grand Cru
+  - Ol namn: Rodenbach Grand Cru
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij Rodenbach
 *** Verhaeghe
 **** Verhaeghe Duchesse De Bourgogne
+  - Ol namn: Verhaeghe Duchesse De Bourgogne
+  - Land/Länder: Belgien
+  - Bryggeri(er): Verhaeghe
 *** Het Anker
 **** Gouden Carolus Classic
+  - Ol namn: Gouden Carolus Classic
+  - Land/Länder: Belgien
+  - Bryggeri(er): Het Anker
 *** Brasserie Lefebvre
 **** Floreffe Blond
+  - Ol namn: Floreffe Blond
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brasserie Lefebvre
+  - Ol namn: Floreffe Double
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brasserie Lefebvre
 **** Floreffe Double
+  - Ol namn: Floreffe Blond
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brasserie Lefebvre
+  - Ol namn: Floreffe Double
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brasserie Lefebvre
 *** Palm Breweries
 **** Steenbrugge Dubbel Bruin
+  - Ol namn: Steenbrugge Dubbel Bruin
+  - Land/Länder: Belgien
+  - Bryggeri(er): Palm Breweries
+  - Ol namn: King Cobra
+  - Land/Länder: Belgien
+  - Bryggeri(er): Palm Breweries
+  - Ol namn: Steenbrugge Blond
+  - Land/Länder: Belgien
+  - Bryggeri(er): Palm Breweries
 **** King Cobra
+  - Ol namn: Steenbrugge Dubbel Bruin
+  - Land/Länder: Belgien
+  - Bryggeri(er): Palm Breweries
+  - Ol namn: King Cobra
+  - Land/Länder: Belgien
+  - Bryggeri(er): Palm Breweries
+  - Ol namn: Steenbrugge Blond
+  - Land/Länder: Belgien
+  - Bryggeri(er): Palm Breweries
 **** Steenbrugge Blond
+  - Ol namn: Steenbrugge Dubbel Bruin
+  - Land/Länder: Belgien
+  - Bryggeri(er): Palm Breweries
+  - Ol namn: King Cobra
+  - Land/Länder: Belgien
+  - Bryggeri(er): Palm Breweries
+  - Ol namn: Steenbrugge Blond
+  - Land/Länder: Belgien
+  - Bryggeri(er): Palm Breweries
 *** John Martin _Scottish & Newcastle_
 **** Gordon X-Mas Ale
+  - Ol namn: Gordon X-Mas Ale
+  - Land/Länder: Belgien
+  - Bryggeri(er): John Martin _Scottish & Newcastle_
 *** Brouwerij De Dolle Brouwers
 **** Oerbier
+  - Ol namn: Oerbier
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij De Dolle Brouwers
+  - Ol namn: De Dolle Dulle Teve _Mad Bitch_
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij De Dolle Brouwers
 **** De Dolle Dulle Teve _Mad Bitch_
+  - Ol namn: Oerbier
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij De Dolle Brouwers
+  - Ol namn: De Dolle Dulle Teve _Mad Bitch_
+  - Land/Länder: Belgien
+  - Bryggeri(er): Brouwerij De Dolle Brouwers
 ** Italien
 *** Birrificio Angelo
 **** Birra Poretti
+  - Ol namn: Birra Poretti
+  - Land/Länder: Italien
+  - Bryggeri(er): Birrificio Angelo
 ** Slovakien
 *** Zlatý Bažant
 **** Zlatý Bažant
+  - Land/Länder: Slovakien
+  - Bryggeri(er): Zlatý Bažant
 ** Frankrike
 *** Brasseries Kronenbourg
 **** Kronenbourg Blanc
+  - Ol namn: Kronenbourg Blanc
+  - Land/Länder: Frankrike
+  - Bryggeri(er): Brasseries Kronenbourg
 ** Japan
 *** Kirin Beer
 **** Kirin Ichiban
+  - Ol namn: Kirin Ichiban
+  - Land/Länder: Japan
+  - Bryggeri(er): Kirin Beer
 ** Tjeckien
 *** Pivovar Velké Popovice (SAB Miller)
 **** Kozel Premium Lager 12
+  - Ol namn: Kozel Premium Lager 12
+  - Land/Länder: Tjeckien
+  - Bryggeri(er): Pivovar Velké Popovice (SAB Miller)
 *** Zlatopramen Drinks Union
 **** Half n Half
+  - Ol namn: Half n Half
+  - Land/Länder: Tjeckien
+  - Bryggeri(er): Zlatopramen Drinks Union
 *** Plzensky Prazdroj
 **** Pilsner Urquell
+  - Ol namn: Pilsner Urquell
+  - Land/Länder: Tjeckien
+  - Bryggeri(er): Plzensky Prazdroj
+  - Land/Länder: Tjeckien
+  - Bryggeri(er): Plzensky Prazdroj
 **** Gambrinus Premium Svetlý Ležák 12
+  - Ol namn: Pilsner Urquell
+  - Land/Länder: Tjeckien
+  - Bryggeri(er): Plzensky Prazdroj
+  - Land/Länder: Tjeckien
+  - Bryggeri(er): Plzensky Prazdroj
 ** Sverige
 *** Skebo Bruksbryggeri
 **** Trippel Gold Bitter
+  - Ol namn: Trippel Gold Bitter
+  - Land/Länder: Sverige
+  - Bryggeri(er): Skebo Bruksbryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Skebo Bruksbryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Skebo Bruksbryggeri
 **** Bruksöl
+  - Ol namn: Trippel Gold Bitter
+  - Land/Länder: Sverige
+  - Bryggeri(er): Skebo Bruksbryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Skebo Bruksbryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Skebo Bruksbryggeri
 **** USB _UteSittarBärs_
+  - Ol namn: Trippel Gold Bitter
+  - Land/Länder: Sverige
+  - Bryggeri(er): Skebo Bruksbryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Skebo Bruksbryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Skebo Bruksbryggeri
 *** Hazie Dizzie
 **** Odd Island Brew
+  - Ol namn: Odd Island Brew
+  - Land/Länder: Sverige
+  - Bryggeri(er): Hazie Dizzie
+  - Öltyp: 5
+  - ABV: 6.2
 *** Nynäshamns Ångbryggeri AB
 **** Landsort lager
+  - Ol namn: Landsort lager
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nynäshamns Ångbryggeri AB
+  - Ol namn: Mysingen Midvinterbrygd
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nynäshamns Ångbryggeri AB
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nynäshamns Ångbryggeri AB
 **** Mysingen Midvinterbrygd
+  - Ol namn: Landsort lager
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nynäshamns Ångbryggeri AB
+  - Ol namn: Mysingen Midvinterbrygd
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nynäshamns Ångbryggeri AB
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nynäshamns Ångbryggeri AB
 **** Bedarö Bitter
+  - Ol namn: Landsort lager
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nynäshamns Ångbryggeri AB
+  - Ol namn: Mysingen Midvinterbrygd
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nynäshamns Ångbryggeri AB
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nynäshamns Ångbryggeri AB
 *** Hällsinge bryggeri
 **** Hälsinge Stout
+  - Land/Länder: Sverige
+  - Bryggeri(er): Hällsinge bryggeri
 *** Zeunerts Bryggeri _Kopparberg_
 **** Zeunerts Höga Kusten
+  - Land/Länder: Sverige
+  - Bryggeri(er): Zeunerts Bryggeri _Kopparberg_
 *** Carlsberg Sverige
 **** Falcon Gammelbryggd
+  - Ol namn: Falcon Gammelbryggd
+  - Land/Länder: Sverige
+  - Bryggeri(er): Carlsberg Sverige
+  - Land/Länder: Sverige
+  - Bryggeri(er): Carlsberg Sverige
 **** Eriksberg Julöl
+  - Ol namn: Falcon Gammelbryggd
+  - Land/Länder: Sverige
+  - Bryggeri(er): Carlsberg Sverige
+  - Land/Länder: Sverige
+  - Bryggeri(er): Carlsberg Sverige
 *** Slottskällans Bryggeri
 **** Slottskällans Bryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Slottskällans Bryggeri
 *** Jämtlands bryggeri
 **** Jämtlands Tiotaggare
+  - Land/Länder: Sverige
+  - Bryggeri(er): Jämtlands bryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Jämtlands bryggeri
+  - Ol namn: Hell
+  - Land/Länder: Sverige
+  - Bryggeri(er): Jämtlands bryggeri
 **** Jämtlands India Pale Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Jämtlands bryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Jämtlands bryggeri
+  - Ol namn: Hell
+  - Land/Länder: Sverige
+  - Bryggeri(er): Jämtlands bryggeri
 **** Hell
+  - Land/Länder: Sverige
+  - Bryggeri(er): Jämtlands bryggeri
+  - Land/Länder: Sverige
+  - Bryggeri(er): Jämtlands bryggeri
+  - Ol namn: Hell
+  - Land/Länder: Sverige
+  - Bryggeri(er): Jämtlands bryggeri
 *** Hantverksbryggeriet
 **** Narren
+  - Ol namn: Narren
+  - Land/Länder: Sverige
+  - Bryggeri(er): Hantverksbryggeriet
 *** Sandbacka bryggeri
 **** Sandbacka bitter
+  - Ol namn: Sandbacka bitter
+  - Land/Länder: Sverige
+  - Bryggeri(er): Sandbacka bryggeri
 *** Närke Kulturbryggeri
 **** Närke Mörker
+  - Land/Länder: Sverige
+  - Bryggeri(er): Närke Kulturbryggeri
 *** Spendrups
 **** Marierstad Export
+  - Ol namn: Marierstad Export
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Hansapils
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: SITTING BULLDOG IPA
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Sleepy Bulldog Winter Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Visby Vinterbock
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
 **** Wisby Hansapils
+  - Ol namn: Marierstad Export
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Hansapils
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: SITTING BULLDOG IPA
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Sleepy Bulldog Winter Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Visby Vinterbock
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
 **** SITTING BULLDOG IPA
+  - Ol namn: Marierstad Export
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Hansapils
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: SITTING BULLDOG IPA
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Sleepy Bulldog Winter Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Visby Vinterbock
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
 **** Wisby Sleepy Bulldog Winter Ale
+  - Ol namn: Marierstad Export
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Hansapils
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: SITTING BULLDOG IPA
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Sleepy Bulldog Winter Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Visby Vinterbock
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
 **** Visby Vinterbock
+  - Ol namn: Marierstad Export
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Hansapils
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: SITTING BULLDOG IPA
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Wisby Sleepy Bulldog Winter Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
+  - Ol namn: Visby Vinterbock
+  - Land/Länder: Sverige
+  - Bryggeri(er): Spendrups
 *** Åbro bryggeri
 **** Åbro Arton56 Amber
+  - Land/Länder: Sverige
+  - Bryggeri(er): Åbro bryggeri
 *** Sigtuna Brygghus
 **** HUMLE-HILDAS ALTBIER
+  - Ol namn: HUMLE-HILDAS ALTBIER
+  - Land/Länder: Sverige
+  - Bryggeri(er): Sigtuna Brygghus
 *** Nils Oscar
 **** Kallasöl
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Nils Oscar Farm Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Hope Yard
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: India Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
 **** Nils Oscar Kalaspåsköl
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Nils Oscar Farm Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Hope Yard
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: India Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
 **** Nils Oscar Farm Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Nils Oscar Farm Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Hope Yard
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: India Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
 **** Hope Yard
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Nils Oscar Farm Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Hope Yard
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: India Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
 **** India Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Nils Oscar Farm Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: Hope Yard
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
+  - Ol namn: India Ale
+  - Land/Länder: Sverige
+  - Bryggeri(er): Nils Oscar
 ** Storbritanien
 *** Ringwood Marstons plc
 **** Ringwood XXXX Porter
+  - Ol namn: Ringwood XXXX Porter
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Ringwood Marstons plc
 *** Wychwood Marstons plc
 **** Ushers Founders Ale
+  - Ol namn: Ushers Founders Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Wychwood Marstons plc
 *** Daleside
 **** Daleside Monkey Wrench
+  - Ol namn: Daleside Monkey Wrench
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Daleside
 *** Summer Vine Brewing
 **** Gorilla
+  - Ol namn: Gorilla
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Summer Vine Brewing
 *** Fullers
 **** Fullers Discovery
+  - Ol namn: Fullers Discovery
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Fullers
 *** Shepherd Neame Ltd
 **** Bishop_s Arms House Ale
+  - Ol namn: Bishop_s Arms House Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Christmas Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Whitstable Bay
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame 1698
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Late Red
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Bishop finger
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Spitfire
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
 **** Shepherd Neame Christmas Ale
+  - Ol namn: Bishop_s Arms House Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Christmas Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Whitstable Bay
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame 1698
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Late Red
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Bishop finger
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Spitfire
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
 **** Whitstable Bay
+  - Ol namn: Bishop_s Arms House Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Christmas Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Whitstable Bay
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame 1698
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Late Red
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Bishop finger
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Spitfire
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
 **** Shepherd Neame 1698
+  - Ol namn: Bishop_s Arms House Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Christmas Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Whitstable Bay
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame 1698
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Late Red
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Bishop finger
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Spitfire
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
 **** Shepherd Neame Late Red
+  - Ol namn: Bishop_s Arms House Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Christmas Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Whitstable Bay
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame 1698
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Late Red
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Bishop finger
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Spitfire
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
 **** Bishop finger
+  - Ol namn: Bishop_s Arms House Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Christmas Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Whitstable Bay
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame 1698
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Late Red
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Bishop finger
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Spitfire
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
 **** Spitfire
+  - Ol namn: Bishop_s Arms House Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Christmas Ale
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Whitstable Bay
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame 1698
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Shepherd Neame Late Red
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Bishop finger
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
+  - Ol namn: Spitfire
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Shepherd Neame Ltd
 *** Hook Norton Brewery
 **** Old Hooky
+  - Ol namn: Old Hooky
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Hook Norton Brewery
+  - Ol namn: Twelve Days
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Hook Norton Brewery
 **** Twelve Days
+  - Ol namn: Old Hooky
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Hook Norton Brewery
+  - Ol namn: Twelve Days
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Hook Norton Brewery
 *** Marstons
 **** Oyster Stout
+  - Ol namn: Oyster Stout
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Marstons
 *** Wells & Young's Ltd
 **** Young's Winter Warmer
+  - Ol namn: Young's Winter Warmer
+  - Land/Länder: Storbritanien
+  - Bryggeri(er): Wells & Young's Ltd
 ** Danmark
 *** Bear Here
 **** Dead Cat
+  - Ol namn: Dead Cat
+  - Land/Länder: Danmark
+  - Bryggeri(er): Bear Here
 *** Bryghuset Braunstein
 **** Braunstein Winter Bock
+  - Ol namn: Braunstein Winter Bock
+  - Land/Länder: Danmark
+  - Bryggeri(er): Bryghuset Braunstein
 *** Mikkeller
 **** Kärlek vår_sommar 2013
+  - Land/Länder: Danmark
+  - Bryggeri(er): Mikkeller
+  - Ol namn: Beer Geek Breakfast
+  - Land/Länder: Danmark
+  - Bryggeri(er): Mikkeller
 **** Beer Geek Breakfast
+  - Land/Länder: Danmark
+  - Bryggeri(er): Mikkeller
+  - Ol namn: Beer Geek Breakfast
+  - Land/Länder: Danmark
+  - Bryggeri(er): Mikkeller
 *** Husbryggeriet Jacobsen (Carlsberg)
 **** Jacobsen Original Dark Lager
+  - Ol namn: Jacobsen Original Dark Lager
+  - Land/Länder: Danmark
+  - Bryggeri(er): Husbryggeriet Jacobsen (Carlsberg)
 ** Österike
 *** Stiegl
 **** Stiegl Pils
+  - Ol namn: Stiegl Pils
+  - Land/Länder: Österike
+  - Bryggeri(er): Stiegl

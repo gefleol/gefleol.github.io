@@ -12,19 +12,25 @@ class Document:
     def __init__(self,pub_dir):
         self.content = ""
         self.pub_dir=pub_dir
-        self.drink_print_order = [{'key':'desc','desc':'Beskrivning','fn':self.string_writer},
-                             {'key':'country','desc':'Land/Länder','fn':self.string_writer},
-                             {'key':'brewery','desc':'Bryggeri(er)','fn':self.string_writer},
-                             {'key':'links','desc':'Länk(ar)','fn':self.string_writer},
-                             {'key':'brewer','desc':'Bryggare','fn':self.string_writer},
-                             {'key':'type_nr','desc':'Öltyp','fn':self.string_writer},
-                             {'key':'type_desc','desc':'Öltyp (fritext)','fn':self.string_writer},
-                             {'key':'abv','desc':'ABV','fn':self.string_writer},
-                             {'key':'abw','desc':'ABW','fn':self.string_writer},
-                             {'key':'ibu','desc':'IBU','fn':self.string_writer}]
+        self.drink_print_order = [
+            {'key':'name','desc':'Ol namn','fn':self.string_writer},
+            {'key':'desc','desc':'Beskrivning','fn':self.string_writer},
+            {'key':'country','desc':'Land/Länder','fn':self.string_writer},
+            {'key':'brewery','desc':'Bryggeri(er)','fn':self.string_writer},
+            {'key':'links','desc':'Länk(ar)','fn':self.string_writer},
+            {'key':'brewer','desc':'Bryggare','fn':self.string_writer},
+            {'key':'type_nr','desc':'Öltyp','fn':self.string_writer},
+            {'key':'type_desc','desc':'Öltyp (fritext)','fn':self.string_writer},
+            {'key':'abv','desc':'ABV','fn':self.string_writer},
+            {'key':'abw','desc':'ABW','fn':self.string_writer},
+            {'key':'ibu','desc':'IBU','fn':self.string_writer}]
 
     def string_writer(self, desc, name):
-        print "- {}: {}\n".format(str(name),str(desc).encode("utf-8"))
+        if isinstance(desc, str) or isinstance(desc, int) or isinstance(desc,float):
+            self.content+= "  - {}: {}\n".format(str(name),str(desc).encode("utf-8"))
+        else:
+            if isinstance (desc,list):
+                self.content+="  - {}: {}\n".format(str(name),str(desc[0].encode("utf-8")))
         
     def print_country_get_breweries(self, doc):
         for country in doc.keys():
@@ -37,24 +43,26 @@ class Document:
             yield doc[brewery]
 
     def print_rest_of_drink(self, doc):
-        for d in self.drink_print_order:
-            key=d["key"]
-            desc=d["desc"]
-            print_function=d["fn"]
-            if key in doc:
-                print "DEBUG key:{} desc:{}".format(key,str(doc[key]))
-                print_function(doc[key],desc)
+        for drink in doc:
+            for d in self.drink_print_order:
+                key=d["key"]
+                desc=d["desc"]
+                print_function=d["fn"]
+                if key in drink:
+                    # print "DEBUG key:{} desc:{} ".format(key,str(drink[key]))
+                    print_function(drink[key],desc)
             
     def print_drink_reviews(self,doc):
         for drink in doc:
             self.content+= "**** {}\n".format(drink["name"].encode("utf-8"))
-            self.print_rest_of_drink(drink)
+            self.print_rest_of_drink(doc)
             
     def create_content(self,print_dict):
         """# print_dict = {"country": {"brewery":[{drink_name:doc}]}}
         """
         for brewery in self.print_country_get_breweries(print_dict):
             for drink in self.print_brewery_get_drinks(brewery):
+                # print ("DEBUG"+str(drink))
                 self.print_drink_reviews(drink)
 
     def save_basic_file(self,file):
