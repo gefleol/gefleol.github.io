@@ -2,8 +2,8 @@ import directoryparser as dir
 import drinks_parser as dp
 from document.document import Document
 
-drink_directory = "/home/johan/dev/gefleol.github.io/data/drinks/"
-pub_directory = "/home/johan/dev/gefleol.github.io/pub/"
+drink_directory = "../data/drinks/"
+pub_directory = "../pub/"
 print_dict=dict()
 docs=[]
 

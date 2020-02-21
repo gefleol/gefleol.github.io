@@ -23,8 +23,6 @@ class Document:
                              {'key':'abw','desc':'ABW','fn':self.string_writer},
                              {'key':'ibu','desc':'IBU','fn':self.string_writer}]
 
-
-
     def string_writer(self, desc, name):
         print "- {}: {}\n".format(str(name),str(desc).encode("utf-8"))
         
@@ -44,25 +42,20 @@ class Document:
             desc=d["desc"]
             print_function=d["fn"]
             if key in doc:
+                print "DEBUG key:{} desc:{}".format(key,str(doc[key]))
                 print_function(doc[key],desc)
             
-    def print_drink_get_reviews(self,doc):
+    def print_drink_reviews(self,doc):
         for drink in doc:
             self.content+= "**** {}\n".format(drink["name"].encode("utf-8"))
-            self.print_rest_of_drink(doc)
-            
-            
+            self.print_rest_of_drink(drink)
             
     def create_content(self,print_dict):
         """# print_dict = {"country": {"brewery":[{drink_name:doc}]}}
         """
         for brewery in self.print_country_get_breweries(print_dict):
             for drink in self.print_brewery_get_drinks(brewery):
-                for review in self.print_drink_get_reviews(drink):
-                    pass
-                    # self.content+="**** {}\n".format(drink["name"].encode("utf-8"))
-                    # for review in drink["reviews"]:
-                    #     self.content+="    + Provdatum: {}\n".format(review["date"])
+                self.print_drink_reviews(drink)
 
     def save_basic_file(self,file):
         save_content=constants.header+"\n"+self.content

@@ -11,342 +11,220 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 26.3 (Org mode 9.1.9)
-** Belgien
-*** Brouwerij Affligem _ De Smedt _Heineken_
-**** Affligem Dubbel
-    + Provdatum: 2007-03-07
-**** Affligem Blond
-    + Provdatum: 2007-03-07
-*** Brasserie Du Bocq
-**** St.Benoit Blond
-    + Provdatum: 2010-09-01
-*** St. Bernardus
-**** Grottenbier
-    + Provdatum: 2007-07-04
-**** Wit
-    + Provdatum: 2008-07-02
-*** Brouwerij Lindemans
-**** Lindemans Kriek Cuvée René
-    + Provdatum: 2008-09-05
-*** Brouwerij de Koningshoeven
-**** La Trappe Tripel
-    + Provdatum: 2007-12-01
-*** Brouwerij Rodenbach _Palm_
-**** Rodenbach Grand Cru
-    + Provdatum: 2009-05-06
-*** Verhaeghe
-**** Verhaeghe Duchesse De Bourgogne
-    + Provdatum: 2008-04-02
-*** Het Anker
-**** Gouden Carolus Classic
-    + Provdatum: 2008-07-02
-*** Brasserie Lefebvre
-**** Floreffe Double
-    + Provdatum: 2009-02-04
-**** Floreffe Blond
-    + Provdatum: 2009-02-04
-*** Palm Breweries
-**** Steenbrugge Dubbel Bruin
-    + Provdatum: 2009-04-01
-**** Steenbrugge Blond
-    + Provdatum: 2009-04-01
-**** King Cobra
-    + Provdatum: 2007-02-07
-*** John Martin _Scottish & Newcastle_
-**** Gordon X-Mas Ale
-    + Provdatum: 2005-12-07
-*** Brouwerij De Dolle Brouwers
-**** De Dolle Dulle Teve _Mad Bitch_
-    + Provdatum: 2008-01-02
-**** Oerbier
-    + Provdatum: 2007-07-04
+** Skottland
+*** Williams Brothers _Heather Ales_
+**** Alba
+**** Heather Ales Kelpie
+*** The Caledonian Brewing Company
+**** Caledonian 80
+*** Traquair House
+**** Traquair House Ale
+*** Inveralmond Brewery
+**** Ossian
+**** Lia Fail
+*** Belhaven
+**** Twisted Thistle IPA
+**** Wee Heavey
+*** BrewDog
+**** Punk Ipa
+*** Innis & Gunn
+**** Original
+**** Innis & Gunn Rum Finish Oak Aged Beer
 ** Tyskland
-*** Spaten-Franziskaner-Bräu
-**** Spaten Oktoberfestbier
-    + Provdatum: 2006-10-04
-**** Spaten Optimator
-    + Provdatum: 2006-10-04
+*** Paulaner Brauerei (Schörghuber)
+**** Paulaner Oktoberfest Bier
+**** Hacker-Pschorr Braumeister Pils
 *** Paulaner Brauerei _Schörghuber_
 **** Salvator
-    + Provdatum: 2007-04-04
-**** Paulaner Oktoberfest Bier
-    + Provdatum: 2006-10-04
-**** Hacker-Pschorr Braumeister Pils
-    + Provdatum: 2006-08-02
 *** Friesisches Brauhaus
 **** Jever Pilsener
-    + Provdatum: 2007-12-01
+*** Spaten-Franziskaner-Bräu
+**** Spaten Optimator
+**** Spaten Oktoberfestbier
 *** Einbecker Brauhause
 **** Einbecker Brauherren Pils
-    + Provdatum: 2009-03-04
 *** Brauerei Heller-Trum _ Schlenkerla
 **** Aecht Schlenkerla Rauchbier Märzen
-    + Provdatum: 2006-07-05
 *** Hofbräu München
 **** Oktoberfestbier
-    + Provdatum: 2008-10-01
 ** USA
-*** Anchor Brewing Company
-**** "Anchor Our Special Ale _2005 and later_ ""Merry Christmas and a happy new year"""
-    + Provdatum: 2005-12-07 
-**** Liberty Ale
-    + Provdatum: 2009-06-03
-**** Anchor Steam
-    + Provdatum: 2009-06-03
-**** Anchor Our Special Ale _2005 and later_ Merry Christmas and a happy new year
-    + Provdatum: 2005-12-07
 *** Tommy Knocker Brewery
 **** Pick Axe IPA
-    + Provdatum: 2013-09-04
+*** Anchor Brewing Company
+**** Merry Christmas & Happy New Year (Our Special Ale) (2005)
+**** Liberty Ale
+**** Merry Christmas & Happy New Year (Our Special Ale)
+**** Anchor Steam
 *** Sierra Nevada Brewing
 **** Pale Ale
-    + Provdatum: 2009-07-01
 *** Napa Smith
 **** Amber Ale
-    + Provdatum: 2013-08-07
 **** Hopa Geddon
-    + Provdatum: 2013-08-07
-*** Boston Beer Company _Samuel Adams_
+*** Samuel Adams Brewery
 **** Oktoberfest
-    + Provdatum: 2007-10-03
-**** Samuel Adams Winter Lager
-    + Provdatum: 2009-12-02
 *** Brooklyn Brewery
 **** Brooklyn Brown Ale
-    + Provdatum: 2008-08-06
 *** Six Point Brewery
 **** The Crisp
-    + Provdatum: 2013-05-01
 *** Michigan Brewing Co
 **** Summer Ale
-    + Provdatum: 2008-06-04
 **** High Seas
-    + Provdatum: 2008-06-04
 *** Lagunita Brewing Co
 **** Lagunita IPA
-    + Provdatum: 2013-09-04
 *** Rogue Ales
 **** Rogue Chipotle Ale
-    + Provdatum: 2007-08-01
-*** Victory Brewing
-**** Prima Pils
-    + Provdatum: 2010-05-05
+*** Samuel Adams
+**** Samuel Adams Winter Lager
 *** Flying dog
-**** Tire Bite Golden Ale
-    + Provdatum: 2009-07-01
 **** Old Scratch Amber Lager
-    + Provdatum: 2009-03-04
+**** Tire Bite Golden Ale
 *** Great Divide Brewing Company
-**** Great Divide Ridgeline Amber Ale _Arapahoe Amber_
-    + Provdatum: 2007-08-01
 **** Hercules Double IPA
-    + Provdatum: 2008-09-05
+**** Great Divide Ridgeline Amber Ale (Arapahoe Amber)
 *** Sixpoint Brewery
 **** Sixpoint Righteous Ale
-    + Provdatum: 2012-11-07
 **** Sixpoint Bengali Tiger IPA
-    + Provdatum: 2012-11-07
+*** Victory Brewing
+**** Prima Pils
 *** Ska Brewing co
 **** Modus Hoperandi
-    + Provdatum: 2013-02-06
 **** ESB Special Ale
-    + Provdatum: 2013-02-06
 ** Kanada
 *** Flying Monkeys Craft Brewery
 **** Hoptical Illusion
-    + Provdatum: 2013-01-02
-** Danmark
-*** Bryghuset Braunstein
-**** Braunstein Winter Bock
-    + Provdatum: 2008-03-05
-*** Bear Here
-**** Dead Cat
-    + Provdatum: 2013-04-03
-*** Husbryggeriet Jacobsen _Carlsberg_
-**** Jacobsen Original Dark Lager
-    + Provdatum: 2007-01-03
-*** Mikkeller
-**** Kärlek vår_sommar 2013
-    + Provdatum: 2013-05-01
-**** Beer Geek Breakfast
-    + Provdatum: 2013-04-03
-** Slovakien
-*** Zlatý Bažant
-**** Zlatý Bažant
-    + Provdatum: 2009-08-05
-** Sverige
-*** Skebo Bruksbryggeri
-**** USB _UteSittarBärs_
-    + Provdatum: 2010-08-04
-**** Trippel Gold Bitter
-    + Provdatum: 2008-02-06
-**** Bruksöl
-    + Provdatum: 2007-05-02
-*** Hazie Dizzie
-**** Odd Island Brew
-    + Provdatum: 2020-01-02
-*** Åbro bryggeri
-**** Åbro Arton56 Amber
-    + Provdatum: 2006-11-01
-*** Nynäshamns Ångbryggeri AB
-**** Mysingen Midvinterbrygd
-    + Provdatum: 2010-04-07
-**** Landsort lager
-    + Provdatum: 2010-11-03
-**** Bedarö Bitter
-    + Provdatum: 2007-12-01
-*** Hällsinge bryggeri
-**** Hälsinge Stout
-    + Provdatum: 2007-05-02
-*** Zeunerts Bryggeri _Kopparberg_
-**** Zeunerts Höga Kusten
-    + Provdatum: 2010-08-04
-*** Carlsberg Sverige
-**** Falcon Gammelbryggd
-    + Provdatum: 2008-12-03
-**** Eriksberg Julöl
-    + Provdatum: 2010-12-01
-*** Slottskällans Bryggeri
-**** Slottskällans Bryggeri
-    + Provdatum: 2006-03-01
-*** Jämtlands bryggeri
-**** Hell
-    + Provdatum: 2010-07-07
-**** Jämtlands India Pale Ale
-    + Provdatum: 2009-01-07
-**** Jämtlands Tiotaggare
-    + Provdatum: 2006-11-01
-*** Hantverksbryggeriet
-**** Narren
-    + Provdatum: 2008-12-03
-*** Sandbacka bryggeri
-**** Sandbacka bitter
-    + Provdatum: 2010-05-05
-*** Spendrups
-**** Marierstad Export
-    + Provdatum: 2007-06-06
-**** Wisby Hansapils
-    + Provdatum: 2007-06-06
-**** SITTING BULLDOG IPA
-    + Provdatum: 2010-04-07
-**** Visby Vinterbock
-    + Provdatum: 2008-04-02
-**** Wisby Sleepy Bulldog Winter Ale
-    + Provdatum: 2010-12-01
-*** Nils Oscar
-**** India Ale
-    + Provdatum: 2008-11-05
-**** Kallasöl
-    + Provdatum: 2008-11-05
-**** Nils Oscar Kalaspåsköl
-    + Provdatum: 2007-04-04
-**** Nils Oscar Farm Ale
-    + Provdatum: 2006-03-01
-**** Hope Yard
-    + Provdatum: 2013-07-03
-*** Sigtuna Brygghus
-**** HUMLE-HILDAS ALTBIER
-    + Provdatum: 2009-05-06
-*** Närke Kulturbryggeri
-**** Närke Mörker
-    + Provdatum: 2009-12-02
-** Frankrike
-*** Brasseries Kronenbourg
-**** Kronenbourg Blanc
-    + Provdatum: 2008-02-06
-** Japan
-*** Kirin Beer
-**** Kirin Ichiban
-    + Provdatum: 2009-01-07
+** Belgien
+*** Brouwerij Lindemans
+**** Lindemans Kriek Cuvée René
+*** St. Bernardus
+**** Grottenbier
+**** Wit
+*** Brouwerij Affligem De Smedt
+**** Affligem Blond
+**** Affligem Dubbel
+*** Brouwerij de Koningshoeven
+**** La Trappe Tripel
+*** Brasserie Du Bocq
+**** St.Benoit Blond
+*** Brouwerij Rodenbach
+**** Rodenbach Grand Cru
+*** Verhaeghe
+**** Verhaeghe Duchesse De Bourgogne
+*** Het Anker
+**** Gouden Carolus Classic
+*** Brasserie Lefebvre
+**** Floreffe Blond
+**** Floreffe Double
+*** Palm Breweries
+**** Steenbrugge Dubbel Bruin
+**** King Cobra
+**** Steenbrugge Blond
+*** John Martin _Scottish & Newcastle_
+**** Gordon X-Mas Ale
+*** Brouwerij De Dolle Brouwers
+**** Oerbier
+**** De Dolle Dulle Teve _Mad Bitch_
 ** Italien
 *** Birrificio Angelo
 **** Birra Poretti
-    + Provdatum: 2008-09-05
+** Slovakien
+*** Zlatý Bažant
+**** Zlatý Bažant
+** Frankrike
+*** Brasseries Kronenbourg
+**** Kronenbourg Blanc
+** Japan
+*** Kirin Beer
+**** Kirin Ichiban
+** Tjeckien
+*** Pivovar Velké Popovice (SAB Miller)
+**** Kozel Premium Lager 12
+*** Zlatopramen Drinks Union
+**** Half n Half
+*** Plzensky Prazdroj
+**** Pilsner Urquell
+**** Gambrinus Premium Svetlý Ležák 12
+** Sverige
+*** Skebo Bruksbryggeri
+**** Trippel Gold Bitter
+**** Bruksöl
+**** USB _UteSittarBärs_
+*** Hazie Dizzie
+**** Odd Island Brew
+*** Nynäshamns Ångbryggeri AB
+**** Landsort lager
+**** Mysingen Midvinterbrygd
+**** Bedarö Bitter
+*** Hällsinge bryggeri
+**** Hälsinge Stout
+*** Zeunerts Bryggeri _Kopparberg_
+**** Zeunerts Höga Kusten
+*** Carlsberg Sverige
+**** Falcon Gammelbryggd
+**** Eriksberg Julöl
+*** Slottskällans Bryggeri
+**** Slottskällans Bryggeri
+*** Jämtlands bryggeri
+**** Jämtlands Tiotaggare
+**** Jämtlands India Pale Ale
+**** Hell
+*** Hantverksbryggeriet
+**** Narren
+*** Sandbacka bryggeri
+**** Sandbacka bitter
+*** Närke Kulturbryggeri
+**** Närke Mörker
+*** Spendrups
+**** Marierstad Export
+**** Wisby Hansapils
+**** SITTING BULLDOG IPA
+**** Wisby Sleepy Bulldog Winter Ale
+**** Visby Vinterbock
+*** Åbro bryggeri
+**** Åbro Arton56 Amber
+*** Sigtuna Brygghus
+**** HUMLE-HILDAS ALTBIER
+*** Nils Oscar
+**** Kallasöl
+**** Nils Oscar Kalaspåsköl
+**** Nils Oscar Farm Ale
+**** Hope Yard
+**** India Ale
+** Storbritanien
+*** Ringwood Marstons plc
+**** Ringwood XXXX Porter
+*** Wychwood Marstons plc
+**** Ushers Founders Ale
+*** Daleside
+**** Daleside Monkey Wrench
+*** Summer Vine Brewing
+**** Gorilla
+*** Fullers
+**** Fullers Discovery
+*** Shepherd Neame Ltd
+**** Bishop_s Arms House Ale
+**** Shepherd Neame Christmas Ale
+**** Whitstable Bay
+**** Shepherd Neame 1698
+**** Shepherd Neame Late Red
+**** Bishop finger
+**** Spitfire
+*** Hook Norton Brewery
+**** Old Hooky
+**** Twelve Days
+*** Marstons
+**** Oyster Stout
+*** Wells & Young's Ltd
+**** Young's Winter Warmer
+** Danmark
+*** Bear Here
+**** Dead Cat
+*** Bryghuset Braunstein
+**** Braunstein Winter Bock
+*** Mikkeller
+**** Kärlek vår_sommar 2013
+**** Beer Geek Breakfast
+*** Husbryggeriet Jacobsen (Carlsberg)
+**** Jacobsen Original Dark Lager
 ** Österike
 *** Stiegl
 **** Stiegl Pils
-    + Provdatum: 2006-05-03
-** Skottland
-*** Innis & Gunn
-**** Original
-    + Provdatum: 2010-07-07
-**** Innis & Gunn Rum Finish Oak Aged Beer
-    + Provdatum: 2008-01-02
-*** The Caledonian Brewing Company
-**** Caledonian 80
-    + Provdatum: 2006-08-02
-*** Traquair House
-**** Traquair House Ale
-    + Provdatum: 2007-01-03
-*** Inveralmond Brewery
-**** Lia Fail
-    + Provdatum: 2009-11-04
-**** Ossian
-    + Provdatum: 2009-11-04
-*** Belhaven
-**** Wee Heavey
-    + Provdatum: 2009-09-02
-**** Twisted Thistle IPA
-    + Provdatum: 2009-09-02
-*** BrewDog
-**** Punk Ipa
-    + Provdatum: 2010-09-01
-*** Williams Brothers _Heather Ales_
-**** Heather Ales Kelpie
-    + Provdatum: 2007-02-07
-**** Alba
-    + Provdatum: 2013-07-03
-** Storbritanien
-*** Fullers
-**** Fullers Discovery
-    + Provdatum: 2006-01-04
-*** Daleside
-**** Daleside Monkey Wrench
-    + Provdatum: 2007-09-05
-*** Wells & Young_s Ltd
-**** Young_s Winter Warmer
-    + Provdatum: 2006-12-06
-*** Summer Vine Brewing
-**** Gorilla
-    + Provdatum: 2013-01-02
-*** Wychwood _Marstons plc_
-**** Ushers Founders Ale
-    + Provdatum: 2006-01-04
-*** Shepherd Neame Ltd
-**** Bishop_s Arms House Ale
-    + Provdatum: 2006-12-06
-**** Bishop finger
-    + Provdatum: 2006-04-05
-**** Shepherd Neame 1698
-    + Provdatum: 2006-07-05
-**** Whitstable Bay
-    + Provdatum: 2006-04-05
-**** Spitfire
-    + Provdatum: 2006-04-05
-**** Shepherd Neame Christmas Ale
-    + Provdatum: 2007-12-05
-**** Shepherd Neame Late Red
-    + Provdatum: 2006-04-05
-*** Hook Norton Brewery
-**** Twelve Days
-    + Provdatum: 2009-10-07
-**** Old Hooky
-    + Provdatum: 2009-10-07
-*** Ringwood _Marstons plc_
-**** Ringwood XXXX Porter
-    + Provdatum: 2007-09-05
-*** Marstons
-**** Oyster Stout
-    + Provdatum: 2008-10-01
-** Tjeckien
-*** Pivovar Velké Popovice SAB Miller_
-**** Kozel Premium Lager 12
-    + Provdatum: 2006-09-06
-*** Plzensky Prazdroj
-**** Pilsner Urquell
-    + Provdatum: 2006-09-06
-**** Gambrinius _Gambrinus Premium Svetlý Ležák 12_
-    + Provdatum: 2006-09-06
-*** Zlatopramen _Drinks Union_
-**** Half n Half _nr 1604_
-    + Provdatum: 2010-11-03
