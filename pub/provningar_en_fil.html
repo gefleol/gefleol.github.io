@@ -1,0 +1,3487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sv" xml:lang="sv">
+<head>
+<!-- 2020-02-22 Sat 21:33 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Drycker och provningar.</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Johan Sandén" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/org.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Drycker och provningar.
+<br />
+<span class="subtitle">Gefle Ölsellskap</span>
+</h1>
+
+<div id="outline-container-orgbd077b7" class="outline-2">
+<h2 id="orgbd077b7"><span class="section-number-2">1</span> Information</h2>
+<div class="outline-text-2" id="text-1">
+<div class="org-center">
+
+<div class="figure">
+<p><img src="./images/logo_trans_small.png" alt="logo_trans_small.png" />
+</p>
+</div>
+</div>
+
+<p>
+Det här är en förteckning över (alla) Gefle Ölsellskaps öl-provningar.
+Dokumentet genereras utifrån en databas som ständigt utökas av medlemmarna vart
+efter vi provar fler öl. Informationen i databasen kommer att förändras och
+förbättras med tiden. Om du som läser detta hittar ni några fel så skicka ett
+mail till info@gefleolsellskap.com
+</p>
+
+<p>
+Den här informationen finns också som
+</p>
+<ul class="org-ul">
+<li><a href="provningar_main.html">Interaktiv websida</a></li>
+<li><a href="provningar_en_fil.html">Normal websida</a></li>
+<li><a href="provningar_main.pdf">Laddas ner som pdf</a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org7b296f8" class="outline-2">
+<h2 id="org7b296f8"><span class="section-number-2">2</span> Drycker och provningar</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgc1838c7" class="outline-3">
+<h3 id="orgc1838c7"><span class="section-number-3">2.1</span> Belgien</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-orgb4d3ab2" class="outline-4">
+<h4 id="orgb4d3ab2"><span class="section-number-4">2.1.1</span> Brasserie Du Bocq</h4>
+<div class="outline-text-4" id="text-2-1-1">
+</div>
+<div id="outline-container-orgf8bdd50" class="outline-5">
+<h5 id="orgf8bdd50"><span class="section-number-5">2.1.1.1</span> St.Benoit Blond</h5>
+<div class="outline-text-5" id="text-2-1-1-1">
+<ul class="org-ul">
+<li>Öl namn: St.Benoit Blond</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Brasserie Du Bocq</li>
+</ul>
+</div>
+<div id="outline-container-orge256753" class="outline-6">
+<h6 id="orge256753"><span class="section-number-6">2.1.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-09-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org326e12b" class="outline-4">
+<h4 id="org326e12b"><span class="section-number-4">2.1.2</span> Brouwerij Affligem De Smedt</h4>
+<div class="outline-text-4" id="text-2-1-2">
+</div>
+<div id="outline-container-orgbe166e1" class="outline-5">
+<h5 id="orgbe166e1"><span class="section-number-5">2.1.2.1</span> Affligem Dubbel</h5>
+<div class="outline-text-5" id="text-2-1-2-1">
+<ul class="org-ul">
+<li>Öl namn: Affligem Dubbel</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er):</li>
+<li>Brouwerij Affligem De Smedt</li>
+<li>Brouwerij Affligem De Smedt</li>
+</ul>
+</div>
+<div id="outline-container-org492febf" class="outline-6">
+<h6 id="org492febf"><span class="section-number-6">2.1.2.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-2-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-03-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge6f8b6d" class="outline-5">
+<h5 id="orge6f8b6d"><span class="section-number-5">2.1.2.2</span> Affligem Blond</h5>
+<div class="outline-text-5" id="text-2-1-2-2">
+<ul class="org-ul">
+<li>Öl namn: Affligem Blond</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er):</li>
+<li>Brouwerij Affligem De Smedt</li>
+<li>Brouwerij Affligem De Smedt</li>
+<li>Brouwerij Affligem De Smedt</li>
+</ul>
+</div>
+<div id="outline-container-orgde46dc3" class="outline-6">
+<h6 id="orgde46dc3"><span class="section-number-6">2.1.2.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-2-2-1">
+<ul class="org-ul">
+<li>Datum: 2007-03-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org1985eb8" class="outline-4">
+<h4 id="org1985eb8"><span class="section-number-4">2.1.3</span> Brouwerij Lindemans</h4>
+<div class="outline-text-4" id="text-2-1-3">
+</div>
+<div id="outline-container-orgb187ad3" class="outline-5">
+<h5 id="orgb187ad3"><span class="section-number-5">2.1.3.1</span> Lindemans Kriek Cuvée René</h5>
+<div class="outline-text-5" id="text-2-1-3-1">
+<ul class="org-ul">
+<li>Öl namn: Lindemans Kriek Cuvée René</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Brouwerij Lindemans</li>
+</ul>
+</div>
+<div id="outline-container-org5dc3d26" class="outline-6">
+<h6 id="org5dc3d26"><span class="section-number-6">2.1.3.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-3-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-09-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org1e2d152" class="outline-4">
+<h4 id="org1e2d152"><span class="section-number-4">2.1.4</span> Brouwerij de Koningshoeven</h4>
+<div class="outline-text-4" id="text-2-1-4">
+</div>
+<div id="outline-container-orge62ecf7" class="outline-5">
+<h5 id="orge62ecf7"><span class="section-number-5">2.1.4.1</span> La Trappe Tripel</h5>
+<div class="outline-text-5" id="text-2-1-4-1">
+<ul class="org-ul">
+<li>Öl namn: La Trappe Tripel</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Brouwerij de Koningshoeven</li>
+</ul>
+</div>
+<div id="outline-container-orge4f9057" class="outline-6">
+<h6 id="orge4f9057"><span class="section-number-6">2.1.4.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-4-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-12-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org53d323a" class="outline-4">
+<h4 id="org53d323a"><span class="section-number-4">2.1.5</span> Brouwerij Rodenbach</h4>
+<div class="outline-text-4" id="text-2-1-5">
+</div>
+<div id="outline-container-org5ce362d" class="outline-5">
+<h5 id="org5ce362d"><span class="section-number-5">2.1.5.1</span> Rodenbach Grand Cru</h5>
+<div class="outline-text-5" id="text-2-1-5-1">
+<ul class="org-ul">
+<li>Öl namn: Rodenbach Grand Cru</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er):</li>
+<li>Brouwerij Rodenbach</li>
+<li>Brouwerij Rodenbach</li>
+</ul>
+</div>
+<div id="outline-container-org5aeb2e9" class="outline-6">
+<h6 id="org5aeb2e9"><span class="section-number-6">2.1.5.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-5-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-05-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc15d82f" class="outline-4">
+<h4 id="orgc15d82f"><span class="section-number-4">2.1.6</span> Verhaeghe</h4>
+<div class="outline-text-4" id="text-2-1-6">
+</div>
+<div id="outline-container-org8a5296c" class="outline-5">
+<h5 id="org8a5296c"><span class="section-number-5">2.1.6.1</span> Verhaeghe Duchesse De Bourgogne</h5>
+<div class="outline-text-5" id="text-2-1-6-1">
+<ul class="org-ul">
+<li>Öl namn: Verhaeghe Duchesse De Bourgogne</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Verhaeghe</li>
+</ul>
+</div>
+<div id="outline-container-org1a87ae2" class="outline-6">
+<h6 id="org1a87ae2"><span class="section-number-6">2.1.6.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-6-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-04-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org3c7f2e4" class="outline-4">
+<h4 id="org3c7f2e4"><span class="section-number-4">2.1.7</span> Het Anker</h4>
+<div class="outline-text-4" id="text-2-1-7">
+</div>
+<div id="outline-container-orgae6dfa8" class="outline-5">
+<h5 id="orgae6dfa8"><span class="section-number-5">2.1.7.1</span> Gouden Carolus Classic</h5>
+<div class="outline-text-5" id="text-2-1-7-1">
+<ul class="org-ul">
+<li>Öl namn: Gouden Carolus Classic</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Het Anker</li>
+</ul>
+</div>
+<div id="outline-container-org42b7a9e" class="outline-6">
+<h6 id="org42b7a9e"><span class="section-number-6">2.1.7.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-7-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-07-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org6a9f749" class="outline-4">
+<h4 id="org6a9f749"><span class="section-number-4">2.1.8</span> St. Bernardus</h4>
+<div class="outline-text-4" id="text-2-1-8">
+</div>
+<div id="outline-container-orgee3c9c2" class="outline-5">
+<h5 id="orgee3c9c2"><span class="section-number-5">2.1.8.1</span> Grottenbier</h5>
+<div class="outline-text-5" id="text-2-1-8-1">
+<ul class="org-ul">
+<li>Öl namn: Grottenbier</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): St. Bernardus</li>
+</ul>
+</div>
+<div id="outline-container-org5d07385" class="outline-6">
+<h6 id="org5d07385"><span class="section-number-6">2.1.8.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-8-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-07-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org3c579b4" class="outline-5">
+<h5 id="org3c579b4"><span class="section-number-5">2.1.8.2</span> Wit</h5>
+<div class="outline-text-5" id="text-2-1-8-2">
+<ul class="org-ul">
+<li>Öl namn: Wit</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): St. Bernardus</li>
+</ul>
+</div>
+<div id="outline-container-orgce3d24c" class="outline-6">
+<h6 id="orgce3d24c"><span class="section-number-6">2.1.8.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-8-2-1">
+<ul class="org-ul">
+<li>Datum: 2008-07-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd4c11e1" class="outline-4">
+<h4 id="orgd4c11e1"><span class="section-number-4">2.1.9</span> Brasserie Lefebvre</h4>
+<div class="outline-text-4" id="text-2-1-9">
+</div>
+<div id="outline-container-orgc2640de" class="outline-5">
+<h5 id="orgc2640de"><span class="section-number-5">2.1.9.1</span> Floreffe Double</h5>
+<div class="outline-text-5" id="text-2-1-9-1">
+<ul class="org-ul">
+<li>Öl namn: Floreffe Double</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Brasserie Lefebvre</li>
+</ul>
+</div>
+<div id="outline-container-org72d5f7a" class="outline-6">
+<h6 id="org72d5f7a"><span class="section-number-6">2.1.9.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-9-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-02-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org85552fa" class="outline-5">
+<h5 id="org85552fa"><span class="section-number-5">2.1.9.2</span> Floreffe Blond</h5>
+<div class="outline-text-5" id="text-2-1-9-2">
+<ul class="org-ul">
+<li>Öl namn: Floreffe Blond</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Brasserie Lefebvre</li>
+</ul>
+</div>
+<div id="outline-container-org41d3d83" class="outline-6">
+<h6 id="org41d3d83"><span class="section-number-6">2.1.9.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-9-2-1">
+<ul class="org-ul">
+<li>Datum: 2009-02-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org8ef581d" class="outline-4">
+<h4 id="org8ef581d"><span class="section-number-4">2.1.10</span> Palm Breweries</h4>
+<div class="outline-text-4" id="text-2-1-10">
+</div>
+<div id="outline-container-org8b1537f" class="outline-5">
+<h5 id="org8b1537f"><span class="section-number-5">2.1.10.1</span> Steenbrugge Dubbel Bruin</h5>
+<div class="outline-text-5" id="text-2-1-10-1">
+<ul class="org-ul">
+<li>Öl namn: Steenbrugge Dubbel Bruin</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Palm Breweries</li>
+</ul>
+</div>
+<div id="outline-container-org9559ee5" class="outline-6">
+<h6 id="org9559ee5"><span class="section-number-6">2.1.10.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-10-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-04-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge1b1eb9" class="outline-5">
+<h5 id="orge1b1eb9"><span class="section-number-5">2.1.10.2</span> Steenbrugge Blond</h5>
+<div class="outline-text-5" id="text-2-1-10-2">
+<ul class="org-ul">
+<li>Öl namn: Steenbrugge Blond</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Palm Breweries</li>
+</ul>
+</div>
+<div id="outline-container-org2b34008" class="outline-6">
+<h6 id="org2b34008"><span class="section-number-6">2.1.10.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-10-2-1">
+<ul class="org-ul">
+<li>Datum: 2009-04-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge59862e" class="outline-5">
+<h5 id="orge59862e"><span class="section-number-5">2.1.10.3</span> King Cobra</h5>
+<div class="outline-text-5" id="text-2-1-10-3">
+<ul class="org-ul">
+<li>Öl namn: King Cobra</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Palm Breweries</li>
+</ul>
+</div>
+<div id="outline-container-orgef07d32" class="outline-6">
+<h6 id="orgef07d32"><span class="section-number-6">2.1.10.3.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-10-3-1">
+<ul class="org-ul">
+<li>Datum: 2007-02-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org47615a2" class="outline-4">
+<h4 id="org47615a2"><span class="section-number-4">2.1.11</span> John Martin <span class="underline">Scottish &amp; Newcastle</span></h4>
+<div class="outline-text-4" id="text-2-1-11">
+</div>
+<div id="outline-container-org7133e28" class="outline-5">
+<h5 id="org7133e28"><span class="section-number-5">2.1.11.1</span> Gordon X-Mas Ale</h5>
+<div class="outline-text-5" id="text-2-1-11-1">
+<ul class="org-ul">
+<li>Öl namn: Gordon X-Mas Ale</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): John Martin <span class="underline">Scottish &amp; Newcastle</span></li>
+</ul>
+</div>
+<div id="outline-container-orgf69fce7" class="outline-6">
+<h6 id="orgf69fce7"><span class="section-number-6">2.1.11.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-11-1-1">
+<ul class="org-ul">
+<li>Datum: 2005-12-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org281e7c9" class="outline-4">
+<h4 id="org281e7c9"><span class="section-number-4">2.1.12</span> Brouwerij De Dolle Brouwers</h4>
+<div class="outline-text-4" id="text-2-1-12">
+</div>
+<div id="outline-container-orgf83d6dd" class="outline-5">
+<h5 id="orgf83d6dd"><span class="section-number-5">2.1.12.1</span> De Dolle Dulle Teve <span class="underline">Mad Bitch</span></h5>
+<div class="outline-text-5" id="text-2-1-12-1">
+<ul class="org-ul">
+<li>Öl namn: De Dolle Dulle Teve <span class="underline">Mad Bitch</span></li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Brouwerij De Dolle Brouwers</li>
+</ul>
+</div>
+<div id="outline-container-org49403a3" class="outline-6">
+<h6 id="org49403a3"><span class="section-number-6">2.1.12.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-12-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-01-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org00d9b45" class="outline-5">
+<h5 id="org00d9b45"><span class="section-number-5">2.1.12.2</span> Oerbier</h5>
+<div class="outline-text-5" id="text-2-1-12-2">
+<ul class="org-ul">
+<li>Öl namn: Oerbier</li>
+<li>Land/Länder: Belgien</li>
+<li>Bryggeri(er): Brouwerij De Dolle Brouwers</li>
+</ul>
+</div>
+<div id="outline-container-org62a773f" class="outline-6">
+<h6 id="org62a773f"><span class="section-number-6">2.1.12.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-1-12-2-1">
+<ul class="org-ul">
+<li>Datum: 2007-07-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgba2e223" class="outline-3">
+<h3 id="orgba2e223"><span class="section-number-3">2.2</span> Tyskland</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org3849856" class="outline-4">
+<h4 id="org3849856"><span class="section-number-4">2.2.1</span> Spaten-Franziskaner-Bräu</h4>
+<div class="outline-text-4" id="text-2-2-1">
+</div>
+<div id="outline-container-orgc6bde2e" class="outline-5">
+<h5 id="orgc6bde2e"><span class="section-number-5">2.2.1.1</span> Spaten Oktoberfestbier</h5>
+<div class="outline-text-5" id="text-2-2-1-1">
+<ul class="org-ul">
+<li>Öl namn: Spaten Oktoberfestbier</li>
+<li>Land/Länder: Tyskland</li>
+<li>Bryggeri(er): Spaten-Franziskaner-Bräu</li>
+</ul>
+</div>
+<div id="outline-container-org230ade1" class="outline-6">
+<h6 id="org230ade1"><span class="section-number-6">2.2.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-2-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-10-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd1849cb" class="outline-5">
+<h5 id="orgd1849cb"><span class="section-number-5">2.2.1.2</span> Spaten Optimator</h5>
+<div class="outline-text-5" id="text-2-2-1-2">
+<ul class="org-ul">
+<li>Öl namn: Spaten Optimator</li>
+<li>Land/Länder: Tyskland</li>
+<li>Bryggeri(er): Spaten-Franziskaner-Bräu</li>
+</ul>
+</div>
+<div id="outline-container-org96d9f48" class="outline-6">
+<h6 id="org96d9f48"><span class="section-number-6">2.2.1.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-2-1-2-1">
+<ul class="org-ul">
+<li>Datum: 2006-10-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgeb9ab90" class="outline-4">
+<h4 id="orgeb9ab90"><span class="section-number-4">2.2.2</span> Paulaner Brauerei <span class="underline">Schörghuber</span></h4>
+<div class="outline-text-4" id="text-2-2-2">
+</div>
+<div id="outline-container-orge1c8fc5" class="outline-5">
+<h5 id="orge1c8fc5"><span class="section-number-5">2.2.2.1</span> Salvator</h5>
+<div class="outline-text-5" id="text-2-2-2-1">
+<ul class="org-ul">
+<li>Öl namn: Salvator</li>
+<li>Land/Länder: Tyskland</li>
+<li>Bryggeri(er): Paulaner Brauerei <span class="underline">Schörghuber</span></li>
+</ul>
+</div>
+<div id="outline-container-org0dc9f9e" class="outline-6">
+<h6 id="org0dc9f9e"><span class="section-number-6">2.2.2.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-2-2-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-04-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org1c62143" class="outline-4">
+<h4 id="org1c62143"><span class="section-number-4">2.2.3</span> Friesisches Brauhaus</h4>
+<div class="outline-text-4" id="text-2-2-3">
+</div>
+<div id="outline-container-org699556e" class="outline-5">
+<h5 id="org699556e"><span class="section-number-5">2.2.3.1</span> Jever Pilsener</h5>
+<div class="outline-text-5" id="text-2-2-3-1">
+<ul class="org-ul">
+<li>Öl namn: Jever Pilsener</li>
+<li>Land/Länder: Tyskland</li>
+<li>Bryggeri(er): Friesisches Brauhaus</li>
+</ul>
+</div>
+<div id="outline-container-orgc2d9716" class="outline-6">
+<h6 id="orgc2d9716"><span class="section-number-6">2.2.3.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-2-3-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-12-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org97e0741" class="outline-4">
+<h4 id="org97e0741"><span class="section-number-4">2.2.4</span> Paulaner Brauerei (Schörghuber)</h4>
+<div class="outline-text-4" id="text-2-2-4">
+</div>
+<div id="outline-container-org283c5f6" class="outline-5">
+<h5 id="org283c5f6"><span class="section-number-5">2.2.4.1</span> Paulaner Oktoberfest Bier</h5>
+<div class="outline-text-5" id="text-2-2-4-1">
+<ul class="org-ul">
+<li>Öl namn: Paulaner Oktoberfest Bier</li>
+<li>Land/Länder: Tyskland</li>
+<li>Bryggeri(er): Paulaner Brauerei (Schörghuber)</li>
+</ul>
+</div>
+<div id="outline-container-org32f4bbb" class="outline-6">
+<h6 id="org32f4bbb"><span class="section-number-6">2.2.4.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-2-4-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-10-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6600cec" class="outline-5">
+<h5 id="org6600cec"><span class="section-number-5">2.2.4.2</span> Hacker-Pschorr Braumeister Pils</h5>
+<div class="outline-text-5" id="text-2-2-4-2">
+<ul class="org-ul">
+<li>Öl namn: Hacker-Pschorr Braumeister Pils</li>
+<li>Land/Länder: Tyskland</li>
+<li>Bryggeri(er): Paulaner Brauerei (Schörghuber)</li>
+</ul>
+</div>
+<div id="outline-container-org7e74b42" class="outline-6">
+<h6 id="org7e74b42"><span class="section-number-6">2.2.4.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-2-4-2-1">
+<ul class="org-ul">
+<li>Datum: 2006-08-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbee645e" class="outline-4">
+<h4 id="orgbee645e"><span class="section-number-4">2.2.5</span> Einbecker Brauhause</h4>
+<div class="outline-text-4" id="text-2-2-5">
+</div>
+<div id="outline-container-org812742e" class="outline-5">
+<h5 id="org812742e"><span class="section-number-5">2.2.5.1</span> Einbecker Brauherren Pils</h5>
+<div class="outline-text-5" id="text-2-2-5-1">
+<ul class="org-ul">
+<li>Öl namn: Einbecker Brauherren Pils</li>
+<li>Land/Länder: Tyskland</li>
+<li>Bryggeri(er): Einbecker Brauhause</li>
+</ul>
+</div>
+<div id="outline-container-org69fd915" class="outline-6">
+<h6 id="org69fd915"><span class="section-number-6">2.2.5.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-2-5-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-03-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org696fccb" class="outline-4">
+<h4 id="org696fccb"><span class="section-number-4">2.2.6</span> Brauerei Heller-Trum _ Schlenkerla</h4>
+<div class="outline-text-4" id="text-2-2-6">
+</div>
+<div id="outline-container-orgdcb1af7" class="outline-5">
+<h5 id="orgdcb1af7"><span class="section-number-5">2.2.6.1</span> Aecht Schlenkerla Rauchbier Märzen</h5>
+<div class="outline-text-5" id="text-2-2-6-1">
+<ul class="org-ul">
+<li>Öl namn: Aecht Schlenkerla Rauchbier Märzen</li>
+<li>Land/Länder: Tyskland</li>
+<li>Bryggeri(er): Brauerei Heller-Trum _ Schlenkerla</li>
+</ul>
+</div>
+<div id="outline-container-orgac307f5" class="outline-6">
+<h6 id="orgac307f5"><span class="section-number-6">2.2.6.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-2-6-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-07-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orge593e49" class="outline-4">
+<h4 id="orge593e49"><span class="section-number-4">2.2.7</span> Hofbräu München</h4>
+<div class="outline-text-4" id="text-2-2-7">
+</div>
+<div id="outline-container-org5513bfe" class="outline-5">
+<h5 id="org5513bfe"><span class="section-number-5">2.2.7.1</span> Oktoberfestbier</h5>
+<div class="outline-text-5" id="text-2-2-7-1">
+<ul class="org-ul">
+<li>Öl namn: Oktoberfestbier</li>
+<li>Land/Länder: Tyskland</li>
+<li>Bryggeri(er): Hofbräu München</li>
+</ul>
+</div>
+<div id="outline-container-org21517ac" class="outline-6">
+<h6 id="org21517ac"><span class="section-number-6">2.2.7.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-2-7-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-10-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgec86741" class="outline-3">
+<h3 id="orgec86741"><span class="section-number-3">2.3</span> USA</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<div id="outline-container-org2953e91" class="outline-4">
+<h4 id="org2953e91"><span class="section-number-4">2.3.1</span> Anchor Brewing Company</h4>
+<div class="outline-text-4" id="text-2-3-1">
+</div>
+<div id="outline-container-orge437c50" class="outline-5">
+<h5 id="orge437c50"><span class="section-number-5">2.3.1.1</span> Merry Christmas &amp; Happy New Year (Our Special Ale)</h5>
+<div class="outline-text-5" id="text-2-3-1-1">
+<ul class="org-ul">
+<li>Öl namn: Merry Christmas &amp; Happy New Year (Our Special Ale)</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Anchor Brewing Company</li>
+</ul>
+</div>
+<div id="outline-container-orgcefe63d" class="outline-6">
+<h6 id="orgcefe63d"><span class="section-number-6">2.3.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2005-12-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfe1da5f" class="outline-5">
+<h5 id="orgfe1da5f"><span class="section-number-5">2.3.1.2</span> Liberty Ale</h5>
+<div class="outline-text-5" id="text-2-3-1-2">
+<ul class="org-ul">
+<li>Öl namn: Liberty Ale</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Anchor Brewing Company</li>
+</ul>
+</div>
+<div id="outline-container-org4aa18b7" class="outline-6">
+<h6 id="org4aa18b7"><span class="section-number-6">2.3.1.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-1-2-1">
+<ul class="org-ul">
+<li>Datum: 2009-06-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga999eda" class="outline-5">
+<h5 id="orga999eda"><span class="section-number-5">2.3.1.3</span> Anchor Steam</h5>
+<div class="outline-text-5" id="text-2-3-1-3">
+<ul class="org-ul">
+<li>Öl namn: Anchor Steam</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Anchor Brewing Company</li>
+</ul>
+</div>
+<div id="outline-container-org032871e" class="outline-6">
+<h6 id="org032871e"><span class="section-number-6">2.3.1.3.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-1-3-1">
+<ul class="org-ul">
+<li>Datum: 2009-06-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org46eead2" class="outline-5">
+<h5 id="org46eead2"><span class="section-number-5">2.3.1.4</span> Merry Christmas &amp; Happy New Year (Our Special Ale) (2005)</h5>
+<div class="outline-text-5" id="text-2-3-1-4">
+<ul class="org-ul">
+<li>Öl namn: Merry Christmas &amp; Happy New Year (Our Special Ale) (2005)</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Anchor Brewing Company</li>
+</ul>
+</div>
+<div id="outline-container-org0a1eaa3" class="outline-6">
+<h6 id="org0a1eaa3"><span class="section-number-6">2.3.1.4.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-1-4-1">
+<ul class="org-ul">
+<li>Datum: 2005-12-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org42f86e3" class="outline-4">
+<h4 id="org42f86e3"><span class="section-number-4">2.3.2</span> Tommy Knocker Brewery</h4>
+<div class="outline-text-4" id="text-2-3-2">
+</div>
+<div id="outline-container-org814f99d" class="outline-5">
+<h5 id="org814f99d"><span class="section-number-5">2.3.2.1</span> Pick Axe IPA</h5>
+<div class="outline-text-5" id="text-2-3-2-1">
+<ul class="org-ul">
+<li>Öl namn: Pick Axe IPA</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Tommy Knocker Brewery</li>
+</ul>
+</div>
+<div id="outline-container-orgee7fe4f" class="outline-6">
+<h6 id="orgee7fe4f"><span class="section-number-6">2.3.2.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-2-1-1">
+<ul class="org-ul">
+<li>Datum: 2013-09-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org0330974" class="outline-4">
+<h4 id="org0330974"><span class="section-number-4">2.3.3</span> Sierra Nevada Brewing</h4>
+<div class="outline-text-4" id="text-2-3-3">
+</div>
+<div id="outline-container-org83e928e" class="outline-5">
+<h5 id="org83e928e"><span class="section-number-5">2.3.3.1</span> Pale Ale</h5>
+<div class="outline-text-5" id="text-2-3-3-1">
+<ul class="org-ul">
+<li>Öl namn: Pale Ale</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Sierra Nevada Brewing</li>
+</ul>
+</div>
+<div id="outline-container-org0f3a924" class="outline-6">
+<h6 id="org0f3a924"><span class="section-number-6">2.3.3.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-3-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-07-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org5a14ddd" class="outline-4">
+<h4 id="org5a14ddd"><span class="section-number-4">2.3.4</span> Napa Smith</h4>
+<div class="outline-text-4" id="text-2-3-4">
+</div>
+<div id="outline-container-org6550b5e" class="outline-5">
+<h5 id="org6550b5e"><span class="section-number-5">2.3.4.1</span> Amber Ale</h5>
+<div class="outline-text-5" id="text-2-3-4-1">
+<ul class="org-ul">
+<li>Öl namn: Amber Ale</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Napa Smith</li>
+</ul>
+</div>
+<div id="outline-container-org7c1add0" class="outline-6">
+<h6 id="org7c1add0"><span class="section-number-6">2.3.4.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-4-1-1">
+<ul class="org-ul">
+<li>Datum: 2013-08-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org225fb72" class="outline-5">
+<h5 id="org225fb72"><span class="section-number-5">2.3.4.2</span> Hopa Geddon</h5>
+<div class="outline-text-5" id="text-2-3-4-2">
+<ul class="org-ul">
+<li>Öl namn: Hopa Geddon</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Napa Smith</li>
+</ul>
+</div>
+<div id="outline-container-org9cf8893" class="outline-6">
+<h6 id="org9cf8893"><span class="section-number-6">2.3.4.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-4-2-1">
+<ul class="org-ul">
+<li>Datum: 2013-08-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org9c292d3" class="outline-4">
+<h4 id="org9c292d3"><span class="section-number-4">2.3.5</span> Brooklyn Brewery</h4>
+<div class="outline-text-4" id="text-2-3-5">
+</div>
+<div id="outline-container-org47f2c37" class="outline-5">
+<h5 id="org47f2c37"><span class="section-number-5">2.3.5.1</span> Brooklyn Brown Ale</h5>
+<div class="outline-text-5" id="text-2-3-5-1">
+<ul class="org-ul">
+<li>Öl namn: Brooklyn Brown Ale</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Brooklyn Brewery</li>
+</ul>
+</div>
+<div id="outline-container-orgf6d60ce" class="outline-6">
+<h6 id="orgf6d60ce"><span class="section-number-6">2.3.5.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-5-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-08-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org0a5a5c9" class="outline-4">
+<h4 id="org0a5a5c9"><span class="section-number-4">2.3.6</span> Six Point Brewery</h4>
+<div class="outline-text-4" id="text-2-3-6">
+</div>
+<div id="outline-container-orgb31f9e3" class="outline-5">
+<h5 id="orgb31f9e3"><span class="section-number-5">2.3.6.1</span> The Crisp</h5>
+<div class="outline-text-5" id="text-2-3-6-1">
+<ul class="org-ul">
+<li>Öl namn: The Crisp</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Six Point Brewery</li>
+</ul>
+</div>
+<div id="outline-container-org2f813f7" class="outline-6">
+<h6 id="org2f813f7"><span class="section-number-6">2.3.6.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-6-1-1">
+<ul class="org-ul">
+<li>Datum: 2013-05-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org213f089" class="outline-4">
+<h4 id="org213f089"><span class="section-number-4">2.3.7</span> Michigan Brewing Co</h4>
+<div class="outline-text-4" id="text-2-3-7">
+</div>
+<div id="outline-container-org54af691" class="outline-5">
+<h5 id="org54af691"><span class="section-number-5">2.3.7.1</span> Summer Ale</h5>
+<div class="outline-text-5" id="text-2-3-7-1">
+<ul class="org-ul">
+<li>Öl namn: Summer Ale</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Michigan Brewing Co</li>
+</ul>
+</div>
+<div id="outline-container-org79ed98a" class="outline-6">
+<h6 id="org79ed98a"><span class="section-number-6">2.3.7.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-7-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-06-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd2f2fae" class="outline-5">
+<h5 id="orgd2f2fae"><span class="section-number-5">2.3.7.2</span> High Seas</h5>
+<div class="outline-text-5" id="text-2-3-7-2">
+<ul class="org-ul">
+<li>Öl namn: High Seas</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Michigan Brewing Co</li>
+</ul>
+</div>
+<div id="outline-container-orgd00bbcc" class="outline-6">
+<h6 id="orgd00bbcc"><span class="section-number-6">2.3.7.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-7-2-1">
+<ul class="org-ul">
+<li>Datum: 2008-06-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf428fbc" class="outline-4">
+<h4 id="orgf428fbc"><span class="section-number-4">2.3.8</span> Lagunita Brewing Co</h4>
+<div class="outline-text-4" id="text-2-3-8">
+</div>
+<div id="outline-container-org0ef085f" class="outline-5">
+<h5 id="org0ef085f"><span class="section-number-5">2.3.8.1</span> Lagunita IPA</h5>
+<div class="outline-text-5" id="text-2-3-8-1">
+<ul class="org-ul">
+<li>Öl namn: Lagunita IPA</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Lagunita Brewing Co</li>
+</ul>
+</div>
+<div id="outline-container-org086beff" class="outline-6">
+<h6 id="org086beff"><span class="section-number-6">2.3.8.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-8-1-1">
+<ul class="org-ul">
+<li>Datum: 2013-09-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgff58aeb" class="outline-4">
+<h4 id="orgff58aeb"><span class="section-number-4">2.3.9</span> Rogue Ales</h4>
+<div class="outline-text-4" id="text-2-3-9">
+</div>
+<div id="outline-container-org5766706" class="outline-5">
+<h5 id="org5766706"><span class="section-number-5">2.3.9.1</span> Rogue Chipotle Ale</h5>
+<div class="outline-text-5" id="text-2-3-9-1">
+<ul class="org-ul">
+<li>Öl namn: Rogue Chipotle Ale</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Rogue Ales</li>
+</ul>
+</div>
+<div id="outline-container-org6342a36" class="outline-6">
+<h6 id="org6342a36"><span class="section-number-6">2.3.9.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-9-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-08-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org984ce4b" class="outline-4">
+<h4 id="org984ce4b"><span class="section-number-4">2.3.10</span> Samuel Adams</h4>
+<div class="outline-text-4" id="text-2-3-10">
+</div>
+<div id="outline-container-org8f6e30a" class="outline-5">
+<h5 id="org8f6e30a"><span class="section-number-5">2.3.10.1</span> Samuel Adams Winter Lager</h5>
+<div class="outline-text-5" id="text-2-3-10-1">
+<ul class="org-ul">
+<li>Öl namn: Samuel Adams Winter Lager</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Samuel Adams</li>
+</ul>
+</div>
+<div id="outline-container-org0faff36" class="outline-6">
+<h6 id="org0faff36"><span class="section-number-6">2.3.10.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-10-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-12-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc688aa4" class="outline-4">
+<h4 id="orgc688aa4"><span class="section-number-4">2.3.11</span> Victory Brewing</h4>
+<div class="outline-text-4" id="text-2-3-11">
+</div>
+<div id="outline-container-org6fbc8c8" class="outline-5">
+<h5 id="org6fbc8c8"><span class="section-number-5">2.3.11.1</span> Prima Pils</h5>
+<div class="outline-text-5" id="text-2-3-11-1">
+<ul class="org-ul">
+<li>Öl namn: Prima Pils</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Victory Brewing</li>
+</ul>
+</div>
+<div id="outline-container-org608b7c8" class="outline-6">
+<h6 id="org608b7c8"><span class="section-number-6">2.3.11.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-11-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-05-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgff16b4c" class="outline-4">
+<h4 id="orgff16b4c"><span class="section-number-4">2.3.12</span> Flying dog</h4>
+<div class="outline-text-4" id="text-2-3-12">
+</div>
+<div id="outline-container-orgf1881a0" class="outline-5">
+<h5 id="orgf1881a0"><span class="section-number-5">2.3.12.1</span> Tire Bite Golden Ale</h5>
+<div class="outline-text-5" id="text-2-3-12-1">
+<ul class="org-ul">
+<li>Öl namn: Tire Bite Golden Ale</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Flying dog</li>
+</ul>
+</div>
+<div id="outline-container-org3d2c136" class="outline-6">
+<h6 id="org3d2c136"><span class="section-number-6">2.3.12.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-12-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-07-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org15bbb09" class="outline-5">
+<h5 id="org15bbb09"><span class="section-number-5">2.3.12.2</span> Old Scratch Amber Lager</h5>
+<div class="outline-text-5" id="text-2-3-12-2">
+<ul class="org-ul">
+<li>Öl namn: Old Scratch Amber Lager</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Flying dog</li>
+</ul>
+</div>
+<div id="outline-container-org2566218" class="outline-6">
+<h6 id="org2566218"><span class="section-number-6">2.3.12.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-12-2-1">
+<ul class="org-ul">
+<li>Datum: 2009-03-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgce2aaf3" class="outline-4">
+<h4 id="orgce2aaf3"><span class="section-number-4">2.3.13</span> Great Divide Brewing Company</h4>
+<div class="outline-text-4" id="text-2-3-13">
+</div>
+<div id="outline-container-org7aa506b" class="outline-5">
+<h5 id="org7aa506b"><span class="section-number-5">2.3.13.1</span> Great Divide Ridgeline Amber Ale (Arapahoe Amber)</h5>
+<div class="outline-text-5" id="text-2-3-13-1">
+<ul class="org-ul">
+<li>Öl namn: Great Divide Ridgeline Amber Ale (Arapahoe Amber)</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Great Divide Brewing Company</li>
+</ul>
+</div>
+<div id="outline-container-org894004f" class="outline-6">
+<h6 id="org894004f"><span class="section-number-6">2.3.13.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-13-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-08-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org4e375a8" class="outline-5">
+<h5 id="org4e375a8"><span class="section-number-5">2.3.13.2</span> Hercules Double IPA</h5>
+<div class="outline-text-5" id="text-2-3-13-2">
+<ul class="org-ul">
+<li>Öl namn: Hercules Double IPA</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Great Divide Brewing Company</li>
+</ul>
+</div>
+<div id="outline-container-org37d9845" class="outline-6">
+<h6 id="org37d9845"><span class="section-number-6">2.3.13.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-13-2-1">
+<ul class="org-ul">
+<li>Datum: 2008-09-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb462ed5" class="outline-4">
+<h4 id="orgb462ed5"><span class="section-number-4">2.3.14</span> Sixpoint Brewery</h4>
+<div class="outline-text-4" id="text-2-3-14">
+</div>
+<div id="outline-container-org7dd98c7" class="outline-5">
+<h5 id="org7dd98c7"><span class="section-number-5">2.3.14.1</span> Sixpoint Righteous Ale</h5>
+<div class="outline-text-5" id="text-2-3-14-1">
+<ul class="org-ul">
+<li>Öl namn: Sixpoint Righteous Ale</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Sixpoint Brewery</li>
+</ul>
+</div>
+<div id="outline-container-org8511a6b" class="outline-6">
+<h6 id="org8511a6b"><span class="section-number-6">2.3.14.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-14-1-1">
+<ul class="org-ul">
+<li>Datum: 2012-11-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org89d3d35" class="outline-5">
+<h5 id="org89d3d35"><span class="section-number-5">2.3.14.2</span> Sixpoint Bengali Tiger IPA</h5>
+<div class="outline-text-5" id="text-2-3-14-2">
+<ul class="org-ul">
+<li>Öl namn: Sixpoint Bengali Tiger IPA</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Sixpoint Brewery</li>
+</ul>
+</div>
+<div id="outline-container-org7dc2500" class="outline-6">
+<h6 id="org7dc2500"><span class="section-number-6">2.3.14.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-14-2-1">
+<ul class="org-ul">
+<li>Datum: 2012-11-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org2f9e9a5" class="outline-4">
+<h4 id="org2f9e9a5"><span class="section-number-4">2.3.15</span> Ska Brewing co</h4>
+<div class="outline-text-4" id="text-2-3-15">
+</div>
+<div id="outline-container-orgd2f9612" class="outline-5">
+<h5 id="orgd2f9612"><span class="section-number-5">2.3.15.1</span> Modus Hoperandi</h5>
+<div class="outline-text-5" id="text-2-3-15-1">
+<ul class="org-ul">
+<li>Öl namn: Modus Hoperandi</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Ska Brewing co</li>
+</ul>
+</div>
+<div id="outline-container-orge340b03" class="outline-6">
+<h6 id="orge340b03"><span class="section-number-6">2.3.15.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-15-1-1">
+<ul class="org-ul">
+<li>Datum: 2013-02-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga4da8c8" class="outline-5">
+<h5 id="orga4da8c8"><span class="section-number-5">2.3.15.2</span> ESB Special Ale</h5>
+<div class="outline-text-5" id="text-2-3-15-2">
+<ul class="org-ul">
+<li>Öl namn: ESB Special Ale</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Ska Brewing co</li>
+</ul>
+</div>
+<div id="outline-container-org7096da2" class="outline-6">
+<h6 id="org7096da2"><span class="section-number-6">2.3.15.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-15-2-1">
+<ul class="org-ul">
+<li>Datum: 2013-02-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org7a34e2e" class="outline-4">
+<h4 id="org7a34e2e"><span class="section-number-4">2.3.16</span> Samuel Adams Brewery</h4>
+<div class="outline-text-4" id="text-2-3-16">
+</div>
+<div id="outline-container-orgbb3afda" class="outline-5">
+<h5 id="orgbb3afda"><span class="section-number-5">2.3.16.1</span> Oktoberfest</h5>
+<div class="outline-text-5" id="text-2-3-16-1">
+<ul class="org-ul">
+<li>Öl namn: Oktoberfest</li>
+<li>Land/Länder: USA</li>
+<li>Bryggeri(er): Samuel Adams Brewery</li>
+</ul>
+</div>
+<div id="outline-container-org026a0bc" class="outline-6">
+<h6 id="org026a0bc"><span class="section-number-6">2.3.16.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-3-16-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-10-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfae46f8" class="outline-3">
+<h3 id="orgfae46f8"><span class="section-number-3">2.4</span> Kanada</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-orgdbaf7aa" class="outline-4">
+<h4 id="orgdbaf7aa"><span class="section-number-4">2.4.1</span> Flying Monkeys Craft Brewery</h4>
+<div class="outline-text-4" id="text-2-4-1">
+</div>
+<div id="outline-container-org876a401" class="outline-5">
+<h5 id="org876a401"><span class="section-number-5">2.4.1.1</span> Hoptical Illusion</h5>
+<div class="outline-text-5" id="text-2-4-1-1">
+<ul class="org-ul">
+<li>Öl namn: Hoptical Illusion</li>
+<li>Land/Länder: Kanada</li>
+<li>Bryggeri(er): Flying Monkeys Craft Brewery</li>
+</ul>
+</div>
+<div id="outline-container-orgc85207a" class="outline-6">
+<h6 id="orgc85207a"><span class="section-number-6">2.4.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-4-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2013-01-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org103b9b0" class="outline-3">
+<h3 id="org103b9b0"><span class="section-number-3">2.5</span> Danmark</h3>
+<div class="outline-text-3" id="text-2-5">
+</div>
+<div id="outline-container-orgad49e01" class="outline-4">
+<h4 id="orgad49e01"><span class="section-number-4">2.5.1</span> Bryghuset Braunstein</h4>
+<div class="outline-text-4" id="text-2-5-1">
+</div>
+<div id="outline-container-org8f92666" class="outline-5">
+<h5 id="org8f92666"><span class="section-number-5">2.5.1.1</span> Braunstein Winter Bock</h5>
+<div class="outline-text-5" id="text-2-5-1-1">
+<ul class="org-ul">
+<li>Öl namn: Braunstein Winter Bock</li>
+<li>Land/Länder: Danmark</li>
+<li>Bryggeri(er): Bryghuset Braunstein</li>
+</ul>
+</div>
+<div id="outline-container-orgbb82bb0" class="outline-6">
+<h6 id="orgbb82bb0"><span class="section-number-6">2.5.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-5-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-03-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orge939bc6" class="outline-4">
+<h4 id="orge939bc6"><span class="section-number-4">2.5.2</span> Mikkeller</h4>
+<div class="outline-text-4" id="text-2-5-2">
+</div>
+<div id="outline-container-org639d18e" class="outline-5">
+<h5 id="org639d18e"><span class="section-number-5">2.5.2.1</span> Kärlek vår_sommar 2013</h5>
+<div class="outline-text-5" id="text-2-5-2-1">
+<ul class="org-ul">
+<li>Öl namn: Kärlek vår_sommar 2013</li>
+<li>Land/Länder: Danmark</li>
+<li>Bryggeri(er): Mikkeller</li>
+</ul>
+</div>
+<div id="outline-container-org72604c0" class="outline-6">
+<h6 id="org72604c0"><span class="section-number-6">2.5.2.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-5-2-1-1">
+<ul class="org-ul">
+<li>Datum: 2013-05-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org03f719c" class="outline-5">
+<h5 id="org03f719c"><span class="section-number-5">2.5.2.2</span> Beer Geek Breakfast</h5>
+<div class="outline-text-5" id="text-2-5-2-2">
+<ul class="org-ul">
+<li>Öl namn: Beer Geek Breakfast</li>
+<li>Land/Länder: Danmark</li>
+<li>Bryggeri(er): Mikkeller</li>
+</ul>
+</div>
+<div id="outline-container-org2d00034" class="outline-6">
+<h6 id="org2d00034"><span class="section-number-6">2.5.2.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-5-2-2-1">
+<ul class="org-ul">
+<li>Datum: 2013-04-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgae55dd7" class="outline-4">
+<h4 id="orgae55dd7"><span class="section-number-4">2.5.3</span> Bear Here</h4>
+<div class="outline-text-4" id="text-2-5-3">
+</div>
+<div id="outline-container-org13b4034" class="outline-5">
+<h5 id="org13b4034"><span class="section-number-5">2.5.3.1</span> Dead Cat</h5>
+<div class="outline-text-5" id="text-2-5-3-1">
+<ul class="org-ul">
+<li>Öl namn: Dead Cat</li>
+<li>Land/Länder: Danmark</li>
+<li>Bryggeri(er): Bear Here</li>
+</ul>
+</div>
+<div id="outline-container-orgfcfd330" class="outline-6">
+<h6 id="orgfcfd330"><span class="section-number-6">2.5.3.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-5-3-1-1">
+<ul class="org-ul">
+<li>Datum: 2013-04-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org892b6c5" class="outline-4">
+<h4 id="org892b6c5"><span class="section-number-4">2.5.4</span> Husbryggeriet Jacobsen (Carlsberg)</h4>
+<div class="outline-text-4" id="text-2-5-4">
+</div>
+<div id="outline-container-org088b3ab" class="outline-5">
+<h5 id="org088b3ab"><span class="section-number-5">2.5.4.1</span> Jacobsen Original Dark Lager</h5>
+<div class="outline-text-5" id="text-2-5-4-1">
+<ul class="org-ul">
+<li>Öl namn: Jacobsen Original Dark Lager</li>
+<li>Land/Länder: Danmark</li>
+<li>Bryggeri(er): Husbryggeriet Jacobsen (Carlsberg)</li>
+</ul>
+</div>
+<div id="outline-container-org5f229ac" class="outline-6">
+<h6 id="org5f229ac"><span class="section-number-6">2.5.4.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-5-4-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-01-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org254489c" class="outline-3">
+<h3 id="org254489c"><span class="section-number-3">2.6</span> Slovakien</h3>
+<div class="outline-text-3" id="text-2-6">
+</div>
+<div id="outline-container-orgd1d30a5" class="outline-4">
+<h4 id="orgd1d30a5"><span class="section-number-4">2.6.1</span> Zlatý Bažant</h4>
+<div class="outline-text-4" id="text-2-6-1">
+</div>
+<div id="outline-container-org928b4c2" class="outline-5">
+<h5 id="org928b4c2"><span class="section-number-5">2.6.1.1</span> Zlatý Bažant</h5>
+<div class="outline-text-5" id="text-2-6-1-1">
+<ul class="org-ul">
+<li>Öl namn: Zlatý Bažant</li>
+<li>Land/Länder: Slovakien</li>
+<li>Bryggeri(er): Zlatý Bažant</li>
+</ul>
+</div>
+<div id="outline-container-orga9f8ff3" class="outline-6">
+<h6 id="orga9f8ff3"><span class="section-number-6">2.6.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-6-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-08-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orga3e60e0" class="outline-3">
+<h3 id="orga3e60e0"><span class="section-number-3">2.7</span> Sverige</h3>
+<div class="outline-text-3" id="text-2-7">
+</div>
+<div id="outline-container-orgeab2238" class="outline-4">
+<h4 id="orgeab2238"><span class="section-number-4">2.7.1</span> Skebo Bruksbryggeri</h4>
+<div class="outline-text-4" id="text-2-7-1">
+</div>
+<div id="outline-container-orga3f8785" class="outline-5">
+<h5 id="orga3f8785"><span class="section-number-5">2.7.1.1</span> USB <span class="underline">UteSittarBärs</span></h5>
+<div class="outline-text-5" id="text-2-7-1-1">
+<ul class="org-ul">
+<li>Öl namn: USB <span class="underline">UteSittarBärs</span></li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Skebo Bruksbryggeri</li>
+</ul>
+</div>
+<div id="outline-container-orgf5272d5" class="outline-6">
+<h6 id="orgf5272d5"><span class="section-number-6">2.7.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-08-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org867ca5a" class="outline-5">
+<h5 id="org867ca5a"><span class="section-number-5">2.7.1.2</span> Trippel Gold Bitter</h5>
+<div class="outline-text-5" id="text-2-7-1-2">
+<ul class="org-ul">
+<li>Öl namn: Trippel Gold Bitter</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Skebo Bruksbryggeri</li>
+</ul>
+</div>
+<div id="outline-container-org8d241b0" class="outline-6">
+<h6 id="org8d241b0"><span class="section-number-6">2.7.1.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-1-2-1">
+<ul class="org-ul">
+<li>Datum: 2008-02-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga2e459a" class="outline-5">
+<h5 id="orga2e459a"><span class="section-number-5">2.7.1.3</span> Bruksöl</h5>
+<div class="outline-text-5" id="text-2-7-1-3">
+<ul class="org-ul">
+<li>Öl namn: Bruksöl</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Skebo Bruksbryggeri</li>
+</ul>
+</div>
+<div id="outline-container-orgec74301" class="outline-6">
+<h6 id="orgec74301"><span class="section-number-6">2.7.1.3.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-1-3-1">
+<ul class="org-ul">
+<li>Datum: 2007-05-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgaa297b1" class="outline-4">
+<h4 id="orgaa297b1"><span class="section-number-4">2.7.2</span> Hazie Dizzie</h4>
+<div class="outline-text-4" id="text-2-7-2">
+</div>
+<div id="outline-container-org8335da4" class="outline-5">
+<h5 id="org8335da4"><span class="section-number-5">2.7.2.1</span> Odd Island Brew</h5>
+<div class="outline-text-5" id="text-2-7-2-1">
+<ul class="org-ul">
+<li>Öl namn: Odd Island Brew</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Hazie Dizzie</li>
+<li>Öltyp: 5</li>
+<li>ABV: 6.2</li>
+</ul>
+</div>
+<div id="outline-container-orgea4242f" class="outline-6">
+<h6 id="orgea4242f"><span class="section-number-6">2.7.2.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-2-1-1">
+<ul class="org-ul">
+<li>Datum: 2020-01-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+<li>Antal provare: 5</li>
+<li>Öltyp (snittbetyg): 5.4</li>
+<li>Kommentar(er): God öl/Smakvik</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org07dcf63" class="outline-4">
+<h4 id="org07dcf63"><span class="section-number-4">2.7.3</span> Åbro bryggeri</h4>
+<div class="outline-text-4" id="text-2-7-3">
+</div>
+<div id="outline-container-org574253e" class="outline-5">
+<h5 id="org574253e"><span class="section-number-5">2.7.3.1</span> Åbro Arton56 Amber</h5>
+<div class="outline-text-5" id="text-2-7-3-1">
+<ul class="org-ul">
+<li>Öl namn: Åbro Arton56 Amber</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Åbro bryggeri</li>
+</ul>
+</div>
+<div id="outline-container-orgc256a2b" class="outline-6">
+<h6 id="orgc256a2b"><span class="section-number-6">2.7.3.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-3-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-11-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org81641f3" class="outline-4">
+<h4 id="org81641f3"><span class="section-number-4">2.7.4</span> Nynäshamns Ångbryggeri AB</h4>
+<div class="outline-text-4" id="text-2-7-4">
+</div>
+<div id="outline-container-org1f70cbb" class="outline-5">
+<h5 id="org1f70cbb"><span class="section-number-5">2.7.4.1</span> Mysingen Midvinterbrygd</h5>
+<div class="outline-text-5" id="text-2-7-4-1">
+<ul class="org-ul">
+<li>Öl namn: Mysingen Midvinterbrygd</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Nynäshamns Ångbryggeri AB</li>
+</ul>
+</div>
+<div id="outline-container-org2458dab" class="outline-6">
+<h6 id="org2458dab"><span class="section-number-6">2.7.4.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-4-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-04-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd54cd32" class="outline-5">
+<h5 id="orgd54cd32"><span class="section-number-5">2.7.4.2</span> Landsort lager</h5>
+<div class="outline-text-5" id="text-2-7-4-2">
+<ul class="org-ul">
+<li>Öl namn: Landsort lager</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Nynäshamns Ångbryggeri AB</li>
+</ul>
+</div>
+<div id="outline-container-orgb74eb6e" class="outline-6">
+<h6 id="orgb74eb6e"><span class="section-number-6">2.7.4.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-4-2-1">
+<ul class="org-ul">
+<li>Datum: 2010-11-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf3315fb" class="outline-5">
+<h5 id="orgf3315fb"><span class="section-number-5">2.7.4.3</span> Bedarö Bitter</h5>
+<div class="outline-text-5" id="text-2-7-4-3">
+<ul class="org-ul">
+<li>Öl namn: Bedarö Bitter</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Nynäshamns Ångbryggeri AB</li>
+</ul>
+</div>
+<div id="outline-container-org3c5185b" class="outline-6">
+<h6 id="org3c5185b"><span class="section-number-6">2.7.4.3.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-4-3-1">
+<ul class="org-ul">
+<li>Datum: 2007-12-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org6c113e8" class="outline-4">
+<h4 id="org6c113e8"><span class="section-number-4">2.7.5</span> Hällsinge bryggeri</h4>
+<div class="outline-text-4" id="text-2-7-5">
+</div>
+<div id="outline-container-orgfbd517b" class="outline-5">
+<h5 id="orgfbd517b"><span class="section-number-5">2.7.5.1</span> Hälsinge Stout</h5>
+<div class="outline-text-5" id="text-2-7-5-1">
+<ul class="org-ul">
+<li>Öl namn: Hälsinge Stout</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Hällsinge bryggeri</li>
+</ul>
+</div>
+<div id="outline-container-org4d0e315" class="outline-6">
+<h6 id="org4d0e315"><span class="section-number-6">2.7.5.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-5-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-05-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org23a4f25" class="outline-4">
+<h4 id="org23a4f25"><span class="section-number-4">2.7.6</span> Zeunerts Bryggeri <span class="underline">Kopparberg</span></h4>
+<div class="outline-text-4" id="text-2-7-6">
+</div>
+<div id="outline-container-org33daf8f" class="outline-5">
+<h5 id="org33daf8f"><span class="section-number-5">2.7.6.1</span> Zeunerts Höga Kusten</h5>
+<div class="outline-text-5" id="text-2-7-6-1">
+<ul class="org-ul">
+<li>Öl namn: Zeunerts Höga Kusten</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Zeunerts Bryggeri <span class="underline">Kopparberg</span></li>
+</ul>
+</div>
+<div id="outline-container-orgd3c0217" class="outline-6">
+<h6 id="orgd3c0217"><span class="section-number-6">2.7.6.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-6-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-08-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd0bd4bc" class="outline-4">
+<h4 id="orgd0bd4bc"><span class="section-number-4">2.7.7</span> Carlsberg Sverige</h4>
+<div class="outline-text-4" id="text-2-7-7">
+</div>
+<div id="outline-container-org0d4aa7a" class="outline-5">
+<h5 id="org0d4aa7a"><span class="section-number-5">2.7.7.1</span> Falcon Gammelbryggd</h5>
+<div class="outline-text-5" id="text-2-7-7-1">
+<ul class="org-ul">
+<li>Öl namn: Falcon Gammelbryggd</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Carlsberg Sverige</li>
+</ul>
+</div>
+<div id="outline-container-orgbd4a67d" class="outline-6">
+<h6 id="orgbd4a67d"><span class="section-number-6">2.7.7.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-7-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-12-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5382192" class="outline-5">
+<h5 id="org5382192"><span class="section-number-5">2.7.7.2</span> Eriksberg Julöl</h5>
+<div class="outline-text-5" id="text-2-7-7-2">
+<ul class="org-ul">
+<li>Öl namn: Eriksberg Julöl</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Carlsberg Sverige</li>
+</ul>
+</div>
+<div id="outline-container-org29ab18e" class="outline-6">
+<h6 id="org29ab18e"><span class="section-number-6">2.7.7.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-7-2-1">
+<ul class="org-ul">
+<li>Datum: 2010-12-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf218861" class="outline-4">
+<h4 id="orgf218861"><span class="section-number-4">2.7.8</span> Slottskällans Bryggeri</h4>
+<div class="outline-text-4" id="text-2-7-8">
+</div>
+<div id="outline-container-org8987aa6" class="outline-5">
+<h5 id="org8987aa6"><span class="section-number-5">2.7.8.1</span> Slottskällans Bryggeri</h5>
+<div class="outline-text-5" id="text-2-7-8-1">
+<ul class="org-ul">
+<li>Öl namn: Slottskällans Bryggeri</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Slottskällans Bryggeri</li>
+</ul>
+</div>
+<div id="outline-container-orge1fd9ef" class="outline-6">
+<h6 id="orge1fd9ef"><span class="section-number-6">2.7.8.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-8-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-03-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org26f9ea5" class="outline-4">
+<h4 id="org26f9ea5"><span class="section-number-4">2.7.9</span> Jämtlands bryggeri</h4>
+<div class="outline-text-4" id="text-2-7-9">
+</div>
+<div id="outline-container-org43492f1" class="outline-5">
+<h5 id="org43492f1"><span class="section-number-5">2.7.9.1</span> Hell</h5>
+<div class="outline-text-5" id="text-2-7-9-1">
+<ul class="org-ul">
+<li>Öl namn: Hell</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Jämtlands bryggeri</li>
+</ul>
+</div>
+<div id="outline-container-orgf3d732b" class="outline-6">
+<h6 id="orgf3d732b"><span class="section-number-6">2.7.9.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-9-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-07-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgba01d38" class="outline-5">
+<h5 id="orgba01d38"><span class="section-number-5">2.7.9.2</span> Jämtlands India Pale Ale</h5>
+<div class="outline-text-5" id="text-2-7-9-2">
+<ul class="org-ul">
+<li>Öl namn: Jämtlands India Pale Ale</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Jämtlands bryggeri</li>
+</ul>
+</div>
+<div id="outline-container-org5255751" class="outline-6">
+<h6 id="org5255751"><span class="section-number-6">2.7.9.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-9-2-1">
+<ul class="org-ul">
+<li>Datum: 2009-01-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org0542ee4" class="outline-5">
+<h5 id="org0542ee4"><span class="section-number-5">2.7.9.3</span> Jämtlands Tiotaggare</h5>
+<div class="outline-text-5" id="text-2-7-9-3">
+<ul class="org-ul">
+<li>Öl namn: Jämtlands Tiotaggare</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Jämtlands bryggeri</li>
+</ul>
+</div>
+<div id="outline-container-org0c35cd0" class="outline-6">
+<h6 id="org0c35cd0"><span class="section-number-6">2.7.9.3.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-9-3-1">
+<ul class="org-ul">
+<li>Datum: 2006-11-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org35fbd56" class="outline-4">
+<h4 id="org35fbd56"><span class="section-number-4">2.7.10</span> Hantverksbryggeriet</h4>
+<div class="outline-text-4" id="text-2-7-10">
+</div>
+<div id="outline-container-org9548b6e" class="outline-5">
+<h5 id="org9548b6e"><span class="section-number-5">2.7.10.1</span> Narren</h5>
+<div class="outline-text-5" id="text-2-7-10-1">
+<ul class="org-ul">
+<li>Öl namn: Narren</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Hantverksbryggeriet</li>
+</ul>
+</div>
+<div id="outline-container-org24b01b2" class="outline-6">
+<h6 id="org24b01b2"><span class="section-number-6">2.7.10.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-10-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-12-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org885b2f1" class="outline-4">
+<h4 id="org885b2f1"><span class="section-number-4">2.7.11</span> Sandbacka bryggeri</h4>
+<div class="outline-text-4" id="text-2-7-11">
+</div>
+<div id="outline-container-orgb56e898" class="outline-5">
+<h5 id="orgb56e898"><span class="section-number-5">2.7.11.1</span> Sandbacka bitter</h5>
+<div class="outline-text-5" id="text-2-7-11-1">
+<ul class="org-ul">
+<li>Öl namn: Sandbacka bitter</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Sandbacka bryggeri</li>
+</ul>
+</div>
+<div id="outline-container-org313da61" class="outline-6">
+<h6 id="org313da61"><span class="section-number-6">2.7.11.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-11-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-05-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgeb1d4c3" class="outline-4">
+<h4 id="orgeb1d4c3"><span class="section-number-4">2.7.12</span> Spendrups</h4>
+<div class="outline-text-4" id="text-2-7-12">
+</div>
+<div id="outline-container-orgf1c4e9c" class="outline-5">
+<h5 id="orgf1c4e9c"><span class="section-number-5">2.7.12.1</span> Marierstad Export</h5>
+<div class="outline-text-5" id="text-2-7-12-1">
+<ul class="org-ul">
+<li>Öl namn: Marierstad Export</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Spendrups</li>
+</ul>
+</div>
+<div id="outline-container-orgc57082d" class="outline-6">
+<h6 id="orgc57082d"><span class="section-number-6">2.7.12.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-12-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-06-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge8869c5" class="outline-5">
+<h5 id="orge8869c5"><span class="section-number-5">2.7.12.2</span> Wisby Hansapils</h5>
+<div class="outline-text-5" id="text-2-7-12-2">
+<ul class="org-ul">
+<li>Öl namn: Wisby Hansapils</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Spendrups</li>
+</ul>
+</div>
+<div id="outline-container-org0fe49b7" class="outline-6">
+<h6 id="org0fe49b7"><span class="section-number-6">2.7.12.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-12-2-1">
+<ul class="org-ul">
+<li>Datum: 2007-06-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdab8d82" class="outline-5">
+<h5 id="orgdab8d82"><span class="section-number-5">2.7.12.3</span> SITTING BULLDOG IPA</h5>
+<div class="outline-text-5" id="text-2-7-12-3">
+<ul class="org-ul">
+<li>Öl namn: SITTING BULLDOG IPA</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Spendrups</li>
+</ul>
+</div>
+<div id="outline-container-org8f64b63" class="outline-6">
+<h6 id="org8f64b63"><span class="section-number-6">2.7.12.3.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-12-3-1">
+<ul class="org-ul">
+<li>Datum: 2010-04-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org27a23e1" class="outline-5">
+<h5 id="org27a23e1"><span class="section-number-5">2.7.12.4</span> Visby Vinterbock</h5>
+<div class="outline-text-5" id="text-2-7-12-4">
+<ul class="org-ul">
+<li>Öl namn: Visby Vinterbock</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Spendrups</li>
+</ul>
+</div>
+<div id="outline-container-org23f60d4" class="outline-6">
+<h6 id="org23f60d4"><span class="section-number-6">2.7.12.4.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-12-4-1">
+<ul class="org-ul">
+<li>Datum: 2008-04-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org0d49123" class="outline-5">
+<h5 id="org0d49123"><span class="section-number-5">2.7.12.5</span> Wisby Sleepy Bulldog Winter Ale</h5>
+<div class="outline-text-5" id="text-2-7-12-5">
+<ul class="org-ul">
+<li>Öl namn: Wisby Sleepy Bulldog Winter Ale</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Spendrups</li>
+</ul>
+</div>
+<div id="outline-container-orga6c9b62" class="outline-6">
+<h6 id="orga6c9b62"><span class="section-number-6">2.7.12.5.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-12-5-1">
+<ul class="org-ul">
+<li>Datum: 2010-12-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org2a59d0c" class="outline-4">
+<h4 id="org2a59d0c"><span class="section-number-4">2.7.13</span> Nils Oscar</h4>
+<div class="outline-text-4" id="text-2-7-13">
+</div>
+<div id="outline-container-org07b3339" class="outline-5">
+<h5 id="org07b3339"><span class="section-number-5">2.7.13.1</span> India Ale</h5>
+<div class="outline-text-5" id="text-2-7-13-1">
+<ul class="org-ul">
+<li>Öl namn: India Ale</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Nils Oscar</li>
+</ul>
+</div>
+<div id="outline-container-org121f393" class="outline-6">
+<h6 id="org121f393"><span class="section-number-6">2.7.13.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-13-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-11-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org439f74f" class="outline-5">
+<h5 id="org439f74f"><span class="section-number-5">2.7.13.2</span> Kallasöl</h5>
+<div class="outline-text-5" id="text-2-7-13-2">
+<ul class="org-ul">
+<li>Öl namn: Kallasöl</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Nils Oscar</li>
+</ul>
+</div>
+<div id="outline-container-orgf2a85ae" class="outline-6">
+<h6 id="orgf2a85ae"><span class="section-number-6">2.7.13.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-13-2-1">
+<ul class="org-ul">
+<li>Datum: 2008-11-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd96d11b" class="outline-5">
+<h5 id="orgd96d11b"><span class="section-number-5">2.7.13.3</span> Nils Oscar Kalaspåsköl</h5>
+<div class="outline-text-5" id="text-2-7-13-3">
+<ul class="org-ul">
+<li>Öl namn: Nils Oscar Kalaspåsköl</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Nils Oscar</li>
+</ul>
+</div>
+<div id="outline-container-org8cd8be2" class="outline-6">
+<h6 id="org8cd8be2"><span class="section-number-6">2.7.13.3.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-13-3-1">
+<ul class="org-ul">
+<li>Datum: 2007-04-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org8322171" class="outline-5">
+<h5 id="org8322171"><span class="section-number-5">2.7.13.4</span> Nils Oscar Farm Ale</h5>
+<div class="outline-text-5" id="text-2-7-13-4">
+<ul class="org-ul">
+<li>Öl namn: Nils Oscar Farm Ale</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Nils Oscar</li>
+</ul>
+</div>
+<div id="outline-container-org19a5f7e" class="outline-6">
+<h6 id="org19a5f7e"><span class="section-number-6">2.7.13.4.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-13-4-1">
+<ul class="org-ul">
+<li>Datum: 2006-03-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org2a9430c" class="outline-5">
+<h5 id="org2a9430c"><span class="section-number-5">2.7.13.5</span> Hope Yard</h5>
+<div class="outline-text-5" id="text-2-7-13-5">
+<ul class="org-ul">
+<li>Öl namn: Hope Yard</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Nils Oscar</li>
+</ul>
+</div>
+<div id="outline-container-org132d463" class="outline-6">
+<h6 id="org132d463"><span class="section-number-6">2.7.13.5.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-13-5-1">
+<ul class="org-ul">
+<li>Datum: 2013-07-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfab7bb0" class="outline-4">
+<h4 id="orgfab7bb0"><span class="section-number-4">2.7.14</span> Sigtuna Brygghus</h4>
+<div class="outline-text-4" id="text-2-7-14">
+</div>
+<div id="outline-container-orgb79769a" class="outline-5">
+<h5 id="orgb79769a"><span class="section-number-5">2.7.14.1</span> HUMLE-HILDAS ALTBIER</h5>
+<div class="outline-text-5" id="text-2-7-14-1">
+<ul class="org-ul">
+<li>Öl namn: HUMLE-HILDAS ALTBIER</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Sigtuna Brygghus</li>
+</ul>
+</div>
+<div id="outline-container-org7a6e934" class="outline-6">
+<h6 id="org7a6e934"><span class="section-number-6">2.7.14.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-14-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-05-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org40ce8eb" class="outline-4">
+<h4 id="org40ce8eb"><span class="section-number-4">2.7.15</span> Närke Kulturbryggeri</h4>
+<div class="outline-text-4" id="text-2-7-15">
+</div>
+<div id="outline-container-org38edfef" class="outline-5">
+<h5 id="org38edfef"><span class="section-number-5">2.7.15.1</span> Närke Mörker</h5>
+<div class="outline-text-5" id="text-2-7-15-1">
+<ul class="org-ul">
+<li>Öl namn: Närke Mörker</li>
+<li>Land/Länder: Sverige</li>
+<li>Bryggeri(er): Närke Kulturbryggeri</li>
+</ul>
+</div>
+<div id="outline-container-orgd6e6c23" class="outline-6">
+<h6 id="orgd6e6c23"><span class="section-number-6">2.7.15.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-7-15-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-12-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org3d1ef6e" class="outline-3">
+<h3 id="org3d1ef6e"><span class="section-number-3">2.8</span> Frankrike</h3>
+<div class="outline-text-3" id="text-2-8">
+</div>
+<div id="outline-container-org3d31e1d" class="outline-4">
+<h4 id="org3d31e1d"><span class="section-number-4">2.8.1</span> Brasseries Kronenbourg</h4>
+<div class="outline-text-4" id="text-2-8-1">
+</div>
+<div id="outline-container-orgb6c7350" class="outline-5">
+<h5 id="orgb6c7350"><span class="section-number-5">2.8.1.1</span> Kronenbourg Blanc</h5>
+<div class="outline-text-5" id="text-2-8-1-1">
+<ul class="org-ul">
+<li>Öl namn: Kronenbourg Blanc</li>
+<li>Land/Länder: Frankrike</li>
+<li>Bryggeri(er): Brasseries Kronenbourg</li>
+</ul>
+</div>
+<div id="outline-container-org5ce8623" class="outline-6">
+<h6 id="org5ce8623"><span class="section-number-6">2.8.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-8-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-02-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgae4435f" class="outline-3">
+<h3 id="orgae4435f"><span class="section-number-3">2.9</span> Japan</h3>
+<div class="outline-text-3" id="text-2-9">
+</div>
+<div id="outline-container-orgb2dbeee" class="outline-4">
+<h4 id="orgb2dbeee"><span class="section-number-4">2.9.1</span> Kirin Beer</h4>
+<div class="outline-text-4" id="text-2-9-1">
+</div>
+<div id="outline-container-org46f2d68" class="outline-5">
+<h5 id="org46f2d68"><span class="section-number-5">2.9.1.1</span> Kirin Ichiban</h5>
+<div class="outline-text-5" id="text-2-9-1-1">
+<ul class="org-ul">
+<li>Öl namn: Kirin Ichiban</li>
+<li>Land/Länder: Japan</li>
+<li>Bryggeri(er): Kirin Beer</li>
+</ul>
+</div>
+<div id="outline-container-org6bde499" class="outline-6">
+<h6 id="org6bde499"><span class="section-number-6">2.9.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-9-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-01-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfdcf358" class="outline-3">
+<h3 id="orgfdcf358"><span class="section-number-3">2.10</span> Italien</h3>
+<div class="outline-text-3" id="text-2-10">
+</div>
+<div id="outline-container-org604e855" class="outline-4">
+<h4 id="org604e855"><span class="section-number-4">2.10.1</span> Birrificio Angelo</h4>
+<div class="outline-text-4" id="text-2-10-1">
+</div>
+<div id="outline-container-orgc3162d3" class="outline-5">
+<h5 id="orgc3162d3"><span class="section-number-5">2.10.1.1</span> Birra Poretti</h5>
+<div class="outline-text-5" id="text-2-10-1-1">
+<ul class="org-ul">
+<li>Öl namn: Birra Poretti</li>
+<li>Land/Länder: Italien</li>
+<li>Bryggeri(er): Birrificio Angelo</li>
+</ul>
+</div>
+<div id="outline-container-orgb027fec" class="outline-6">
+<h6 id="orgb027fec"><span class="section-number-6">2.10.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-10-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-09-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcadc8eb" class="outline-3">
+<h3 id="orgcadc8eb"><span class="section-number-3">2.11</span> Österike</h3>
+<div class="outline-text-3" id="text-2-11">
+</div>
+<div id="outline-container-org63dffc3" class="outline-4">
+<h4 id="org63dffc3"><span class="section-number-4">2.11.1</span> Stiegl</h4>
+<div class="outline-text-4" id="text-2-11-1">
+</div>
+<div id="outline-container-org1360102" class="outline-5">
+<h5 id="org1360102"><span class="section-number-5">2.11.1.1</span> Stiegl Pils</h5>
+<div class="outline-text-5" id="text-2-11-1-1">
+<ul class="org-ul">
+<li>Öl namn: Stiegl Pils</li>
+<li>Land/Länder: Österike</li>
+<li>Bryggeri(er): Stiegl</li>
+</ul>
+</div>
+<div id="outline-container-org9ba2d72" class="outline-6">
+<h6 id="org9ba2d72"><span class="section-number-6">2.11.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-11-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-05-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgad15a58" class="outline-3">
+<h3 id="orgad15a58"><span class="section-number-3">2.12</span> Skottland</h3>
+<div class="outline-text-3" id="text-2-12">
+</div>
+<div id="outline-container-org4965e94" class="outline-4">
+<h4 id="org4965e94"><span class="section-number-4">2.12.1</span> Innis &amp; Gunn</h4>
+<div class="outline-text-4" id="text-2-12-1">
+</div>
+<div id="outline-container-org56e1f3f" class="outline-5">
+<h5 id="org56e1f3f"><span class="section-number-5">2.12.1.1</span> Original</h5>
+<div class="outline-text-5" id="text-2-12-1-1">
+<ul class="org-ul">
+<li>Öl namn: Original</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): Innis &amp; Gunn</li>
+</ul>
+</div>
+<div id="outline-container-org106b704" class="outline-6">
+<h6 id="org106b704"><span class="section-number-6">2.12.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-07-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org76ac7cb" class="outline-5">
+<h5 id="org76ac7cb"><span class="section-number-5">2.12.1.2</span> Innis &amp; Gunn Rum Finish Oak Aged Beer</h5>
+<div class="outline-text-5" id="text-2-12-1-2">
+<ul class="org-ul">
+<li>Öl namn: Innis &amp; Gunn Rum Finish Oak Aged Beer</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): Innis &amp; Gunn</li>
+</ul>
+</div>
+<div id="outline-container-org4824c92" class="outline-6">
+<h6 id="org4824c92"><span class="section-number-6">2.12.1.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-1-2-1">
+<ul class="org-ul">
+<li>Datum: 2008-01-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org54f335b" class="outline-4">
+<h4 id="org54f335b"><span class="section-number-4">2.12.2</span> The Caledonian Brewing Company</h4>
+<div class="outline-text-4" id="text-2-12-2">
+</div>
+<div id="outline-container-org2b8e90c" class="outline-5">
+<h5 id="org2b8e90c"><span class="section-number-5">2.12.2.1</span> Caledonian 80</h5>
+<div class="outline-text-5" id="text-2-12-2-1">
+<ul class="org-ul">
+<li>Öl namn: Caledonian 80</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): The Caledonian Brewing Company</li>
+</ul>
+</div>
+<div id="outline-container-orge0b5a82" class="outline-6">
+<h6 id="orge0b5a82"><span class="section-number-6">2.12.2.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-2-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-08-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org34fe54d" class="outline-4">
+<h4 id="org34fe54d"><span class="section-number-4">2.12.3</span> Traquair House</h4>
+<div class="outline-text-4" id="text-2-12-3">
+</div>
+<div id="outline-container-orgec56f4f" class="outline-5">
+<h5 id="orgec56f4f"><span class="section-number-5">2.12.3.1</span> Traquair House Ale</h5>
+<div class="outline-text-5" id="text-2-12-3-1">
+<ul class="org-ul">
+<li>Öl namn: Traquair House Ale</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): Traquair House</li>
+</ul>
+</div>
+<div id="outline-container-org8ed8cd2" class="outline-6">
+<h6 id="org8ed8cd2"><span class="section-number-6">2.12.3.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-3-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-01-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfa2b8bb" class="outline-4">
+<h4 id="orgfa2b8bb"><span class="section-number-4">2.12.4</span> Inveralmond Brewery</h4>
+<div class="outline-text-4" id="text-2-12-4">
+</div>
+<div id="outline-container-orgacfb611" class="outline-5">
+<h5 id="orgacfb611"><span class="section-number-5">2.12.4.1</span> Lia Fail</h5>
+<div class="outline-text-5" id="text-2-12-4-1">
+<ul class="org-ul">
+<li>Öl namn: Lia Fail</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): Inveralmond Brewery</li>
+</ul>
+</div>
+<div id="outline-container-orgb002b55" class="outline-6">
+<h6 id="orgb002b55"><span class="section-number-6">2.12.4.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-4-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-11-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org14a86f6" class="outline-5">
+<h5 id="org14a86f6"><span class="section-number-5">2.12.4.2</span> Ossian</h5>
+<div class="outline-text-5" id="text-2-12-4-2">
+<ul class="org-ul">
+<li>Öl namn: Ossian</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): Inveralmond Brewery</li>
+</ul>
+</div>
+<div id="outline-container-org4eaa749" class="outline-6">
+<h6 id="org4eaa749"><span class="section-number-6">2.12.4.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-4-2-1">
+<ul class="org-ul">
+<li>Datum: 2009-11-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfe93801" class="outline-4">
+<h4 id="orgfe93801"><span class="section-number-4">2.12.5</span> Belhaven</h4>
+<div class="outline-text-4" id="text-2-12-5">
+</div>
+<div id="outline-container-org70399a8" class="outline-5">
+<h5 id="org70399a8"><span class="section-number-5">2.12.5.1</span> Wee Heavey</h5>
+<div class="outline-text-5" id="text-2-12-5-1">
+<ul class="org-ul">
+<li>Öl namn: Wee Heavey</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): Belhaven</li>
+</ul>
+</div>
+<div id="outline-container-org6c4c5c8" class="outline-6">
+<h6 id="org6c4c5c8"><span class="section-number-6">2.12.5.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-5-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-09-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf1ff746" class="outline-5">
+<h5 id="orgf1ff746"><span class="section-number-5">2.12.5.2</span> Twisted Thistle IPA</h5>
+<div class="outline-text-5" id="text-2-12-5-2">
+<ul class="org-ul">
+<li>Öl namn: Twisted Thistle IPA</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): Belhaven</li>
+</ul>
+</div>
+<div id="outline-container-org60d91d2" class="outline-6">
+<h6 id="org60d91d2"><span class="section-number-6">2.12.5.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-5-2-1">
+<ul class="org-ul">
+<li>Datum: 2009-09-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org92eef26" class="outline-4">
+<h4 id="org92eef26"><span class="section-number-4">2.12.6</span> BrewDog</h4>
+<div class="outline-text-4" id="text-2-12-6">
+</div>
+<div id="outline-container-org981bd9f" class="outline-5">
+<h5 id="org981bd9f"><span class="section-number-5">2.12.6.1</span> Punk Ipa</h5>
+<div class="outline-text-5" id="text-2-12-6-1">
+<ul class="org-ul">
+<li>Öl namn: Punk Ipa</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): BrewDog</li>
+</ul>
+</div>
+<div id="outline-container-org00b6fb7" class="outline-6">
+<h6 id="org00b6fb7"><span class="section-number-6">2.12.6.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-6-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-09-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org0b82eaf" class="outline-4">
+<h4 id="org0b82eaf"><span class="section-number-4">2.12.7</span> Williams Brothers <span class="underline">Heather Ales</span></h4>
+<div class="outline-text-4" id="text-2-12-7">
+</div>
+<div id="outline-container-org55e790c" class="outline-5">
+<h5 id="org55e790c"><span class="section-number-5">2.12.7.1</span> Heather Ales Kelpie</h5>
+<div class="outline-text-5" id="text-2-12-7-1">
+<ul class="org-ul">
+<li>Öl namn: Heather Ales Kelpie</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): Williams Brothers <span class="underline">Heather Ales</span></li>
+</ul>
+</div>
+<div id="outline-container-org3a47610" class="outline-6">
+<h6 id="org3a47610"><span class="section-number-6">2.12.7.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-7-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-02-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org8cb46f9" class="outline-5">
+<h5 id="org8cb46f9"><span class="section-number-5">2.12.7.2</span> Alba</h5>
+<div class="outline-text-5" id="text-2-12-7-2">
+<ul class="org-ul">
+<li>Öl namn: Alba</li>
+<li>Land/Länder: Skottland</li>
+<li>Bryggeri(er): Williams Brothers <span class="underline">Heather Ales</span></li>
+</ul>
+</div>
+<div id="outline-container-org834e434" class="outline-6">
+<h6 id="org834e434"><span class="section-number-6">2.12.7.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-12-7-2-1">
+<ul class="org-ul">
+<li>Datum: 2013-07-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org9590eb5" class="outline-3">
+<h3 id="org9590eb5"><span class="section-number-3">2.13</span> Storbritanien</h3>
+<div class="outline-text-3" id="text-2-13">
+</div>
+<div id="outline-container-org94f8015" class="outline-4">
+<h4 id="org94f8015"><span class="section-number-4">2.13.1</span> Ringwood Marstons plc</h4>
+<div class="outline-text-4" id="text-2-13-1">
+</div>
+<div id="outline-container-org62e91b6" class="outline-5">
+<h5 id="org62e91b6"><span class="section-number-5">2.13.1.1</span> Ringwood XXXX Porter</h5>
+<div class="outline-text-5" id="text-2-13-1-1">
+<ul class="org-ul">
+<li>Öl namn: Ringwood XXXX Porter</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Ringwood Marstons plc</li>
+</ul>
+</div>
+<div id="outline-container-orgc085876" class="outline-6">
+<h6 id="orgc085876"><span class="section-number-6">2.13.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-09-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org0cd38fa" class="outline-4">
+<h4 id="org0cd38fa"><span class="section-number-4">2.13.2</span> Wychwood Marstons plc</h4>
+<div class="outline-text-4" id="text-2-13-2">
+</div>
+<div id="outline-container-org1cb641a" class="outline-5">
+<h5 id="org1cb641a"><span class="section-number-5">2.13.2.1</span> Ushers Founders Ale</h5>
+<div class="outline-text-5" id="text-2-13-2-1">
+<ul class="org-ul">
+<li>Öl namn: Ushers Founders Ale</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Wychwood Marstons plc</li>
+</ul>
+</div>
+<div id="outline-container-orgc039cb5" class="outline-6">
+<h6 id="orgc039cb5"><span class="section-number-6">2.13.2.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-2-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-01-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org59b24f1" class="outline-4">
+<h4 id="org59b24f1"><span class="section-number-4">2.13.3</span> Daleside</h4>
+<div class="outline-text-4" id="text-2-13-3">
+</div>
+<div id="outline-container-orga0cb505" class="outline-5">
+<h5 id="orga0cb505"><span class="section-number-5">2.13.3.1</span> Daleside Monkey Wrench</h5>
+<div class="outline-text-5" id="text-2-13-3-1">
+<ul class="org-ul">
+<li>Öl namn: Daleside Monkey Wrench</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Daleside</li>
+</ul>
+</div>
+<div id="outline-container-org03700bb" class="outline-6">
+<h6 id="org03700bb"><span class="section-number-6">2.13.3.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-3-1-1">
+<ul class="org-ul">
+<li>Datum: 2007-09-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org996dfe6" class="outline-4">
+<h4 id="org996dfe6"><span class="section-number-4">2.13.4</span> Summer Vine Brewing</h4>
+<div class="outline-text-4" id="text-2-13-4">
+</div>
+<div id="outline-container-org6345837" class="outline-5">
+<h5 id="org6345837"><span class="section-number-5">2.13.4.1</span> Gorilla</h5>
+<div class="outline-text-5" id="text-2-13-4-1">
+<ul class="org-ul">
+<li>Öl namn: Gorilla</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Summer Vine Brewing</li>
+</ul>
+</div>
+<div id="outline-container-orgdb9c150" class="outline-6">
+<h6 id="orgdb9c150"><span class="section-number-6">2.13.4.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-4-1-1">
+<ul class="org-ul">
+<li>Datum: 2013-01-02
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd59c55d" class="outline-4">
+<h4 id="orgd59c55d"><span class="section-number-4">2.13.5</span> Fullers</h4>
+<div class="outline-text-4" id="text-2-13-5">
+</div>
+<div id="outline-container-org9685a09" class="outline-5">
+<h5 id="org9685a09"><span class="section-number-5">2.13.5.1</span> Fullers Discovery</h5>
+<div class="outline-text-5" id="text-2-13-5-1">
+<ul class="org-ul">
+<li>Öl namn: Fullers Discovery</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Fullers</li>
+</ul>
+</div>
+<div id="outline-container-org80fdfed" class="outline-6">
+<h6 id="org80fdfed"><span class="section-number-6">2.13.5.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-5-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-01-04
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orga728019" class="outline-4">
+<h4 id="orga728019"><span class="section-number-4">2.13.6</span> Shepherd Neame Ltd</h4>
+<div class="outline-text-4" id="text-2-13-6">
+</div>
+<div id="outline-container-org4d81b51" class="outline-5">
+<h5 id="org4d81b51"><span class="section-number-5">2.13.6.1</span> Bishop_s Arms House Ale</h5>
+<div class="outline-text-5" id="text-2-13-6-1">
+<ul class="org-ul">
+<li>Öl namn: Bishop_s Arms House Ale</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Shepherd Neame Ltd</li>
+</ul>
+</div>
+<div id="outline-container-org81ff679" class="outline-6">
+<h6 id="org81ff679"><span class="section-number-6">2.13.6.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-6-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-12-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org75113be" class="outline-5">
+<h5 id="org75113be"><span class="section-number-5">2.13.6.2</span> Bishop finger</h5>
+<div class="outline-text-5" id="text-2-13-6-2">
+<ul class="org-ul">
+<li>Öl namn: Bishop finger</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Shepherd Neame Ltd</li>
+</ul>
+</div>
+<div id="outline-container-orgb644e41" class="outline-6">
+<h6 id="orgb644e41"><span class="section-number-6">2.13.6.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-6-2-1">
+<ul class="org-ul">
+<li>Datum: 2006-04-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdcef737" class="outline-5">
+<h5 id="orgdcef737"><span class="section-number-5">2.13.6.3</span> Shepherd Neame 1698</h5>
+<div class="outline-text-5" id="text-2-13-6-3">
+<ul class="org-ul">
+<li>Öl namn: Shepherd Neame 1698</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Shepherd Neame Ltd</li>
+</ul>
+</div>
+<div id="outline-container-orgf36ecf8" class="outline-6">
+<h6 id="orgf36ecf8"><span class="section-number-6">2.13.6.3.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-6-3-1">
+<ul class="org-ul">
+<li>Datum: 2006-07-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org977055a" class="outline-5">
+<h5 id="org977055a"><span class="section-number-5">2.13.6.4</span> Whitstable Bay</h5>
+<div class="outline-text-5" id="text-2-13-6-4">
+<ul class="org-ul">
+<li>Öl namn: Whitstable Bay</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Shepherd Neame Ltd</li>
+</ul>
+</div>
+<div id="outline-container-orgb511e8d" class="outline-6">
+<h6 id="orgb511e8d"><span class="section-number-6">2.13.6.4.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-6-4-1">
+<ul class="org-ul">
+<li>Datum: 2006-04-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc75c576" class="outline-5">
+<h5 id="orgc75c576"><span class="section-number-5">2.13.6.5</span> Spitfire</h5>
+<div class="outline-text-5" id="text-2-13-6-5">
+<ul class="org-ul">
+<li>Öl namn: Spitfire</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Shepherd Neame Ltd</li>
+</ul>
+</div>
+<div id="outline-container-org3bf5c9e" class="outline-6">
+<h6 id="org3bf5c9e"><span class="section-number-6">2.13.6.5.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-6-5-1">
+<ul class="org-ul">
+<li>Datum: 2006-04-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6101b37" class="outline-5">
+<h5 id="org6101b37"><span class="section-number-5">2.13.6.6</span> Shepherd Neame Christmas Ale</h5>
+<div class="outline-text-5" id="text-2-13-6-6">
+<ul class="org-ul">
+<li>Öl namn: Shepherd Neame Christmas Ale</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Shepherd Neame Ltd</li>
+</ul>
+</div>
+<div id="outline-container-org107228b" class="outline-6">
+<h6 id="org107228b"><span class="section-number-6">2.13.6.6.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-6-6-1">
+<ul class="org-ul">
+<li>Datum: 2007-12-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org953ba5c" class="outline-5">
+<h5 id="org953ba5c"><span class="section-number-5">2.13.6.7</span> Shepherd Neame Late Red</h5>
+<div class="outline-text-5" id="text-2-13-6-7">
+<ul class="org-ul">
+<li>Öl namn: Shepherd Neame Late Red</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Shepherd Neame Ltd</li>
+</ul>
+</div>
+<div id="outline-container-org0a958c4" class="outline-6">
+<h6 id="org0a958c4"><span class="section-number-6">2.13.6.7.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-6-7-1">
+<ul class="org-ul">
+<li>Datum: 2006-04-05
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org0561866" class="outline-4">
+<h4 id="org0561866"><span class="section-number-4">2.13.7</span> Hook Norton Brewery</h4>
+<div class="outline-text-4" id="text-2-13-7">
+</div>
+<div id="outline-container-org9851850" class="outline-5">
+<h5 id="org9851850"><span class="section-number-5">2.13.7.1</span> Twelve Days</h5>
+<div class="outline-text-5" id="text-2-13-7-1">
+<ul class="org-ul">
+<li>Öl namn: Twelve Days</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Hook Norton Brewery</li>
+</ul>
+</div>
+<div id="outline-container-org8984a8d" class="outline-6">
+<h6 id="org8984a8d"><span class="section-number-6">2.13.7.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-7-1-1">
+<ul class="org-ul">
+<li>Datum: 2009-10-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org90433fb" class="outline-5">
+<h5 id="org90433fb"><span class="section-number-5">2.13.7.2</span> Old Hooky</h5>
+<div class="outline-text-5" id="text-2-13-7-2">
+<ul class="org-ul">
+<li>Öl namn: Old Hooky</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Hook Norton Brewery</li>
+</ul>
+</div>
+<div id="outline-container-org4f42c0a" class="outline-6">
+<h6 id="org4f42c0a"><span class="section-number-6">2.13.7.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-7-2-1">
+<ul class="org-ul">
+<li>Datum: 2009-10-07
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgba3deb5" class="outline-4">
+<h4 id="orgba3deb5"><span class="section-number-4">2.13.8</span> Marstons</h4>
+<div class="outline-text-4" id="text-2-13-8">
+</div>
+<div id="outline-container-orgd7a10e7" class="outline-5">
+<h5 id="orgd7a10e7"><span class="section-number-5">2.13.8.1</span> Oyster Stout</h5>
+<div class="outline-text-5" id="text-2-13-8-1">
+<ul class="org-ul">
+<li>Öl namn: Oyster Stout</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Marstons</li>
+</ul>
+</div>
+<div id="outline-container-org1b09f17" class="outline-6">
+<h6 id="org1b09f17"><span class="section-number-6">2.13.8.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-8-1-1">
+<ul class="org-ul">
+<li>Datum: 2008-10-01
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org2f4dc03" class="outline-4">
+<h4 id="org2f4dc03"><span class="section-number-4">2.13.9</span> Wells &amp; Young's Ltd</h4>
+<div class="outline-text-4" id="text-2-13-9">
+</div>
+<div id="outline-container-org977e6b8" class="outline-5">
+<h5 id="org977e6b8"><span class="section-number-5">2.13.9.1</span> Young's Winter Warmer</h5>
+<div class="outline-text-5" id="text-2-13-9-1">
+<ul class="org-ul">
+<li>Öl namn: Young's Winter Warmer</li>
+<li>Land/Länder: Storbritanien</li>
+<li>Bryggeri(er): Wells &amp; Young's Ltd</li>
+</ul>
+</div>
+<div id="outline-container-org51e4701" class="outline-6">
+<h6 id="org51e4701"><span class="section-number-6">2.13.9.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-13-9-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-12-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org81a43fb" class="outline-3">
+<h3 id="org81a43fb"><span class="section-number-3">2.14</span> Tjeckien</h3>
+<div class="outline-text-3" id="text-2-14">
+</div>
+<div id="outline-container-org3a3826e" class="outline-4">
+<h4 id="org3a3826e"><span class="section-number-4">2.14.1</span> Pivovar Velké Popovice (SAB Miller)</h4>
+<div class="outline-text-4" id="text-2-14-1">
+</div>
+<div id="outline-container-org27004c8" class="outline-5">
+<h5 id="org27004c8"><span class="section-number-5">2.14.1.1</span> Kozel Premium Lager 12</h5>
+<div class="outline-text-5" id="text-2-14-1-1">
+<ul class="org-ul">
+<li>Öl namn: Kozel Premium Lager 12</li>
+<li>Land/Länder: Tjeckien</li>
+<li>Bryggeri(er): Pivovar Velké Popovice (SAB Miller)</li>
+</ul>
+</div>
+<div id="outline-container-org3aecea6" class="outline-6">
+<h6 id="org3aecea6"><span class="section-number-6">2.14.1.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-14-1-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-09-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org678601f" class="outline-4">
+<h4 id="org678601f"><span class="section-number-4">2.14.2</span> Zlatopramen Drinks Union</h4>
+<div class="outline-text-4" id="text-2-14-2">
+</div>
+<div id="outline-container-orgae9aa0e" class="outline-5">
+<h5 id="orgae9aa0e"><span class="section-number-5">2.14.2.1</span> Half n Half</h5>
+<div class="outline-text-5" id="text-2-14-2-1">
+<ul class="org-ul">
+<li>Öl namn: Half n Half</li>
+<li>Land/Länder: Tjeckien</li>
+<li>Bryggeri(er): Zlatopramen Drinks Union</li>
+</ul>
+</div>
+<div id="outline-container-org9113f6b" class="outline-6">
+<h6 id="org9113f6b"><span class="section-number-6">2.14.2.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-14-2-1-1">
+<ul class="org-ul">
+<li>Datum: 2010-11-03
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org822131a" class="outline-4">
+<h4 id="org822131a"><span class="section-number-4">2.14.3</span> Plzensky Prazdroj</h4>
+<div class="outline-text-4" id="text-2-14-3">
+</div>
+<div id="outline-container-orge526385" class="outline-5">
+<h5 id="orge526385"><span class="section-number-5">2.14.3.1</span> Pilsner Urquell</h5>
+<div class="outline-text-5" id="text-2-14-3-1">
+<ul class="org-ul">
+<li>Öl namn: Pilsner Urquell</li>
+<li>Land/Länder: Tjeckien</li>
+<li>Bryggeri(er): Plzensky Prazdroj</li>
+</ul>
+</div>
+<div id="outline-container-org1d91ccc" class="outline-6">
+<h6 id="org1d91ccc"><span class="section-number-6">2.14.3.1.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-14-3-1-1">
+<ul class="org-ul">
+<li>Datum: 2006-09-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga0534d5" class="outline-5">
+<h5 id="orga0534d5"><span class="section-number-5">2.14.3.2</span> Gambrinus Premium Svetlý Ležák 12</h5>
+<div class="outline-text-5" id="text-2-14-3-2">
+<ul class="org-ul">
+<li>Öl namn: Gambrinus Premium Svetlý Ležák 12</li>
+<li>Land/Länder: Tjeckien</li>
+<li>Bryggeri(er): Plzensky Prazdroj</li>
+</ul>
+</div>
+<div id="outline-container-orgb46eb6e" class="outline-6">
+<h6 id="orgb46eb6e"><span class="section-number-6">2.14.3.2.1</span> Provning(ar)</h6>
+<div class="outline-text-6" id="text-2-14-3-2-1">
+<ul class="org-ul">
+<li>Datum: 2006-09-06
+<ul class="org-ul">
+<li>Provare: Gefle Ölsellskap</li>
+<li>Plats: Terrassen</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Datum: 2020-02-22 Sat 21:33</p>
+<p class="author">F&ouml;rfattare: Johan Sandén</p>
+<p class="date">Created: 2020-02-22 Sat 21:33</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
