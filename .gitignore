@@ -1,3 +1,6 @@
 *.pyc
 data/meta/typer.pdf
 data/meta/typer.tex
+pub/provningar_main.tex
+pub/provningar_main.org
+pub/provningar_en_fil.org
