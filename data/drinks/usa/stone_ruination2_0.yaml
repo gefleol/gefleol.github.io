@@ -1,0 +1,30 @@
+name: "Stone Ruination Double IPA 2.0 "
+links:
+  - "https://www.beeradvocate.com/beer/profile/147/168971/"
+country:
+  - "USA"
+brewery:
+  - "Stone Brewing" 
+type_nr: 23
+type_desc:
+  - "Dubbelipa"
+  - "Amerikansk imperial ipa"
+  - "Amerikansk dubbelipa"
+abv: 8.5
+ibu: 100
+reviews:
+  - date: "2020-02-05"
+    group: "Gefle Ölsellskap"
+    place: "Terrassen"
+    count: 51
+    review_over: 6.784313725490196
+    comments:
+      - "Bra smak, går i alla väder. Mycket god."
+      - "Mycket god!"
+      - "En öl räcker! God"
+      - "100 IBU, men det känns inte för att den balanseras upp av sötman och fylligheten"
+      - "Känner ingen doft"
+      - "Suverän dubbelipa"
+      - "Bara stark!"
+      - "Två likvädriga god öl"
+      - "Balanserad smak, lite mer bäska än sötma. Fräsch för en dubbelipa"

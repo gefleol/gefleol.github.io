@@ -1,0 +1,33 @@
+name: "Go To Ipa"
+desc: "En amerikans öl, bryggd i tyskland"
+links:
+  - "https://www.stonebrewing.eu/beer/stone-brewing-year-round-releases/stone-go-ipa"
+  - "https://www.beeradvocate.com/beer/profile/147/111969/"
+country:
+  - "USA"
+  - "Tyskland"
+brewery:
+  - "Stone Brewing"
+type_nr: 23
+type_desc:
+  - "Session ipa"
+abv: 4.7
+reviews:
+  - date: "2020-02-05"
+    group: "Gefle Ölsellskap"
+    place: "Terrassen"
+    format: "Fat"
+    count: 51
+    review_over: 6.411764705882353
+    comments:
+      - "Rejält hummlad med rejäl beska!"
+      - "Noll söttma men väldigt fräsh"
+      - "Fräsh sommaröl"
+      - "Hum hum från humlegården :)"
+      - "Förkyld, så den luktade inget"
+      - "Nästa!"
+      - "Mycket god, lång och sen eftersmak"
+      - "Smakar varmkorv"
+      - "Blir lite väl mycket beska efter en stund"
+      - "GottGottiGottGott om man säger"
+      - "Bra eftersmak, god att avnjuta på festen"
