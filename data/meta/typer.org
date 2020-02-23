@@ -1,291 +1,67 @@
-* Periodiskt diagram
-
-| BasTyp       | Familj            | Stil                     |
-|--------------+-------------------+--------------------------|
-| Ale          | Wheat Beer        | Berliner Weisse          |
-| Ale          | Wheat Beer        | Belgian White            |
-| Ale          | Wheat Beer        | American Wheat           |
-| Ale          | Wheat Beer        | Weizenbier               |
-| Ale          | Wheat Beer        | Dunkelweizen             |
-| Ale          | Wheat Beer        | Weizenbock               |
-| Ale          | Lambic & Sour Ale | Lambic                   |
-| Ale          | Lambic & Sour Ale | Gueuze                   |
-| Ale          | Lambic & Sour Ale | Faro                     |
-| Ale          | Lambic & Sour Ale | Fruit beer               |
-| Ale          | Lambic & Sour Ale | Flandersred              |
-| Ale          | Lambic & Sour Ale | Oud bruin                |
-| Ale          | Belgian Ale       | Belgian gold ale         |
-| Ale          | Belgian Ale       | Tripel                   |
-| Ale          | Belgian Ale       | Saison                   |
-| Ale          | Belgian Ale       | Belgian pale ale         |
-| Ale          | Belgian Ale       | Belgian dark ale         |
-| Ale          | Belgian Ale       | Dubbel                   |
-| Ale          | Pale Ale          | Pale ale                 |
-| Ale          | Pale Ale          | American pale ale        |
-| Ale          | Pale Ale          | India pale ale           |
-| Ale          | Pale Ale          | American amber ale       |
-| Ale          | English Bitter    | Ordinary bitter          |
-| Ale          | English Bitter    | Special bitter           |
-| Ale          | English Bitter    | Extraspecial bitter      |
-| Ale          | Scottish Ale      | Scottish light 60/-      |
-| Ale          | Scottish Ale      | Scottish heavy 70/-      |
-| Ale          | Scottish Ale      | Scottish Export 80/-     |
-| Ale          | Brown Ale         | English mild             |
-| Ale          | Brown Ale         | American brown           |
-| Ale          | Brown Ale         | English brown            |
-| Ale          | Porter            | Brown porter             |
-| Ale          | Porter            | Robust porter            |
-| Ale          | Stout             | Dry stout                |
-| Ale          | Stout             | Sweet stout              |
-| Ale          | Stout             | Oatmeal stout            |
-| Ale          | Stout             | Foreing extra stout      |
-| Ale          | Stout             | Imperial stout           |
-| Ale          | Stout             | Russian imperial stout   |
-| Lager        | Pilsner           | German pilsner           |
-| Lager        | Pilsner           | Bohemian pilsner         |
-| Lager        | Pilsner           | American pilsner         |
-| Lager        | American lager    | American lite            |
-| Lager        | American lager    | American standard        |
-| Lager        | American lager    | American premium         |
-| Lager        | American lager    | American Dark            |
-| Lager        | European lager    | Munich helles            |
-| Lager        | European lager    | Dortmunder               |
-| Lager        | European lager    | Munich dunkel            |
-| Lager        | European lager    | Schwarzbier              |
-| Lager        | Bock              | Helles bock              |
-| Lager        | Bock              | Doppelboch               |
-| Lager        | Bock              | Traditional bock         |
-| Lager        | Bock              | Eisbock                  |
-| Mixed Styles | Alt               | Kölsch                   |
-| Mixed Styles | Alt               | Altbier                  |
-| Mixed Styles | French Ale        | Biere de garde           |
-| Mixed Styles | German Amber Ale  | Oktoberfest              |
-| Mixed Styles | German Amber Ale  | Vienna                   |
-| Mixed Styles | American Special  | Cream ale                |
-| Mixed Styles | American Special  | Steam beer               |
-| Mixed Styles | Smoked Beer       | Smoked Beer              |
-| Mixed Styles | Barley Wine       | Barley wine              |
-| Mixed Styles | Strong Ale        | English old (strong) ale |
-| Mixed Styles | Strong Ale        | Strong scotch ale        |
-
-* Brewers Association 2019 Beer Style Guidelines
-
-|  Nr | Typ   | Härkost            | Stil                                                       |
-|-----+-------+--------------------+------------------------------------------------------------|
-|   1 | Ale   | BRITISH            | Ordinary Bitter                                            |
-|   2 | Ale   | BRITISH            | Special Bitter or Best Bitter                              |
-|   3 | Ale   | BRITISH            | Extra Special Bitter                                       |
-|   4 | Ale   | BRITISH            | Scottish-Style Light Ale                                   |
-|   5 | Ale   | BRITISH            | Scottish-Style Heavy Ale                                   |
-|   6 | Ale   | BRITISH            | Scottish-Style Export Ale                                  |
-|   7 | Ale   | BRITISH            | English-Style Summer Ale                                   |
-|   8 | Ale   | BRITISH            | Classic English-Style Pale Ale                             |
-|   9 | Ale   | BRITISH            | English-Style India Pale Ale                               |
-|  10 | Ale   | BRITISH            | Strong Ale                                                 |
-|  11 | Ale   | BRITISH            | Old Ale                                                    |
-|  12 | Ale   | BRITISH            | English-Style Pale Mild Ale                                |
-|  13 | Ale   | BRITISH            | English-Style Dark Mild Ale                                |
-|  14 | Ale   | BRITISH            | English-Style Brown Ale                                    |
-|  15 | Ale   | BRITISH            | Brown Porter                                               |
-|  16 | Ale   | BRITISH            | Robust Porter                                              |
-|  17 | Ale   | BRITISH            | Sweet Stout or Cream Stout                                 |
-|  18 | Ale   | BRITISH            | Oatmeal Stout                                              |
-|  19 | Ale   | BRITISH            | Scotch Ale or Wee Heavy                                    |
-|  20 | Ale   | BRITISH            | British-Style Imperial Stout                               |
-|  21 | Ale   | BRITISH            | British-Style Barley Wine Ale                              |
-|  22 | Ale   | IRISH              | Irish-Style Red Ale                                        |
-|  23 | Ale   | IRISH              | Classic Irish-Style Dry Stout                              |
-|  24 | Ale   | IRISH              | Export-Style Stout                                         |
-|  25 | Ale   | NORTH AMERICAN     | Golden or Blonde Ale                                       |
-|  26 | Ale   | NORTH AMERICAN     | American-Style Amber/Red Ale                               |
-|  27 | Ale   | NORTH AMERICAN     | American-Style Pale Ale                                    |
-|  28 | Ale   | NORTH AMERICAN     | Juicy or Hazy Pale Ale                                     |
-|  29 | Ale   | NORTH AMERICAN     | American-Style Strong Pale Ale                             |
-|  30 | Ale   | NORTH AMERICAN     | Juicy or Hazy Strong Pale Ale                              |
-|  31 | Ale   | NORTH AMERICAN     | Session India Pale Ale                                     |
-|  32 | Ale   | NORTH AMERICAN     | American-Style India Pale Ale                              |
-|  33 | Ale   | NORTH AMERICAN     | Juicy or Hazy India Pale Ale                               |
-|  34 | Ale   | NORTH AMERICAN     | American-Belgo-Style Ale                                   |
-|  35 | Ale   | NORTH AMERICAN     | American-Style Brown Ale                                   |
-|  36 | Ale   | NORTH AMERICAN     | American-Style Black Ale                                   |
-|  37 | Ale   | NORTH AMERICAN     | American-Style Stout                                       |
-|  38 | Ale   | NORTH AMERICAN     | American-Style Imperial Porter                             |
-|  39 | Ale   | NORTH AMERICAN     | American-Style Imperial Stout                              |
-|  40 | Ale   | NORTH AMERICAN     | Double Hoppy Red Ale                                       |
-|  41 | Ale   | NORTH AMERICAN     | Imperial Red Ale                                           |
-|  42 | Ale   | NORTH AMERICAN     | American-Style Imperial or Double India Pale Ale           |
-|  43 | Ale   | NORTH AMERICAN     | Juicy or Hazy Imperial or Double India Pale Ale            |
-|  44 | Ale   | NORTH AMERICAN     | American-Style Barley Wine Ale                             |
-|  45 | Ale   | NORTH AMERICAN     | American-Style Wheat Wine Ale                              |
-|  46 | Ale   | NORTH AMERICAN     | Smoke Porter                                               |
-|  47 | Ale   | NORTH AMERICAN     | American-Style Sour Ale                                    |
-|  48 | Ale   | NORTH AMERICAN     | American-Style Fruited Sour Ale                            |
-|  49 | Ale   | GERMAN             | German-Style Koelsch                                       |
-|  50 | Ale   | GERMAN             | German-Style Altbier                                       |
-|  51 | Ale   | GERMAN             | Berliner-Style Weisse                                      |
-|  52 | Ale   | GERMAN             | Leipzig-Style Gose                                         |
-|  53 | Ale   | GERMAN             | Contemporary-Style Gose                                    |
-|  54 | Ale   | GERMAN             | South German-Style Hefeweizen                              |
-|  55 | Ale   | GERMAN             | South German-Style Kristal Weizen                          |
-|  56 | Ale   | GERMAN             | German-Style Leichtes Weizen                               |
-|  57 | Ale   | GERMAN             | South German-Style Bernsteinfarbenes Weizen                |
-|  58 | Ale   | GERMAN             | South German-Style Dunkel Weizen                           |
-|  59 | Ale   | GERMAN             | South German-Style Weizenbock                              |
-|  60 | Ale   | GERMAN             | German-Style Rye Ale                                       |
-|  61 | Ale   | GERMAN             | Bamberg-Style Weiss Rauchbier                              |
-|  62 | Ale   | BELGIAN AND FRENCH | Belgian-Style Blonde Ale                                   |
-|  63 | Ale   | BELGIAN AND FRENCH | Belgian-Style Pale Ale                                     |
-|  64 | Ale   | BELGIAN AND FRENCH | Belgian-Style Pale Strong Ale                              |
-|  65 | Ale   | BELGIAN AND FRENCH | Belgian-Style Dark Strong Ale                              |
-|  66 | Ale   | BELGIAN AND FRENCH | Belgian-Style Dubbel                                       |
-|  67 | Ale   | BELGIAN AND FRENCH | Belgian-Style Tripel                                       |
-|  68 | Ale   | BELGIAN AND FRENCH | Belgian-Style Quadrupel                                    |
-|  69 | Ale   | BELGIAN AND FRENCH | Belgian-Style Witbier                                      |
-|  70 | Ale   | BELGIAN AND FRENCH | Classic French & Belgian-Style Saison                      |
-|  71 | Ale   | BELGIAN AND FRENCH | Specialty Saison                                           |
-|  72 | Ale   | BELGIAN AND FRENCH | French-Style Bière de Garde                                |
-|  73 | Ale   | BELGIAN AND FRENCH | Belgian-Style Flanders Oud Bruin or Oud Red Ale            |
-|  74 | Ale   | BELGIAN AND FRENCH | Belgian-Style Lambic                                       |
-|  75 | Ale   | BELGIAN AND FRENCH | Traditional Belgian-Style Gueuze Lambic                    |
-|  76 | Ale   | BELGIAN AND FRENCH | Contemporary Belgian-Style Gueuze Lambic                   |
-|  77 | Ale   | BELGIAN AND FRENCH | Belgian-Style Fruit Lambic                                 |
-|  78 | Ale   | BELGIAN AND FRENCH | Other Belgian-Style Ale                                    |
-|  79 | Ale   | BELGIAN AND FRENCH | Belgian-Style Table Beer                                   |
-|  80 | Ale   | OTHER              | Grodziskie                                                 |
-|  81 | Ale   | OTHER              | Adambier                                                   |
-|  82 | Ale   | OTHER              | Dutch-Style Kuit, Kuyt or Koyt                             |
-|  83 | Ale   | OTHER              | Classic Australian-Style Pale Ale                          |
-|  84 | Ale   | OTHER              | Australian-Style Pale Ale                                  |
-|  85 | Ale   | OTHER              | International-Style Pale Ale                               |
-|  86 | Ale   | OTHER              | Finnish-Style Sahti                                        |
-|  87 | Ale   | OTHER              | Swedish-Style Gotlandsdricke                               |
-|  88 | Ale   | OTHER              | Breslau-Style Schoeps                                      |
-|  89 | Ale   | OTHER              | Lager Styles                                               |
-|  90 | Lager | EUROPEAN           | German-Style Pilsener                                      |
-|  91 | Lager | EUROPEAN           | Bohemian-Style Pilsener                                    |
-|  92 | Lager | EUROPEAN           | Munich-Style Helles                                        |
-|  93 | Lager | EUROPEAN           | Dortmunder/European-Style Export                           |
-|  94 | Lager | EUROPEAN           | Vienna-Style Lager                                         |
-|  95 | Lager | EUROPEAN           | Franconian-Style Rotbier                                   |
-|  96 | Lager | EUROPEAN           | German-Style Maerzen                                       |
-|  97 | Lager | EUROPEAN           | German-Style Oktoberfest/Wiesn                             |
-|  98 | Lager | EUROPEAN           | Munich-Style Dunkel                                        |
-|  99 | Lager | EUROPEAN           | European-Style Dark Lager                                  |
-| 100 | Lager | EUROPEAN           | German-Style Schwarzbier                                   |
-| 101 | Lager | EUROPEAN           | German-Style Leichtbier                                    |
-| 102 | Lager | EUROPEAN           | Bamberg-Style Helles Rauchbier                             |
-| 103 | Lager | EUROPEAN           | Bamberg-Style Maerzen Rauchbier                            |
-| 104 | Lager | EUROPEAN           | Bamberg-Style Bock Rauchbier                               |
-| 105 | Lager | EUROPEAN           | German-Style Heller Bock/Maibock                           |
-| 106 | Lager | EUROPEAN           | viiTraditional German-Style Bock                           |
-| 107 | Lager | EUROPEAN           | German-Style Doppelbock                                    |
-| 108 | Lager | EUROPEAN           | German-Style Eisbock                                       |
-| 109 | Lager | NORTH AMERICAN     | American-Style Lager                                       |
-| 110 | Lager | NORTH AMERICAN     | American-Style Light Lager                                 |
-| 111 | Lager | NORTH AMERICAN     | American-Style Amber Light Lager                           |
-| 112 | Lager | NORTH AMERICAN     | American-Style Pilsener                                    |
-| 113 | Lager | NORTH AMERICAN     | Contemporary American-Style Pilsener                       |
-| 114 | Lager | NORTH AMERICAN     | American-Style India Pale Lager                            |
-| 115 | Lager | NORTH AMERICAN     | American-Style Malt Liquor                                 |
-| 116 | Lager | NORTH AMERICAN     | American-Style Amber Lager                                 |
-| 117 | Lager | NORTH AMERICAN     | American-Style Maerzen/Oktoberfest                         |
-| 118 | Lager | NORTH AMERICAN     | American-Style Dark Lager                                  |
-| 119 | Lager | OTHER              | Baltic-Style Porter                                        |
-| 120 | Lager | OTHER              | Australasian, Latin American or Tropical-Style Light Lager |
-| 121 | Lager | OTHER              | International-Style Pilsener                               |
-| 122 | Lager | OTHER              | Hybrid/Mixed Lagers or Ales                                |
-| 123 | Other | Other              | Session Beer                                               |
-| 124 | Other | Other              | American-Style Cream Ale                                   |
-| 125 | Other | Other              | California Common Beer                                     |
-| 126 | Other | Other              | American-Style Wheat Beer                                  |
-| 127 | Other | Other              | Kellerbier or Zwickelbier                                  |
-| 128 | Other | Other              | American-Style Fruit Beer                                  |
-| 129 | Other | Other              | Fruit Wheat Beer                                           |
-| 130 | Other | Other              | Belgian-Style Fruit Beer                                   |
-| 131 | Other | Other              | Field Beer                                                 |
-| 132 | Other | Other              | Pumpkin Spice Beer                                         |
-| 133 | Other | Other              | Pumpkin/Squash Beer                                        |
-| 134 | Other | Other              | Chocolate or Cocoa Beer                                    |
-| 135 | Other | Other              | Coffee Beer                                                |
-| 136 | Other | Other              | Chili Pepper Beer                                          |
-| 137 | Other | Other              | Herb and Spice Beer                                        |
-| 138 | Other | Other              | Specialty Beer                                             |
-| 139 | Other | Other              | Specialty Honey Beer                                       |
-| 140 | Other | Other              | Rye Beer                                                   |
-| 141 | Other | Other              | Brett Beer                                                 |
-| 142 | Other | Other              | Mixed-Culture Brett Beer                                   |
-| 143 | Other | Other              | Ginjo Beer or Sake-Yeast Beer                              |
-| 144 | Other | Other              | Fresh Hop Beer                                             |
-| 145 | Other | Other              | Wood- and Barrel-Aged Beer                                 |
-| 146 | Other | Other              | Wood- and Barrel-Aged Sour Beer                            |
-| 147 | Other | Other              | Aged Beer                                                  |
-| 148 | Other | Other              | Experimental Beer                                          |
-| 149 | Other | Other              | Historical Beer                                            |
-| 150 | Other | Other              | Wild Beer                                                  |
-| 151 | Other | Other              | Smoke Beer                                                 |
-| 152 | Other | Other              | Other Strong Ale or Lager                                  |
-| 153 | Other | Other              | Gluten-Free Beer                                           |
-| 154 | Other | Other              | Non-Alcohol Malt Beverage                                  |
-
-* Wikipedia tabell
-  - https://en.wikipedia.org/wiki/List_of_beer_styles
-
-| Nr | Term                         | Kallas                                                                        |
-|----+------------------------------+-------------------------------------------------------------------------------|
-|  0 | Unknown/ Other               | Okänd eller annan typ (se text)                                               |
-|  1 | Altbier                      | German-Style Altbier                                                          |
-|  2 | Amber ale                    | American-Style Amber/Red Ale, American Amber Ale                              |
-|  3 | Barley wine                  | British-Style, English Barleywine, American-Style, American Barleywine        |
-|  4 | Berliner Weisse              | Berliner-Style Weisse                                                         |
-|  5 | Bière de Garde               | French-Style Bière de Garde                                                   |
-|  6 | Bitter                       | Ordinary-/Special-/Best-/Extra Special-/Strong Bitter                         |
-|  7 | Blonde Ale                   | Golden-/Belgian-Style-/Blonde Ale                                             |
-|  8 | Bock                         | Bok, Traditional German-Style Bock, Helles Bock, Dunkles Bock                 |
-|  9 | Brown ale                    | English-Style-, British Brown Ale                                             |
-| 10 | California Common/Steam Beer | American-Style Cream Ale                                                      |
-| 11 | Cream Ale                    |                                                                               |
-| 12 | Doppelbock                   | "Double" bock, German-Style                                                   |
-| 13 | Dortmunder Export            | Export, European-Style, German Helles, Exportbier                             |
-| 14 | Dunkel                       | Dunkles, Münchner Dunkel                                                      |
-| 15 | Dunkelweizen                 | South German-Style Dunkel                                                     |
-| 16 | Eisbock                      | Weizen, German-Style Eisbock                                                  |
-| 17 | Flanders red ale             | Red beers, Belgian-Style Flanders, Flanders Red Ale, Oud Bruin, Oud Red Ale   |
-| 18 | Golden/Summer ale            | English-Style Summer Ale, Golden Ales, British Golden, Blonde Ale             |
-| 19 | Gose                         | Leipzig-Style Gose, Contemporary Gose                                         |
-| 20 | Gueuze                       | Belgian-Style Gueuze Lambic                                                   |
-| 21 | Hefeweizen                   | South German-Style Hefeweizen                                                 |
-| 22 | Helles                       | Hell,Münchner (Munich)-Style Helles, Munich Helles                            |
-| 23 | India pale ale               | IPA, APA, Imperial or Double India Pale Ale, Session India Pale Ale           |
-| 24 | Kölsch                       | Kolsch, German-Style Kölsch                                                   |
-| 25 | Lambic                       | Belgian-Style Lambic, Belgian-Style Fruit Lambic, Fruit Lambic                |
-| 26 | Light ale                    |                                                                               |
-| 27 | Maibock/Helles bock          | German-Style Heller Bock/Maibock                                              |
-| 28 | Malt liquor                  | American-Style Malt Liquor                                                    |
-| 29 | Mild                         | Mild ale, English-Style Pale Mild Ale, Dark Mild, English-Style Dark Mild Ale |
-| 30 | Oktoberfestbier/Märzenbier   | Marzen, German-Style Maerzen, Festbier, German-Style Oktoberfest/Wiesn        |
-| 31 | Old ale                      |                                                                               |
-| 32 | Oud bruin                    | Brown Beers, Belgian-Style Flanders Oud Bruin or Oud Red Ale                  |
-| 33 | Pale ale                     | Classic English-Style Pale Ale, American-, Australian-, ...                   |
-| 34 | Pilsener/Pilsner/Pils        | German-, Bohemian-, American-,International-                                  |
-| 35 | Porter                       | Baltic, Brown-, Smoke-, English-, American-, ....                             |
-| 36 | Red ale                      | Irish-, American-, Amber-, Imperial-,                                         |
-| 37 | Roggenbier                   | German-Style Rye Ale                                                          |
-| 38 | Saison                       | Classic French-, Belgian-, Special-                                           |
-| 39 | Schwarzbier                  | German-                                                                       |
-| 40 | Scotch ale                   | Scottish Beers, Wee Heavy                                                     |
-| 41 | Stout                        |                                                                               |
-| 42 | Vienna lager                 |                                                                               |
-| 43 | Weissbier                    |                                                                               |
-| 44 | Weizenbock                   |                                                                               |
-| 45 | Witbier                      |                                                                               |
-| 46 | Fruit beer                   |                                                                               |
-| 47 | Herb and spiced beer         |                                                                               |
-| 48 | Honey beer                   |                                                                               |
-| 49 | Rye Beer                     |                                                                               |
-| 50 | Smoked beer                  |                                                                               |
-| 51 | Vegetable beer               |                                                                               |
-| 52 | Wild beer                    |                                                                               |
-| 53 | Wood-aged beer               |                                                                               |
+* Huvudöltyper i databasen.
+   - Följande klassiska öltyper är databasens huvud typer.
+     - Alla öl bör, och kan max, ha en huvudtyp (enligt tabellen nedan) men kan sedan var
+       specificerad ytterligare med fritext. Till exempel kan 23 India Pale Ale
+       vara session ip, apa osv.
+   - Listan är en sammanslagning av 5 standarder hämtade från
+     https://en.wikipedia.org/wiki/List_of_beer_styles
+#+ATTR_LATEX: :environment longtable  :align |l|l|l|
+| Nr | Term                         | Kallas/Exempel                                     |
+|----+------------------------------+----------------------------------------------------|
+|  0 | Unknown/Other                | Okänd eller annan typ (se text)                    |
+|  1 | Altbier                      | German-Style Altbier                               |
+|  2 | Amber ale                    | American-Style Amber,Red Ale                       |
+|  3 | Barley wine                  |                                                    |
+|  4 | Berliner Weisse              | Berliner-Style Weisse                              |
+|  5 | Bière de Garde               | French-Style Bière de Garde                        |
+|  6 | Bitter                       | Ordinary-/Special-/Extra-/Strong Bitter            |
+|  7 | Blonde Ale                   | Golden-/Belgian-Style-/Blonde Ale                  |
+|  8 | Bock                         | Bok, Helles Bock, Dunkles Bock                     |
+|  9 | Brown ale                    | English-Style-, British Brown Ale                  |
+| 10 | California Common/Steam Beer | American-Style Cream Ale                           |
+| 11 | Cream Ale                    |                                                    |
+| 12 | Doppelbock                   | "Double" bock, German-Style                        |
+| 13 | Dortmunder Export            | Export, European-Style, German Helles, Exportbier  |
+| 14 | Dunkel                       | Dunkles, Münchner Dunkel                           |
+| 15 | Dunkelweizen                 | South German-Style Dunkel                          |
+| 16 | Eisbock                      | Weizen, German-Style Eisbock                       |
+| 17 | Flanders red ale             | Red beers, Oud Bruin, Oud Red Ale                  |
+| 18 | Golden/Summer ale            | Blonde Ale                                         |
+| 19 | Gose                         | Contemporary Gose                                  |
+| 20 | Gueuze                       | Belgian-Style Gueuze Lambic                        |
+| 21 | Hefeweizen                   | South German-Style Hefeweizen                      |
+| 22 | Helles                       | Hell,Münchner (Munich)-Style Helles, Munich Helles |
+| 23 | India pale ale               | IPA, DIPA, APA, Imperial, Session IPA              |
+| 24 | Kölsch                       | Kolsch, German-Style Kölsch                        |
+| 25 | Lambic                       | Fruit Lambic                                       |
+| 26 | Light ale                    |                                                    |
+| 27 | Maibock/Helles bock          | German-Style Heller Bock/Maibock                   |
+| 28 | Malt liquor                  | American-Style Malt Liquor                         |
+| 29 | Mild                         | Mild ale, Pale Mild Ale, Dark Mild                 |
+| 30 | Oktoberfestbier/Märzenbier   | Marzen, Maerzen, Festbier, Oktoberfest/Wiesn       |
+| 31 | Old ale                      |                                                    |
+| 32 | Oud bruin                    | Brown Beers, Flanders Oud Bruin, Oud Red Ale       |
+| 33 | Pale ale                     | Classic Pale Ale                                   |
+| 34 | Pilsener/Pilsner/Pils        | Bohemian pilsner, American-,International-         |
+| 35 | Porter                       | Baltic porter, Brown-, Smoke-,                     |
+| 36 | Red ale                      | Irish-/Amber-/Imperial red ale                     |
+| 37 | Roggenbier                   | German-Style Rye Ale                               |
+| 38 | Saison                       | Classic French-/Belgian-/Special-                  |
+| 39 | Schwarzbier                  |                                                    |
+| 40 | Scotch ale                   | Scottish Beers, Wee Heavy                          |
+| 41 | Stout                        |                                                    |
+| 42 | Vienna lager                 |                                                    |
+| 43 | Weissbier                    |                                                    |
+| 44 | Weizenbock                   |                                                    |
+| 45 | Witbier                      |                                                    |
+| 46 | Fruit beer                   |                                                    |
+| 47 | Herb and spiced beer         |                                                    |
+| 48 | Honey beer                   |                                                    |
+| 49 | Rye Beer                     |                                                    |
+| 50 | Smoked beer                  |                                                    |
+| 51 | Vegetable beer               |                                                    |
+| 52 | Wild beer                    |                                                    |
+| 53 | Wood-aged beer               |                                                    |
 
 
 

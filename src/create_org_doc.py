@@ -2,7 +2,7 @@ import directoryparser as dir
 import drinks_parser as dp
 from document.document import Document
 from document.constants import *
-
+from csv import CSV_Writer
 drink_directory = "../data/drinks/"
 pub_directory = "../pub/"
 print_dict=dict()
@@ -26,3 +26,5 @@ if __name__ == '__main__':
     one_file.create_content(print_dict)
     one_file.save_basic_file("provningar_en_fil.org")
 
+    csv_writer=CSV_Writer(pub_directory, docs)
+    csv_writer.write_lines("csv_file.csv")

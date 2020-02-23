@@ -4,8 +4,7 @@ import schemas
 
 
 class Document:
-
-
+    
     def __init__(self,pub_dir, header=constants.header):
         self.content = ""
         self.pub_dir=pub_dir
@@ -17,7 +16,7 @@ class Document:
             {'key':'brewery',  'desc':'Bryggeri(er)',   'p':'+','ind':2,'fn':self.string_writer},
             {'key':'links',    'desc':'Länk(ar)',       'p':'+','ind':2,'fn':self.string_writer},
             {'key':'brewer',   'desc':'Bryggare',       'p':'+','ind':2,'fn':self.string_writer},
-            {'key':'type_nr',  'desc':'Öltyp',          'p':'+','ind':2,'fn':self.string_writer},
+            {'key':'type_nr',  'desc':'Öltyp',          'p':'+','ind':2,'fn':self.type_writer},
             {'key':'type_desc','desc':'Öltyp (fritext)','p':'+','ind':2,'fn':self.string_writer},
             {'key':'abv',      'desc':'ABV',            'p':'+','ind':2,'fn':self.string_writer},
             {'key':'abw',      'desc':'ABW',            'p':'+','ind':2,'fn':self.string_writer},
@@ -25,14 +24,14 @@ class Document:
             {'key':'reviews',  'desc':'Provning(ar)',   'p':'+','ind':2,'fn':self.reviews_writer}]
 
         self.review_order = [
-            {'key':'date',       'desc':'Datum',                            'p':'-','ind':4, 'fn':self.string_writer},
-            {'key':'group',      'desc':'Provare',                          'p':'*','ind':6, 'fn':self.string_writer},
-            {'key':'place',      'desc':'Plats',                            'p':'*','ind':6, 'fn':self.string_writer},
-            {'key':'count',      'desc':'Antal provare',                    'p':'*','ind':6, 'fn':self.string_writer},
-            {'key':'review_type','desc':'Öltyp (snittbetyg)',               'p':'*','ind':6, 'fn':self.string_writer},
-            {'key':'review_over','desc':'Personlig bedömning (snittbetyg)', 'p':'*','ind':6, 'fn':self.string_writer},
-            {'key':'review_uniq','desc':'Unik och Intressant (snittbetyg)', 'p':'*','ind':6, 'fn':self.string_writer},
-            {'key':'comments',   'desc':'Kommentar(er)',                    'p':'*','ind':6, 'fn':self.string_writer}]
+            {'key':'date',       'desc':'Datum',                            'p':'+','ind':4, 'fn':self.string_writer},
+            {'key':'group',      'desc':'Provare',                          'p':'+','ind':6, 'fn':self.string_writer},
+            {'key':'place',      'desc':'Plats',                            'p':'+','ind':6, 'fn':self.string_writer},
+            {'key':'count',      'desc':'Antal provare',                    'p':'+','ind':6, 'fn':self.string_writer},
+            {'key':'review_type','desc':'Öltyp (snittbetyg)',               'p':'+','ind':6, 'fn':self.string_writer},
+            {'key':'review_over','desc':'Personlig bedömning (snittbetyg)', 'p':'+','ind':6, 'fn':self.string_writer},
+            {'key':'review_uniq','desc':'Unik och Intressant (snittbetyg)', 'p':'+','ind':6, 'fn':self.string_writer},
+            {'key':'comments',   'desc':'Kommentar(er)',                    'p':'+','ind':8, 'fn':self.string_writer}]
         
     def reviews_writer(self, reviews, name,_,__):
         self.content+="***** {}\n".format(name.encode("utf-8"))
@@ -46,20 +45,22 @@ class Document:
                 if key in review:
                     print_function(review[key], desc,ind,p)
 
-
-    def string_writer(self, desc, name, indent=0,p="+"):
+    def type_writer(self, desc, name, indent,p):
+        self.content+= " "*indent+ p +" {}: {} - {}\n".format(str(name),str(desc).encode("utf-8"),constants.type_constants[desc])
+                    
+    def string_writer(self, desc, name, indent,p):
         if isinstance(desc,unicode):
-            self.content+= "  "*indent+ p+" {}: {}\n".format(str(name),str(desc.encode("utf-8")))            
+            self.content+= " "*indent+ p+" {}: {}\n".format(str(name),str(desc.encode("utf-8")))            
         elif isinstance(desc, str) or isinstance(desc, int) or isinstance(desc,float):
-            self.content+= "  "*indent+ p+" {}: {}\n".format(str(name),str(desc).encode("utf-8"))
+            self.content+= " "*indent+ p+" {}: {}\n".format(str(name),str(desc).encode("utf-8"))
         elif isinstance (desc,list):
             if len(desc)==1:
-                self.content+="  "*indent+ p+" {}: {}\n".format(str(name),str(desc[0].encode("utf-8")))
+                self.content+=" "*indent+ p+" {}: {}\n".format(str(name),str(desc[0].encode("utf-8")))
             else:
-                self.content+="  "*indent+p+" {}:\n".format(str(name))
-                p={"+":"-","-":"*","*":"-"}[p]
+                self.content+=" "*indent+p+" {}:\n".format(str(name))
+                # p={"+":"-","-":"*","*":"-"}[p]
                 for d in desc:
-                    self.content+=" "*(indent+2) +p+" {}\n".format(str(desc[0].encode("utf-8")))
+                    self.content+=" "*(indent+4) +p+" {}\n".format(str(d.encode("utf-8")))
 
                     
     def print_country_get_breweries(self, doc):

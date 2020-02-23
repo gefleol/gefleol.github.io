@@ -1,0 +1,11 @@
+     #+BEGIN_SRC elisp
+     (progn
+     (setq l '(8 8 4 8 7 7 8 8 6 4 8 7 7 4 7 8 4 4 8 7 8 8 8 5 6 1 7 9 8 9 7 8 6 7 8 8 8 8 8 6 8 7 6 6 5 8 5 8 2 8 8))
+     (setq n (length l))
+     (setq s (apply '+ l))
+     (message (concat "Antal:" (int-to-string n) " - medeltal:" (number-to-string (/ (float s) n))))
+     )
+     #+END_SRC
+
+     #+RESULTS:
+     : Antal:51 - medeltal:6.784313725490196

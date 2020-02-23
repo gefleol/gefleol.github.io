@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from schema import Schema, And, Regex, Optional
+from schema import Schema, And, Regex, Optional, Or
+
 
 drink_json_schema = {'name': And(Regex('\w+'),len),
                      Optional('desc'):And(Regex('\w+'),len),
@@ -11,11 +12,12 @@ drink_json_schema = {'name': And(Regex('\w+'),len),
                      Optional('type_desc'):[And(Regex('\w+'),len)],
                      Optional('abv'):And(float,lambda n:0 <= n <=100),
                      Optional('abw'):And(float,lambda n:0 <= n <=100),
-                     Optional('ibu'):float,
+                     Optional('ibu'):Or(float,int),
                      Optional('reviews'):
                          [{'date': Regex('^\d{4}-\d{2}-\d{2}'),
                            Optional('group'):And(Regex('\w+'),len),
                            Optional('place'):And(Regex('\w+'),len),
+                           Optional('format'):Or(Regex("Fat"), Regex("Burk"), Regex("Flaska")),
                            Optional('count'):int, 
                            Optional('review_type'):And(float,lambda n:0 <= n <=10), 
                            Optional('review_over'):And(float,lambda n:0 <= n <=10),

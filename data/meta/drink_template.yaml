@@ -1,0 +1,32 @@
+name: "Namnet på ölen"
+desc: "Kort beskrivning eller kommentar om själva ölen"
+links:
+  - "www.Länkar.till.ölen"
+  - "vi kan ha flera länkar"
+country:
+  - "ett eller fler länder"
+  - "länder"
+brewery:
+  - "ett" 
+  - "eller flera bryggerier"
+brewer:
+  - "en eller"
+  - "flera bryggare"
+type_nr: en siffra för typen, se typ-tabell
+type_desc:
+  - "En lista med beskrivning t.ex. 'Apa'"
+  - "eller Session"  
+abv: alcohol i volymprocent, detta är det normala (te.x. 5.23) skriv inget "%"-tecken
+abw: alochol i viktprocent
+ibu: bitterhets units
+reviews:
+  - date: datum för provning, skall alltid skrivas YYYY-MM-DD
+    group: är troligen alltid "Gefle Ölsellskap"
+    place: platsen är troligen "terrassen"
+    count: antalet provare
+    review_type: Medelbetyget för hur väl ölen följde sin typ
+    review_over: Medelbetyg för hur god man tyckte ölen var (detta är den enda vi kör nu)
+    review_uniq: Medelbetyg för hur 
+    comments:
+      - Kommentarer
+      - En kommentar per rad.
