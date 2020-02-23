@@ -1,0 +1,84 @@
+| Beer Geek Breakfast                   | Mikkeller                          | Danmark       |
+| Bishop_s Arms House Ale               | Shepherd Neame Ltd                 | Storbritanien |
+| Twelve Days                           | Hook Norton Brewery                | Storbritanien |
+| Ushers Founders Ale                   | Wychwood Marstons plc              | Storbritanien |
+| Bishop finger                         | Shepherd Neame Ltd                 | Storbritanien |
+| Old Hooky                             | Hook Norton Brewery                | Storbritanien |
+| Oyster Stout                          | Marstons                           | Storbritanien |
+| Shepherd Neame 1698                   | Shepherd Neame Ltd                 | Storbritanien |
+| Whitstable Bay                        | Shepherd Neame Ltd                 | Storbritanien |
+| Daleside Monkey Wrench                | Daleside                           | Storbritanien |
+| Gorilla                               | Summer Vine Brewing                | Storbritanien |
+| Ringwood XXXX Porter                  | Ringwood Marstons plc              | Storbritanien |
+| Fullers Discovery                     | Fullers                            | Storbritanien |
+| Young's Winter Warmer                 | Wells & Young's Ltd                | Storbritanien |
+| Spitfire                              | Shepherd Neame Ltd                 | Storbritanien |
+| Shepherd Neame Christmas Ale          | Shepherd Neame Ltd                 | Storbritanien |
+| Shepherd Neame Late Red               | Shepherd Neame Ltd                 | Storbritanien |
+| Kronenbourg Blanc                     | Brasseries Kronenbourg             | Frankrike     |
+| Hoptical Illusion                     | Flying Monkeys Craft Brewery       | Kanada        |
+| Stiegl Pils                           | Stiegl                             | Österike      |
+| Jever Pilsener                        | Friesisches Brauhaus               | Tyskland      |
+| Aecht Schlenkerla Rauchbier Märzen    | Brauerei Heller-Trum _ Schlenkerla | Tyskland      |
+| Spaten Oktoberfestbier                | Spaten-Franziskaner-Bräu           | Tyskland      |
+| Salvator                              | Paulaner Brauerei _Schörghuber_    | Tyskland      |
+| Einbecker Brauherren Pils             | Einbecker Brauhause                | Tyskland      |
+| Oktoberfestbier                       | Hofbräu München                    | Tyskland      |
+| Paulaner Oktoberfest Bier             | Paulaner Brauerei (Schörghuber)    | Tyskland      |
+| Spaten Optimator                      | Spaten-Franziskaner-Bräu           | Tyskland      |
+| Hacker-Pschorr Braumeister Pils       | Paulaner Brauerei (Schörghuber)    | Tyskland      |
+| Affligem Dubbel                       | Brouwerij Affligem De Smedt        | Belgien       |
+| Lindemans Kriek Cuvée René            | Brouwerij Lindemans                | Belgien       |
+| La Trappe Tripel                      | Brouwerij de Koningshoeven         | Belgien       |
+| Rodenbach Grand Cru                   | Brouwerij Rodenbach                | Belgien       |
+| Affligem Blond                        | Brouwerij Affligem De Smedt        | Belgien       |
+| De Dolle Dulle Teve _Mad Bitch_       | Brouwerij De Dolle Brouwers        | Belgien       |
+| Gouden Carolus Classic                | Het Anker                          | Belgien       |
+| Steenbrugge Dubbel Bruin              | Palm Breweries                     | Belgien       |
+| Verhaeghe Duchesse De Bourgogne       | Verhaeghe                          | Belgien       |
+| St.Benoit Blond                       | Brasserie Du Bocq                  | Belgien       |
+| Gordon X-Mas Ale                      | John Martin _Scottish & Newcastle_ | Belgien       |
+| Grottenbier                           | St. Bernardus                      | Belgien       |
+| Steenbrugge Blond                     | Palm Breweries                     | Belgien       |
+| Wit                                   | St. Bernardus                      | Belgien       |
+| Floreffe Double                       | Brasserie Lefebvre                 | Belgien       |
+| King Cobra                            | Palm Breweries                     | Belgien       |
+| Floreffe Blond                        | Brasserie Lefebvre                 | Belgien       |
+| Oerbier                               | Brouwerij De Dolle Brouwers        | Belgien       |
+| Heather Ales Kelpie                   | Williams Brothers _Heather Ales_   | Skottland     |
+| Wee Heavey                            | Belhaven                           | Skottland     |
+| Lia Fail                              | Inveralmond Brewery                | Skottland     |
+| Punk Ipa                              | BrewDog                            | Skottland     |
+| Alba                                  | Williams Brothers _Heather Ales_   | Skottland     |
+| Original                              | Innis & Gunn                       | Skottland     |
+| Innis & Gunn Rum Finish Oak Aged Beer | Innis & Gunn                       | Skottland     |
+| Caledonian 80                         | The Caledonian Brewing Company     | Skottland     |
+| Twisted Thistle IPA                   | Belhaven                           | Skottland     |
+| Traquair House Ale                    | Traquair House                     | Skottland     |
+| Ossian                                | Inveralmond Brewery                | Skottland     |
+| Birra Poretti                         | Birrificio Angelo                  | Italien       |
+| Odd Island Brew                       | Hazie Dizzie                       | Sverige       |
+| Hälsinge Stout                        | Hällsinge bryggeri                 | Sverige       |
+| Närke Mörker                          | Närke Kulturbryggeri               | Sverige       |
+| USB _UteSittarBärs_                   | Skebo Bruksbryggeri                | Sverige       |
+| India Ale                             | Nils Oscar                         | Sverige       |
+| Slottskällans Bryggeri                | Slottskällans Bryggeri             | Sverige       |
+| Mysingen Midvinterbrygd               | Nynäshamns Ångbryggeri AB          | Sverige       |
+| Kallasöl                              | Nils Oscar                         | Sverige       |
+| Marierstad Export                     | Spendrups                          | Sverige       |
+| Trippel Gold Bitter                   | Skebo Bruksbryggeri                | Sverige       |
+| Wisby Hansapils                       | Spendrups                          | Sverige       |
+| Falcon Gammelbryggd                   | Carlsberg Sverige                  | Sverige       |
+| Nils Oscar Kalaspåsköl                | Nils Oscar                         | Sverige       |
+| Landsort lager                        | Nynäshamns Ångbryggeri AB          | Sverige       |
+| Hell                                  | Jämtlands bryggeri                 | Sverige       |
+| Eriksberg Julöl                       | Carlsberg Sverige                  | Sverige       |
+| Jämtlands India Pale Ale              | Jämtlands bryggeri                 | Sverige       |
+| Sandbacka bitter                      | Sandbacka bryggeri                 | Sverige       |
+| Bruksöl                               | Skebo Bruksbryggeri                | Sverige       |
+| Nils Oscar Farm Ale                   | Nils Oscar                         | Sverige       |
+| SITTING BULLDOG IPA                   | Spendrups                          | Sverige       |
+| Åbro Arton56 Amber                    | Åbro bryggeri                      | Sverige       |
+| Hope Yard                             | Nils Oscar                         | Sverige       |
+| Visby Vinterbock                      | Spendrups                          | Sverige       |
+| Bedarö Bitter                         | Nynäshamns Ångbryggeri AB          | Sverige       |

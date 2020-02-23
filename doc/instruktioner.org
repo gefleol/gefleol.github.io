@@ -1,0 +1,195 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Instruktioner
+#+DATE: <2020-02-23 Sun>
+#+AUTHOR: Johan Sandén
+#+EMAIL: johan.sanden@gmail.com
+#+LANGUAGE: sv
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+
+Det här är instruktioner (för de som vill) hjälpa till att registrera öl till
+databasen. :)
+
+Nu är programmat och websidan med ölprovningar så pass "klar" att jag vågar
+lägga ut en första version. Det finns en länk till ölprovningen på vår websidan
+men här finns en direktlänk. Berätta gärna vad ni tycker. Kom med förslag på
+förbättringar och om ni hittar felstavningar (dyslexi verkar gå i släkten).
+   - https://gefleol.github.io/pub/provningar_main.html
+
+Det genereras också alltid en csv-fil som går att ladda ner (den kan man alltså
+öppna i ett kalkylprogram som t.ex. Microsoft Excel).
+   - https://gefleol.github.io/pub/csv_file.csv
+
+Det första jag vill göra är förbättre kvalitén på de som redan ligger i basen
+innan vi börjar ta oss an de gamla pappers-protokollen.
+
+Det finns 126 provningar registrerade med land, bryggeri, öl-namn,
+datum, plats och grupp (de två sista är alltid "terrassen" och "gefle
+ölsellskap") 
+
+Jag har get oss alla i styrelsen ett uppdrag att kolla upp några öl/provningar
+(av de redan befintliga). Kontrollerar att uppgifterna är rätt och rättstavade.
+  - namn
+  - bryggeri(er) (Om ett öl har flera bryggerier (är ett samarbete) så vill jag
+    ha bägge namnen)
+  - land/länder (det kan vara flera länder och då skriver vi in flera länder,
+    mikkellers öl är ju Danska men bryggs ofta i belgien)
+
+Googla och få sedan fram följande uppgifter.
+
+  - abv (alltså alkoholhalt)
+  - ibu 
+  - länkar (till bryggeriet/ölets hemsida)
+  - öltyp-beskrivning  (t.ex. apa)
+  - och kanske det svåraste, _en klassificering_.
+    
+Angående klassificering:
+
+Varje öl kan ha flera beskrivningar av sin typ. "Apa" kan vara en sådan. Men
+alla apa/session ipa/ipa/dipa osv går under klassnummer _23_ "India pale ale".
+Jag bifogar en tabell längst ner på de klasser som finns.
+
+En öl kan alltså ha många typ-beskrivningar (enligt bryggeriet, beeradvocat.com,
+untapped osv) men varje öl skall alltså bara ha _en klass_. Jag vill ha ett
+nummer. Lita på ert omdöme. Blir det fel är det bara roligt och lätt att ändra
+sen.
+
+
+- https://en.wikipedia.org/wiki/List_of_beer_styles
+
+Johan Sandén - jag tar följade öl.
+| Ölets namn                        | Bryggeri                            | Land     |
+|-----------------------------------+-------------------------------------+----------|
+| Pilsner Urquell                   | Plzensky Prazdroj                   | Tjeckien |
+| Kozel Premium Lager 12            | Pivovar Velké Popovice (SAB Miller) | Tjeckien |
+| Half n Half                       | Zlatopramen Drinks Union            | Tjeckien |
+| Gambrinus Premium Svetlý Ležák 12 | Plzensky Prazdroj                   | Tjeckien |
+| Narren                            | Hantverksbryggeriet                 | Sverige  |
+
+Maria Sandén
+| Ölets namn                                         | Bryggeri               | Land |
+|----------------------------------------------------+------------------------+------|
+| Merry Christmas & Happy New Year (Our Special Ale) | Anchor Brewing Company | USA  |
+| Sixpoint Righteous Ale                             | Sixpoint Brewery       | USA  |
+| Summer Ale                                         | Michigan Brewing Co    | USA  |
+| Pale Ale                                           | Sierra Nevada Brewing  | USA  |
+| Liberty Ale                                        | Anchor Brewing Company | USA  |
+
+Bertil Jansson
+| Ölets namn              | Bryggeri             | Land |
+|-------------------------+----------------------+------|
+| Tire Bite Golden Ale    | Flying dog           | USA  |
+| Amber Ale               | Napa Smith           | USA  |
+| Modus Hoperandi         | Ska Brewing co       | USA  |
+| Old Scratch Amber Lager | Flying dog           | USA  |
+| Oktoberfest             | Samuel Adams Brewery | USA  |
+
+Hans Nilvander
+| Ölets namn                                        | Bryggeri                     | Land |
+|---------------------------------------------------+------------------------------+------|
+| Great Divide Ridgeline Amber Ale (Arapahoe Amber) | Great Divide Brewing Company | USA  |
+| Brooklyn Brown Ale                                | Brooklyn Brewery             | USA  |
+| Hercules Double IPA                               | Great Divide Brewing Company | USA  |
+| Hopa Geddon                                       | Napa Smith                   | USA  |
+| ESB Special Ale                                   | Ska Brewing co               | USA  |
+
+Niklas Ivarsson
+| Ölets namn         | Bryggeri               | Land |
+|--------------------+------------------------+------|
+| Rogue Chipotle Ale | Rogue Ales             | USA  |
+| Pick Axe IPA       | Tommy Knocker Brewery  | USA  |
+| Anchor Steam       | Anchor Brewing Company | USA  |
+| Prima Pils         | Victory Brewing        | USA  |
+| High Seas          | Michigan Brewing Co    | USA  |
+
+Lotta Ljungkvist
+| Ölets namn                                                | Bryggeri               | Land |
+|-----------------------------------------------------------+------------------------+------|
+| Lagunita IPA                                              | Lagunita Brewing Co    | USA  |
+| Sixpoint Bengali Tiger IPA                                | Sixpoint Brewery       | USA  |
+| Merry Christmas & Happy New Year (Our Special Ale) (2005) | Anchor Brewing Company | USA  |
+| Samuel Adams Winter Lager                                 | Samuel Adams           | USA  |
+| The Crisp                                                 | Six Point Brewery      | USA  |
+
+Maths Silvesparr
+| Ölets namn                   | Bryggeri                           | Land      |
+|------------------------------+------------------------------------+-----------|
+| Zlatý Bažant                 | Zlatý Bažant                       | Slovakien |
+| Braunstein Winter Bock       | Bryghuset Braunstein               | Danmark   |
+| Jacobsen Original Dark Lager | Husbryggeriet Jacobsen (Carlsberg) | Danmark   |
+| Dead Cat                     | Bear Here                          | Danmark   |
+| Kärlek vår_sommar 2013       | Mikkeller                          | Danmark   |
+
+Adam Aplund
+| Ölets namn                      | Bryggeri                       | Land    |
+|---------------------------------+--------------------------------+---------|
+| Zeunerts Höga Kusten            | Zeunerts Bryggeri _Kopparberg_ | Sverige |
+| Wisby Sleepy Bulldog Winter Ale | Spendrups                      | Sverige |
+| HUMLE-HILDAS ALTBIER            | Sigtuna Brygghus               | Sverige |
+| Jämtlands Tiotaggare            | Jämtlands bryggeri             | Sverige |
+| Kirin Ichiban                   | Kirin Beer                     | Japan   |
+
+
+
+Klassificeringslista!!
+
+| Nr | Term                         | Kallas/Exempel                                     |
+|----+------------------------------+----------------------------------------------------|
+|  0 | Unknown/Other                | Okänd eller annan typ (se text)                    |
+|  1 | Altbier                      | German-Style Altbier                               |
+|  2 | Amber ale                    | American-Style Amber,Red Ale                       |
+|  3 | Barley wine                  |                                                    |
+|  4 | Berliner Weisse              | Berliner-Style Weisse                              |
+|  5 | Bière de Garde               | French-Style Bière de Garde                        |
+|  6 | Bitter                       | Ordinary-/Special-/Extra-/Strong Bitter            |
+|  7 | Blonde Ale                   | Golden-/Belgian-Style-/Blonde Ale                  |
+|  8 | Bock                         | Bok, Helles Bock, Dunkles Bock                     |
+|  9 | Brown ale                    | English-Style-, British Brown Ale                  |
+| 10 | California Common/Steam Beer | American-Style Cream Ale                           |
+| 11 | Cream Ale                    |                                                    |
+| 12 | Doppelbock                   | "Double" bock, German-Style                        |
+| 13 | Dortmunder Export            | Export, European-Style, German Helles, Exportbier  |
+| 14 | Dunkel                       | Dunkles, Münchner Dunkel                           |
+| 15 | Dunkelweizen                 | South German-Style Dunkel                          |
+| 16 | Eisbock                      | Weizen, German-Style Eisbock                       |
+| 17 | Flanders red ale             | Red beers, Oud Bruin, Oud Red Ale                  |
+| 18 | Golden/Summer ale            | Blonde Ale                                         |
+| 19 | Gose                         | Contemporary Gose                                  |
+| 20 | Gueuze                       | Belgian-Style Gueuze Lambic                        |
+| 21 | Hefeweizen                   | South German-Style Hefeweizen                      |
+| 22 | Helles                       | Hell,Münchner (Munich)-Style Helles, Munich Helles |
+| 23 | India pale ale               | IPA, DIPA, APA, Imperial, Session IPA              |
+| 24 | Kölsch                       | Kolsch, German-Style Kölsch                        |
+| 25 | Lambic                       | Fruit Lambic                                       |
+| 26 | Light ale                    |                                                    |
+| 27 | Maibock/Helles bock          | German-Style Heller Bock/Maibock                   |
+| 28 | Malt liquor                  | American-Style Malt Liquor                         |
+| 29 | Mild                         | Mild ale, Pale Mild Ale, Dark Mild                 |
+| 30 | Oktoberfestbier/Märzenbier   | Marzen, Maerzen, Festbier, Oktoberfest/Wiesn       |
+| 31 | Old ale                      |                                                    |
+| 32 | Oud bruin                    | Brown Beers, Flanders Oud Bruin, Oud Red Ale       |
+| 33 | Pale ale                     | Classic Pale Ale                                   |
+| 34 | Pilsener/Pilsner/Pils        | Bohemian pilsner, American-,International-         |
+| 35 | Porter                       | Baltic porter, Brown-, Smoke-,                     |
+| 36 | Red ale                      | Irish-/Amber-/Imperial red ale                     |
+| 37 | Roggenbier                   | German-Style Rye Ale                               |
+| 38 | Saison                       | Classic French-/Belgian-/Special-                  |
+| 39 | Schwarzbier                  |                                                    |
+| 40 | Scotch ale                   | Scottish Beers, Wee Heavy                          |
+| 41 | Stout                        |                                                    |
+| 42 | Vienna lager                 |                                                    |
+| 43 | Weissbier                    |                                                    |
+| 44 | Weizenbock                   |                                                    |
+| 45 | Witbier                      |                                                    |
+| 46 | Fruit beer                   |                                                    |
+| 47 | Herb and spiced beer         |                                                    |
+| 48 | Honey beer                   |                                                    |
+| 49 | Rye Beer                     |                                                    |
+| 50 | Smoked beer                  |                                                    |
+| 51 | Vegetable beer               |                                                    |
+| 52 | Wild beer                    |                                                    |
+| 53 | Wood-aged beer               |                                                    |
