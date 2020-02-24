@@ -1,0 +1,28 @@
+name: 'Hazie Dizzie'
+country:
+  - 'Sverige'
+brewery:
+  - 'Odd Island Brewing'
+type_nr: 23
+type_desc:
+  - 'APA'
+abv: 5.5
+reviews: 
+  - date: '2020-01-02'
+    group: 'Gefle Ölsellskap'
+    format: 'Flaska'
+    place: "Terrassen"
+    count: 41
+    review_over: 7.2926829268292686
+    comments:
+      - 'En god apa!'
+      - 'En bra start på året.'
+      - 'Lite tunn men rätt trevlig.'
+      - 'Grapefruit, fruktig med lite sträv eftersmak'
+      - 'Bra syra, mycket bra!'
+      - 'God, tydlig efterbeska!'
+      - 'Grym'
+      - 'God och samfull smak'
+      - 'God!'
+      - 'Varför kör jag bil idag?'
+ 

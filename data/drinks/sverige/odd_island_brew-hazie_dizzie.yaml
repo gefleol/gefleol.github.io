@@ -1,15 +1,27 @@
-name: 'Odd Island Brew'
+name: 'Hazie Dizzie'
 country:
   - 'Sverige'
 brewery:
-  - 'Hazie Dizzie'
-type_nr: 5
+  - 'Odd Island Brewing'
+type_nr: 23
+type_desc:
+  - 'New england IPA'
 abv: 6.2
 reviews: 
   - date: '2020-01-02'
     group: 'Gefle Ölsellskap'
+    format: 'Flaska'
     place: "Terrassen"
-    count: 5
-    review_type: 5.4 
+    count: 41
+    review_over: 6.560975609756097
     comments:
       - 'God öl/Smakvik'
+      - 'God men inte mer'
+      - 'Fin summertime öl'
+      - 'Säkert god en varm sommardag'
+      - 'God. Torr.'
+      - 'Grillöl ++'
+      - 'Bra citrussmak!'
+      - 'Tunn men fräsch'
+      - 'Hård som rock!'
+      - 'Delikat Neipa'
