@@ -1,0 +1,28 @@
+name: "The Famous Taddy Porter"
+links:
+  - "https://www.samuelsmithsbrewery.co.uk/shop/bottles/stout-bottles/taddy-porter/"
+country:
+  - "Storbritanien"
+brewery:
+  - "Samuel Smith's Old Brewery"
+type_nr: 35
+type_desc:
+  - "English Porter"
+abv: 5.0
+reviews:
+  - date: "2019-12-04"
+    group: "Gefle Ölsellskap"
+    format: "Flaska"
+    place: "Terrassen"
+    count: 48
+    review_over: 6.270833333333333
+    comments:
+      - "Balanserad och god porter"
+      - "Bra England!"
+      - "Helt ok"
+      - "Smakar salami"
+      - "Tunn porter utan smak."
+      - "Klassisk engelsk porter!!!"
+      - "Ok."
+      - "En mört, fräsh Porter med balaserad söttma och beska. Lite tunn men bra porter-karaktär"
+      - "Porter inte i min smak"

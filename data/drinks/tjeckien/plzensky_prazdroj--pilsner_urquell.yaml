@@ -1,8 +1,15 @@
 name: 'Pilsner Urquell'
 country:
   - 'Tjeckien'
+links:
+  - "https://sv.wikipedia.org/wiki/Pilsner_Urquell"
+  - "https://www.beeradvocate.com/beer/profile/1/429/"
 brewery:
-  - 'Plzensky Prazdroj'
+  - ' Plzeňský prazdroj i Plzeň'
+type_nr: 34
+type_desc:
+  - "Bohemian Pilsener"
+abv: 4.4
 reviews:
   - date: '2006-09-06'
     group: 'Gefle Ölsellskap'

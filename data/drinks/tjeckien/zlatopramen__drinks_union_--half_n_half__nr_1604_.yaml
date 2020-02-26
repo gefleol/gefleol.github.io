@@ -1,8 +1,15 @@
 name: 'Half n Half'
 country:
   - 'Tjeckien'
+links:
+  - "https://www.systembolaget.se/fakta-och-nyheter/ol/olstilar/mellanmork-lager/polotmavy/"
+  - "https://www.systembolaget.se/dryck/ol/zlatopramen-160401"
 brewery:
-  - 'Zlatopramen Drinks Union'
+  - 'Drinks Union'
+  - 'Heiniken'
+type_nr: 30
+type_desc:
+  - "Polotmavý - en ölstil i tjecken, betyder: halvmörk"
 reviews:
   - date: '2010-11-03'
     group: 'Gefle Ölsellskap'

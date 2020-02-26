@@ -1,0 +1,28 @@
+name: "To ol snublejuice"
+links:
+  - "https://www.ratebeer.com/pl/beer/to-ol-snublejuice/740646/"
+country:
+  - "Danmark"
+brewery:
+  - "To Øl"
+type_nr: 23
+type_desc:
+  - "Session IPA"
+abv: 5.4
+reviews:
+  - date: "2019-11-06"
+    group: "Gefle Ölsellskap"
+    place: "Terrassen"
+    format: "Fat"
+    count: 46
+    review_over: 6.3478260869565215 
+    comments:
+      - "Okay törstsläckare"
+      - "Lite hit och dit"
+      - "En sommaröl"
+      - "Denna hade fått en 9a om den serverats på sommaren"
+      - "Inte mycket att hurra för"
+      - "Går att dricka"
+      - "God Öl!"
+      - "Grillöl"
+      - "God sommaröl"

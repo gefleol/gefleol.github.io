@@ -21,8 +21,9 @@ abw: alochol i viktprocent
 ibu: bitterhets units
 reviews:
   - date: datum för provning, skall alltid skrivas YYYY-MM-DD
-    group: är troligen alltid "Gefle Ölsellskap"
-    place: platsen är troligen "terrassen"
+    group: "Gefle Ölsellskap" # Troligen
+    place: "Terrassen"        # Troligen
+    format: "Burk", "Flaska" eller "Fat".
     count: antalet provare
     review_type: Medelbetyget för hur väl ölen följde sin typ
     review_over: Medelbetyg för hur god man tyckte ölen var (detta är den enda vi kör nu)

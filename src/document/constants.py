@@ -37,6 +37,8 @@ Den här websidan finns som
 En delmängd går även att [[file:csv_file.csv][ladda ner som CSV-fil]] som går att öppna i ett kalkylprogram som Excel
 eller det total överlägsna [[https://www.libreoffice.org/][LibreOffice]] 
 
+#+TOC: headlines 3
+
 #+INCLUDE: ../data/meta/typer.org
 #+LaTeX: \pagebreak
 """

@@ -1,0 +1,25 @@
+name: "To Øl Wop Wops New Zealand Pale Ale"
+links:
+  - "https://www.ratebeer.com/pl/beer/to-ol-wop-wops-new-zealand-pale-ale/765859/"
+country:
+  - "Danmark"
+brewery:
+  - "To Øl"
+type_nr: 23
+type_desc:
+  - "Apa"
+abv: 6.0
+reviews:
+  - date: "2019-11-06"
+    group: "Gefle Ölsellskap"
+    place: "Terrassen"
+    format: "Burk"
+    count: 43
+    review_over: 6.4186046511627906
+    comments:
+      - "Lite tunn men rätt god"
+      - "Si så där"
+      - "Lite mango!!"
+      - "God!"
+      - "En i mängden"
+      - "God Öl"

@@ -1,8 +1,14 @@
-name: 'Kozel Premium Lager 12'
+name: 'Kozel Premium Lager 12°'
+desc: "Ölen bryggs av två bryggerier"
 country:
   - 'Tjeckien'
 brewery:
-  - 'Pivovar Velké Popovice (SAB Miller)'
+  - 'Plzensky Prazdroj (SABMiller)'
+  - 'Pivovar Velké Popovice (Asahi)'
+links:
+  - "https://www.ratebeer.com/beer/kozel-premium-lager-12%C2%B0/4692/822/"
+type_nr: 34
+abv: 4.8
 reviews:
   - date: '2006-09-06'
     group: 'Gefle Ölsellskap'

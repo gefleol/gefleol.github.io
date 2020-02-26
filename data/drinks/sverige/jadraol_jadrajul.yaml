@@ -1,0 +1,25 @@
+name: "Jädrajul"
+desc: "Kort beskrivning eller kommentar om själva ölen"
+links:
+  - "https://www.systembolaget.se/dryck/ol/jadrajul-3116603"
+country:
+  - "Sverige"
+brewery:
+  - "Jädraås Bryggeri AB"
+type_nr: 9
+type_desc:
+  - "Julöl"
+abv: 5.0
+reviews:
+  - date: "2019-12-04"
+    format: "Fat"
+    group: "Gefle Ölsellskap"
+    place: "Terrassen"
+    count: 48
+    review_over: 5.1875
+    comments:
+      - "(Sommaröl) Julöl"
+      - "Lite knäckig och väldigt frisk. Lagom söt och balanserad beska!"
+      - "Julöl. Jädraöl. God Jul!"
+      - "Jädra lam"
+      - "En skön sommardag på altanen."

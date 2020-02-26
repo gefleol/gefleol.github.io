@@ -1,7 +1,7 @@
      #+BEGIN_SRC elisp
      (progn
      (setq l '(
-     9 3 7 5 9 8 8 7 7 7 7 8 8 8 8 9 10 6 7 8 8 8 9 6 8 8 8 9 5 8 7 4 8 5 8 6 6 7 6 8 8
+4 4 5 6 5 5 7 3 6 7 5 4 6 4 3 7 6 7 7 7 7 6 5 7 7 7 5 5 7 7 5 5 5 6 4 4 6 8 0 6 7
      ))
      (setq n (length l))
      (setq s (apply '+ l))
@@ -10,4 +10,4 @@
      #+END_SRC
 
      #+RESULTS:
-     : Antal:41 - medeltal:7.2926829268292686
+     : Antal:41 - medeltal:5.536585365853658

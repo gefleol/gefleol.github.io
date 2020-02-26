@@ -1,9 +1,9 @@
-name: 'Birra Poretti'
+name: "Birra Poretti"
 country:
-  - 'Italien'
+  - "Italien"
 brewery:
-  - 'Birrificio Angelo'
+  - "Birrificio Angelo Poretti"
 reviews:
-  - date: '2008-09-05'
-    group: 'Gefle Ölsellskap'
-    place: 'Terrassen' 
+  - date: "2008-09-05"
+    group: "Gefle Ölsellskap"
+    place: "Terrassen" 

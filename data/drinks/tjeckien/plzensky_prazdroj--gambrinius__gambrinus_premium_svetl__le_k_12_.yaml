@@ -1,8 +1,12 @@
-name: 'Gambrinus Premium Svetlý Ležák 12'
+name: 'Gambrinus Premium Svetlý Ležák 12°'
 country:
   - 'Tjeckien'
+links:
+  - "https://www.ratebeer.com/beer/gambrinus-premium-svetl-lezk-12/718/"
 brewery:
-  - 'Plzensky Prazdroj'
+  - 'Plzeňský Prazdroj (Asahi)'
+abv: 5.0
+type_nr: 34
 reviews:
   - date: '2006-09-06'
     group: 'Gefle Ölsellskap'

@@ -1,0 +1,31 @@
+name: "Birrificio dei Castelli Suave"
+links:
+  - "https://www.ratebeer.com/beer/birrificio-dei-castelli-suave/593885/"
+country:
+  - "Italien"
+brewery:
+  - "Birrificio dei Castelli"
+type_nr: 45
+type_desc:
+  - "Belgian White Ale"
+abv: 5.3
+reviews:
+  - date: "2019-07-03"
+    group: "Gefle Ölsellskap"
+    place: "Terrassen"
+    format: "Flaska"
+    count: 41
+    review_over: 5.536585365853658
+    comments:
+      - "Kan drickas en varm eftermiddag."
+      - "God sommaröl"
+      - "För att vara en veteöl, rätt så jävla bra!"
+      - "Huga, banan, vingumm, tycker inte om"
+      - "Blond luktar björk"
+      - "Bra gjort"
+      - "En pigg italienare med bra beska och eftersmak!"
+      - "Riktigt trevlig veteöl"
+      - "Skulle ha börjat med denna"
+      - "Sämmre än den förra"
+
+ 
