@@ -1,0 +1,32 @@
+name: 'Rochefort 6'
+desc: "Trapist"
+links:
+  - "http://www.trappistes-rochefort.com/"
+country:
+  - "Belgien"
+brewery:
+  - "Brasserie de Rochefort" 
+type_nr: 0
+type_desc:
+  - "Dubbel"
+  - "Ale Belgisk stil"
+abv: 7.5
+reviews:
+  - date: "2019-10-02"
+    group: "Gefle Ölsellskap"
+    place: "Terrassen"
+    format: "Flaska"
+    count: 43
+    review_over: 6.953488372093023
+    comments:
+      - "Fin balanserad sötma, en viss strävhet i doft och smak. Liten beska."
+      - "Munkarna levererar!"
+      - "Bättre än väntat"
+      - "Mycket god"
+      - "Äntligen riktig öl!"
+      - "God"
+      - "En god öl. Bra söttma. Jag rekomenderar."
+      - "Nära en 9a"
+      - "Faller inte alla på läppen"
+      - "Blir inte bättre än så här"
+

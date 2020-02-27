@@ -1,0 +1,34 @@
+uuid: '497bbfba-597b-11ea-b3ae-c8f733c5e2ed'
+name: 'Rochefort 8'
+desc: "Trapist"
+links:
+  - "http://www.trappistes-rochefort.com/"
+country:
+  - "Belgien"
+brewery:
+  - "Brasserie de Rochefort" 
+type_nr: 0
+type_desc:
+  - "Belgian Strong Dark Ale"
+  - "Ale Belgisk stil"
+abv: 9.2
+reviews:
+  - date: "2019-10-02"
+    group: "Gefle Ölsellskap"
+    place: "Terrassen"
+    format: "Flaska"
+    count: 43
+    review_over: 7.488372093023256
+    comments:
+      - "Perfekt"
+      - "Som den första"
+      - "Tänkt som julöl. Nära 10!"
+      - "Som vanligt!"
+      - "En god öl, bra söttma, kan rekomenderas"
+      - "Pocenten Helge!"
+      - "Trevlig öl"
+      - "Nice!"
+      - "Otroligt bra smak"
+      - "Världsklass"
+      - "Lite som 6an, lite mer smak och lite mer beska!"
+
