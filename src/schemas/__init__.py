@@ -2,7 +2,8 @@
 from schema import Schema, And, Regex, Optional, Or
 
 
-drink_json_schema = {'name': And(Regex('\w+'),len),
+drink_json_schema = {'uuid':And(Regex('\w+'),len),
+                     'name': And(Regex('\w+'),len),
                      Optional('desc'):And(Regex('\w+'),len),
                      Optional('links'):[And(Regex('\w+'),len)],
                      Optional('country'):[And(Regex('\w+'),len)],

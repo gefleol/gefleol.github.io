@@ -42,6 +42,7 @@ class CSV_Writer:
                 self.list_of_lines.append(','.join(write_line))
         with open(self.pub+"/"+filename,"w+") as s:
             s.write('\n'.join(self.list_of_lines))
+        print("wrote csv-file:{}".format(filename))
 
                                         
             
